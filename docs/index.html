@@ -8,38 +8,52 @@
   <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@600;700&family=Noto+Sans+TC:wght@400;500&display=swap" rel="stylesheet">
   <style>
     body { font-family: "Noto Sans TC", sans-serif; }
-    h1, h2, .serif { font-family: "Noto Serif TC", serif; }
-    .card-hover { transition: transform 0.15s, box-shadow 0.15s; }
-    .card-hover:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(0,0,0,0.1); }
-    .tab-active { background: #1d4ed8; color: #fff; }
-    .tab-inactive { background: #f3f4f6; color: #374151; }
-    .tab-inactive:hover { background: #e5e7eb; }
+    .serif { font-family: "Noto Serif TC", serif; }
+    .tab-active  { background:#1d4ed8; color:#fff; }
+    .tab-inactive{ background:#f3f4f6; color:#374151; }
+    .tab-inactive:hover{ background:#e5e7eb; }
+    .card-t { transition: transform .15s, box-shadow .15s; }
+    .card-t:hover { transform: translateY(-2px); }
+    .section-label {
+      font-size:.7rem; font-weight:600; letter-spacing:.08em;
+      text-transform:uppercase; color:#6b7280; margin-bottom:.75rem;
+      padding-bottom:.35rem; border-bottom:1px solid #e5e7eb;
+    }
   </style>
 </head>
 <body class="bg-gray-50 min-h-screen">
+
+  <!-- Header -->
   <header class="bg-white border-b border-gray-200 sticky top-0 z-10 shadow-sm">
     <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
       <div>
         <h1 class="text-2xl font-bold text-gray-900 serif">🌐 國際新聞摘要</h1>
         <p class="text-sm text-gray-400 mt-0.5">每日 06:00 更新 · 含遊戲業潛在影響分析</p>
       </div>
-      <span class="text-xs text-gray-400">最後更新：2026/05/13 13:06</span>
+      <span class="text-xs text-gray-400 hidden sm:block">最後更新：2026/05/13 13:48</span>
     </div>
-    <div class="max-w-6xl mx-auto px-4 pb-3 flex gap-2 overflow-x-auto">
-      <button onclick="setCategory('all')" data-cat="all" class="cat-btn tab-active px-4 py-1.5 rounded-full text-sm font-medium whitespace-nowrap">全部</button>
-      <button onclick="setCategory('international')" data-cat="international" class="cat-btn tab-inactive px-4 py-1.5 rounded-full text-sm font-medium whitespace-nowrap">🌍 國際</button>
-      <button onclick="setCategory('tech')" data-cat="tech" class="cat-btn tab-inactive px-4 py-1.5 rounded-full text-sm font-medium whitespace-nowrap">💻 科技</button>
-      <button onclick="setCategory('finance')" data-cat="finance" class="cat-btn tab-inactive px-4 py-1.5 rounded-full text-sm font-medium whitespace-nowrap">📈 財經</button>
-      <button onclick="setCategory('games')" data-cat="games" class="cat-btn tab-inactive px-4 py-1.5 rounded-full text-sm font-medium whitespace-nowrap">🎮 遊戲業</button>
+
+    <!-- Category tabs -->
+    <div class="max-w-6xl mx-auto px-4 pb-2 flex gap-2 overflow-x-auto">
+      <button onclick="setCategory('all')" data-cat="all"
+        class="cat-btn tab-active px-4 py-1.5 rounded-full text-sm font-medium whitespace-nowrap">全部</button>
+      <button onclick="setCategory('international')" data-cat="international"
+        class="cat-btn tab-inactive px-4 py-1.5 rounded-full text-sm font-medium whitespace-nowrap">🌍 國際</button>
+      <button onclick="setCategory('tech')" data-cat="tech"
+        class="cat-btn tab-inactive px-4 py-1.5 rounded-full text-sm font-medium whitespace-nowrap">💻 科技</button>
+      <button onclick="setCategory('finance')" data-cat="finance"
+        class="cat-btn tab-inactive px-4 py-1.5 rounded-full text-sm font-medium whitespace-nowrap">📈 財經</button>
+      <button onclick="setCategory('games')" data-cat="games"
+        class="cat-btn tab-inactive px-4 py-1.5 rounded-full text-sm font-medium whitespace-nowrap">🎮 遊戲業</button>
     </div>
+
+    <!-- Date tabs -->
     <div class="max-w-6xl mx-auto px-4 pb-3 flex gap-2 overflow-x-auto" id="date-tabs"></div>
   </header>
 
-  <main class="max-w-6xl mx-auto px-4 py-6">
-    <div id="news-grid" class="grid gap-4 md:grid-cols-2 lg:grid-cols-3"></div>
-    <div id="empty" class="hidden text-center py-20 text-gray-400">
-      <p class="text-4xl mb-3">📰</p><p>此日期 / 分類沒有新聞</p>
-    </div>
+  <!-- Main -->
+  <main class="max-w-6xl mx-auto px-4 py-6 space-y-8" id="main-content">
+    <div class="text-center py-20 text-gray-400">載入中...</div>
   </main>
 
   <footer class="text-center text-gray-400 text-xs py-6">
@@ -49,76 +63,144 @@
 
   <script>
     const ALL_NEWS = [{"source": "BBC World", "category": "international", "title_original": "A decade on, Trump returns to a stronger and more assertive China", "url": "https://www.bbc.com/news/articles/cm2py6l78dxo?at_medium=RSS&at_campaign=rss", "date": "2026-05-13", "title_zh": "川普十年後再論中國：面對更強大、更強硬的北京", "summary_zh": "美國前總統川普在十年後再次聚焦中國議題。面對北京經濟與軍事實力顯著增長，外交姿態更趨強硬，預示美中關係可能進入新一輪緊張與挑戰。川普此次再論，如何應對此變化，備受關注。", "game_impact": "美中關係緊張化，恐加劇遊戲版號審批、技術合作、供應鏈受阻風險。中資赴美、美資入華遊戲面臨更嚴監管，影響全球市場與營收。"}, {"source": "BBC World", "category": "international", "title_original": "Australia has some of the world's costliest homes. Will scrapping tax breaks help?", "url": "https://www.bbc.com/news/articles/cd7p88j84j3o?at_medium=RSS&at_campaign=rss", "date": "2026-05-13", "title_zh": "澳洲房價高昂全球稱冠，取消稅務寬減能否有效抑制？", "summary_zh": "澳洲房價全球數一數二高昂，為抑制漲勢並減輕民眾購屋負擔，當局正研議取消房屋相關稅務優惠政策，以期能有效平抑市場價格。", "game_impact": "高昂房價若持續壓縮民眾可支配所得，恐將直接衝擊澳洲遊戲市場的購買力與消費意願，帶來潛在成長風險。"}, {"source": "BBC World", "category": "international", "title_original": "Air India crisis deepens ahead of final Ahmedabad crash report", "url": "https://www.bbc.com/news/articles/c775vvz0kydo?at_medium=RSS&at_campaign=rss", "date": "2026-05-13", "title_zh": "亞美達巴德空難最終報告將至，印度航空危機持續加劇", "summary_zh": "印度航空（Air India）正值嚴重危機，隨著亞美達巴德（Ahmedabad）空難的最終調查報告即將發布，公司面臨的經營、財務或聲譽壓力預計將進一步惡化。此報告的結果可能揭露關鍵問題，對印度航空造成深遠影響。", "game_impact": "若此危機引發區域經濟不穩定或消費者信心受損，可能間接影響遊戲購買意願及玩家消費力。此外，航空業動盪恐增加遊戲開發者國際差旅成本，或影響參與全球展會，不利產業交流。"}, {"source": "BBC World", "category": "international", "title_original": "Jason Collins, NBA's first openly gay player, dies aged 47", "url": "https://www.bbc.com/news/articles/clyp8rdldk1o?at_medium=RSS&at_campaign=rss", "date": "2026-05-13", "title_zh": "NBA首位公開出櫃球員傑森．柯林斯辭世，享年47歲", "summary_zh": "美職籃NBA歷史首位公開出櫃球員傑森．柯林斯，傳出於47歲辭世。他曾勇敢揭露性傾向，成為體壇LGBTQ+權益的重要倡議者，其逝世引發各界緬懷。", "game_impact": "提醒遊戲業需持續重視LGBTQ+群體的多樣性與包容性。在遊戲內容與社群互動中，應避免歧視，展現對多元文化的尊重，符合企業社會責任。"}, {"source": "BBC World", "category": "international", "title_original": "Lebanon says two paramedics among 13 killed in Israeli strikes", "url": "https://www.bbc.com/news/articles/cx21j3xl72zo?at_medium=RSS&at_campaign=rss", "date": "2026-05-13", "title_zh": "以軍襲擊黎巴嫩釀13死 兩名醫護殉職", "summary_zh": "黎巴嫩政府聲稱，以色列軍方近日發動的襲擊，已造成境內至少13人死亡，死者中包含兩名正在執行緊急醫療任務的醫護人員，加劇了區域衝突情勢。", "game_impact": "地緣衝突升級恐影響中東地區消費力、投資信心，並增添遊戲開發與營運的物流、人才風險。"}, {"source": "BBC World", "category": "international", "title_original": "Trump's 'Golden Dome' will cost $1.2tn and might not stop all-out missile attack", "url": "https://www.bbc.com/news/articles/cqxp27j1xyjo?at_medium=RSS&at_campaign=rss", "date": "2026-05-13", "title_zh": "特朗普「金頂」防禦計畫 斥資1.2兆美元恐難擋全面飛彈攻擊", "summary_zh": "美國前總統特朗普的「金頂」飛彈防禦計畫預計耗資1.2兆美元。然而，該系統即使高昂，仍遭質疑無法有效阻擋全面飛彈攻擊，其效益與必要性引發高度關注。", "game_impact": "巨額國防開支恐排擠民生消費，影響遊戲購買力。地緣政治緊張亦增添市場不確定性，不利產業投資及發展。"}, {"source": "BBC World", "category": "international", "title_original": "Zelensky's ex-chief of staff in court as Ukraine corruption probe escalates", "url": "https://www.bbc.com/news/articles/c4g48kj40lwo?at_medium=RSS&at_campaign=rss", "date": "2026-05-13", "title_zh": "澤倫斯基前幕僚長出庭應訊 烏克蘭反腐調查升溫", "summary_zh": "烏克蘭總統澤倫斯基前幕僚長因涉嫌貪腐，在國家反腐調查升溫之際出庭應訊。此案凸顯烏國政府肅貪決心，未來政局可能受影響。", "game_impact": "烏克蘭政局不確定性增，恐影響當地遊戲開發投資與人才流動，增加遊戲業者營運風險。"}, {"source": "BBC World", "category": "international", "title_original": "Thief jailed after stealing unreleased Beyoncé music from car", "url": "https://www.bbc.com/news/articles/cx213vnvxvwo?at_medium=RSS&at_campaign=rss", "date": "2026-05-13", "title_zh": "竊盜天后碧昂絲未發行音樂，竊賊從車上得手遭判刑入獄", "summary_zh": "一名竊賊因從車輛竊取天后碧昂絲未公開的音樂檔案而遭判刑入獄。此事件凸顯未發行娛樂內容的資安與實體防護挑戰。", "game_impact": "警示遊戲業需強化智慧財產權保護，防範未發行遊戲內容（如Demo、劇情）遭竊洩漏，涵蓋數位與實體資安。"}, {"source": "BBC World", "category": "international", "title_original": "No sign of larger hantavirus outbreak, says UN health agency", "url": "https://www.bbc.com/news/articles/cqjpqynj1nlo?at_medium=RSS&at_campaign=rss", "date": "2026-05-13", "title_zh": "聯合國衛生機構：漢他病毒疫情未見擴大跡象", "summary_zh": "聯合國衛生機構指出，目前未觀察到漢他病毒疫情大規模擴散的跡象，有助於緩解公眾對潛在疫情爆發的憂慮。", "game_impact": "疫情未擴大，避免了遊戲開發與供應鏈中斷風險，確保玩家社群穩定，無需因公共衛生危機調整營運策略。"}, {"source": "BBC World", "category": "international", "title_original": "Hamas 'weaponised' sexual violence in 7 October attacks, Israeli investigation says", "url": "https://www.bbc.com/news/articles/cvgz9k7pzggo?at_medium=RSS&at_campaign=rss", "date": "2026-05-13", "title_zh": "以色列調查：哈瑪斯在10月7日襲擊中「武器化」性暴力", "summary_zh": "以色列調查報告指出，哈瑪斯在去年10月7日襲擊中，有計劃地將性暴力作為武器。報告強調此類行為並非偶發，而是具策略性的戰術。", "game_impact": "遊戲業對戰爭與暴力內容的審查恐更嚴格。開發商需審慎處理敏感情節，避免不當呈現引發品牌風險及社會爭議。"}, {"source": "TechCrunch", "category": "tech", "title_original": "Medicare’s new payment model is built for AI, and most of the tech world has no idea", "url": "https://techcrunch.com/2026/05/12/medicares-new-payment-model-is-built-for-ai-and-most-of-the-tech-world-has-no-idea/", "date": "2026-05-13", "title_zh": "醫療保險新給付模式專為AI打造 科技業多數人卻未察覺", "summary_zh": "聯邦醫療保險新給付模式專為AI應用設計，預示醫療服務將深度整合人工智慧。此舉可能顛覆傳統醫療科技，但其潛在影響卻普遍被科技業低估。", "game_impact": "醫療AI熱潮恐吸納AI人才與運算資源，增加遊戲業開發成本與競爭，未來玩家對AI遊戲期待亦將提高。"}, {"source": "TechCrunch", "category": "tech", "title_original": "Kevin Hartz’s A* just closed its third fund with $450M", "url": "https://techcrunch.com/2026/05/12/kevin-hartzs-a-just-closed-its-third-fund-with-450-million/", "date": "2026-05-13", "title_zh": "凱文哈茨旗下創投A* 第三期基金成功募資4.5億美元", "summary_zh": "知名科技創業家凱文哈茨（Kevin Hartz）創立的A*創投，其第三期基金已成功募資4.5億美元，將投入新創企業。", "game_impact": "此筆巨額資金為遊戲新創帶來更多潛在投資機會，有助於加速產業創新與發展，可能催生更多元遊戲產品。"}, {"source": "TechCrunch", "category": "tech", "title_original": "Former Tesla exec and Heron Power CEO Drew Baglino has founded a heat pump startup", "url": "https://techcrunch.com/2026/05/12/former-tesla-exec-and-heron-power-ceo-drew-baglino-has-founded-a-heat-pump-startup/", "date": "2026-05-13", "title_zh": "特斯拉前高管兼Heron Power執行長德魯·巴格利諾，創立熱泵新創公司", "summary_zh": "特斯拉前動力系統資深副總裁兼Heron Power執行長德魯·巴格利諾，創辦一家熱泵新創公司。此舉顯示他將其在電動車能源管理的專長，轉向家庭節能解決方案，備受業界關注。", "game_impact": "熱泵技術普及助降低玩家家庭電費，增加可支配所得，可能間接提升遊戲消費。同時，這反映永續發展趨勢，促使遊戲業思考綠色運營。"}, {"source": "TechCrunch", "category": "tech", "title_original": "Musk mulled handing OpenAI to his children, Altman testifies", "url": "https://techcrunch.com/2026/05/12/musk-mulled-handing-openai-to-his-children-altman-testifies/", "date": "2026-05-13", "title_zh": "阿特曼揭露：馬斯克曾盤算將OpenAI贈予子女", "summary_zh": "OpenAI執行長阿特曼作證指出，馬斯克曾認真考慮將其在OpenAI的股權轉贈給自己的孩子，這項未實現的計劃，揭示了公司早期股權規劃的複雜性。", "game_impact": "OpenAI權力結構的不確定性，可能影響遊戲業對AI工具的信賴與長期佈局，潛在增加開發者在AI技術選型上的風險考量。"}, {"source": "TechCrunch", "category": "tech", "title_original": "Anthropic warns investors against secondary platforms offering access to its shares", "url": "https://techcrunch.com/2026/05/12/anthropic-warns-investors-against-secondary-platforms-offering-access-to-its-shares/", "date": "2026-05-13", "title_zh": "Anthropic 示警投資人：慎防非官方平台提供其股權", "summary_zh": "AI 巨頭 Anthropic 提醒投資者，應提防聲稱提供其股票或股權的非官方次級平台，避免潛在詐騙並確保自身權益，強調公司尚未公開發行。", "game_impact": "此類股權詐騙警訊若頻傳，恐降低投資者對新興 AI 科技領域的信心。遊戲業仰賴 AI 發展，募資恐受波及，影響技術創新與成長。"}, {"source": "TechCrunch", "category": "tech", "title_original": "Potholes cost cities millions: This company is using AI and trucks to fix them", "url": "https://techcrunch.com/2026/05/12/potholes-cost-cities-millions-samsara-using-ai-trucks-fix/", "date": "2026-05-13", "title_zh": "AI卡車智慧修補路面坑洞，助城市擺脫數百萬維修損失", "summary_zh": "城市每年因路面坑洞耗費數百萬美元維修。一家公司運用AI演算法與自動化卡車，實現了坑洞的智慧偵測與高效修復，有望為城市節省巨額開支，並提升基礎設施維護效率。", "game_impact": "此技術為遊戲開發者帶來啟發。可將更真實的道路損壞模擬與AI修復系統融入開放世界或經營類遊戲，提升沉浸感；或應用於遊戲內AI環境動態生成。"}, {"source": "TechCrunch", "category": "tech", "title_original": "Report: Google and SpaceX in talks to put data centers into orbit", "url": "https://techcrunch.com/2026/05/12/report-google-and-spacex-in-talks-to-put-data-centers-into-orbit/", "date": "2026-05-13", "title_zh": "傳Google、SpaceX洽談合作 將資料中心送上軌道", "summary_zh": "消息指出，Google正與SpaceX洽談合作，計畫利用SpaceX技術，將資料中心部署至地球軌道，探索太空資料處理與運算新可能。", "game_impact": "有助降低全球網路延遲，提升雲端與大型多人線上遊戲體驗。亦為遊戲開發的分散式運算開啟新機遇。"}, {"source": "TechCrunch", "category": "tech", "title_original": "Everything Google announced at its Android Show, from Googlebooks to vibe-coded widgets", "url": "https://techcrunch.com/2026/05/12/everything-google-announced-at-its-android-show-from-googlebooks-to-vibe-coded-widgets/", "date": "2026-05-13", "title_zh": "Google Android大會重磅發布：從Google圖書到「氛圍主題」小工具全面解析", "summary_zh": "Google在年度Android大會上，發布了從Google圖書更新到「氛圍主題」個人化小工具等多項軟體與服務。此次發布著重展示Android系統在閱讀、介面個人化及整體用戶體驗上的進化，預期將提升跨裝置整合與互動性。", "game_impact": "更個人化的Android系統（如「氛圍主題」小工具），將提供遊戲開發者新契機。遊戲可設計專屬小工具，直觀展示進度或活動，強化玩家互動與留存，提升遊戲在主介面的曝光度。"}, {"source": "TechCrunch", "category": "tech", "title_original": "The AI legal services industry is heating up — Anthropic is getting in on the action", "url": "https://techcrunch.com/2026/05/12/the-ai-legal-services-industry-is-heating-up-anthropic-is-getting-in-on-the-action/", "date": "2026-05-13", "title_zh": "AI法律服務業競爭白熱化，Anthropic亦投入戰局", "summary_zh": "隨著AI法律服務產業競爭日趨白熱化，知名人工智慧公司Anthropic也宣布加入此領域，顯示該市場的潛力與吸引力。", "game_impact": "遊戲業可應用AI法務服務優化合約、IP保護與合規性，降低成本並提升營運效率。"}, {"source": "TechCrunch", "category": "tech", "title_original": "Google adds Gemini-powered dictation to Gboard, which could be bad news for dictation startups", "url": "https://techcrunch.com/2026/05/12/google-adds-gemini-powered-dictation-to-gboard-which-could-be-bad-news-for-dictation-startups/", "date": "2026-05-13", "title_zh": "Google Gboard 導入 Gemini 語音輸入 語音轉文字新創恐受衝擊", "summary_zh": "Google 在 Gboard 鍵盤中整合其強大 Gemini AI 語音輸入技術，大幅提升辨識準確與效率，恐對語音轉文字新創公司構成巨大競爭壓力。", "game_impact": "遊戲內語音指令將更精準，提升沉浸感與操作便利性；有助於遊戲內語音聊天轉文字，優化無障礙體驗及溝通。"}, {"source": "Bloomberg Markets", "category": "finance", "title_original": "Stocks Rise With Futures, Bonds Drop on Inflation: Markets Wrap", "url": "https://www.bloomberg.com/news/articles/2026-05-12/asian-stocks-under-pressure-as-us-inflation-rises-markets-wrap", "date": "2026-05-13", "title_zh": "通膨陰霾籠罩，債券承壓走跌，股市與期貨逆勢上揚：市場綜述", "summary_zh": "市場受通膨擔憂影響，債券價格承壓下跌，但股市與期貨表現逆勢上漲。投資人正密切關注未來經濟數據與貨幣政策走向。", "game_impact": "高通膨可能增加遊戲開發與營運成本，同時影響玩家消費力。股市上漲短期利於資金流，但長期恐面臨挑戰。"}, {"source": "Bloomberg Markets", "category": "finance", "title_original": "MSCI Removes Stocks Linked to Indonesia’s Richest From Indexes", "url": "https://www.bloomberg.com/news/articles/2026-05-12/msci-removes-stocks-linked-to-indonesia-s-richest-from-indexes", "date": "2026-05-13", "title_zh": "MSCI 將印尼首富家族相關股票剔除指數", "summary_zh": "MSCI指數近期宣布，將印尼首富家族旗下數檔股票自其全球指數中移除，此舉可能影響相關企業的投資流動與股價表現。", "game_impact": "此舉可能影響印尼市場投資信心與資金流向，恐間接衝擊當地遊戲產業募資，並影響玩家消費力。"}, {"source": "Bloomberg Markets", "category": "finance", "title_original": "India More Than Doubles Gold, Silver Tariffs to Defend Rupee", "url": "https://www.bloomberg.com/news/articles/2026-05-13/india-hikes-gold-and-silver-import-tariffs-to-protect-economy", "date": "2026-05-13", "title_zh": "印度為捍衛盧比 逾倍調升黃金白銀進口關稅", "summary_zh": "印度為捍衛盧比，宣布將黃金與白銀進口關稅翻倍調升。此舉旨在抑制貴金屬進口，減少外匯流失，以穩定本國貨幣匯率。", "game_impact": "反映印度經濟壓力，盧比匯率波動恐降低當地玩家購買力，使進口遊戲及硬體價格上升，衝擊遊戲市場成長潛力。"}, {"source": "Bloomberg Markets", "category": "finance", "title_original": "China’s Profit Outlook to Improve Further, Morgan Stanley Says", "url": "https://www.bloomberg.com/news/articles/2026-05-13/china-s-profit-outlook-to-improve-further-morgan-stanley-says", "date": "2026-05-13", "title_zh": "摩根士丹利：看好中國企業獲利前景將持續好轉", "summary_zh": "摩根士丹利報告指出，由於中國經濟回穩，企業營收與獲利預期將持續改善，市場前景轉趨樂觀。", "game_impact": "企業獲利好轉可望刺激消費，增加遊戲市場潛在玩家與付費意願。同時，中國遊戲廠商資金實力增強，有利於產品研發與全球佈局。"}, {"source": "Bloomberg Markets", "category": "finance", "title_original": "Pettis on China's Growth Woes, Global Trade Imbalances", "url": "https://www.bloomberg.com/news/videos/2026-05-13/pettis-on-china-s-growth-woes-global-trade-imbalances-video", "date": "2026-05-13", "title_zh": "佩蒂斯點評：中國增長困境與全球貿易失衡", "summary_zh": "經濟學家佩蒂斯深入分析中國經濟增長面臨的挑戰，並指出其對全球貿易失衡的深遠影響。", "game_impact": "中國經濟放緩恐導致遊戲消費支出減少、市場競爭加劇。全球貿易失衡亦增添海外發行與投資的不確定性。"}, {"source": "Bloomberg Markets", "category": "finance", "title_original": "Oil Dips After Three-Day Gain With Iran Peace Talks at Impasse", "url": "https://www.bloomberg.com/news/articles/2026-05-12/latest-oil-market-news-and-analysis-for-may-13", "date": "2026-05-13", "title_zh": "國際油價中止三日漲勢 伊朗核談陷僵局", "summary_zh": "國際油價結束三日漲勢後回落。伊朗核協議和談陷入僵局，引發市場對中東局勢及能源供應的不確定性擔憂。", "game_impact": "地緣政治不確定性恐加劇通膨預期，墊高遊戲硬體製造成本、數據中心營運費用，並影響玩家可支配支出。"}, {"source": "IGN", "category": "games", "title_original": "The Punisher: One Last Kill Ending Explained - How Does the Movie Set Up Spider-Man: Brand New Day (If At All)?", "url": "https://www.ign.com/articles/the-punisher-one-last-kill-ending-explained-spider-man-brand-new-day", "date": "2026-05-13", "title_zh": "《制裁者：最後一殺》結局深度解析：與《蜘蛛人：嶄新的一天》存在哪些連結？", "summary_zh": "本文深度解析電影《制裁者：最後一殺》的結局，並探討它是否為《蜘蛛人：嶄新的一天》的故事線埋下伏筆或彩蛋。", "game_impact": "強化IP宇宙連結敘事，有利遊戲改編與跨平台聯動。但劇情若不符期待，恐引發粉絲反彈。"}, {"source": "IGN", "category": "games", "title_original": "The Punisher: One Last Kill Review", "url": "https://www.ign.com/articles/the-punisher-one-last-kill-review", "date": "2026-05-13", "title_zh": "制裁者：最終殺戮 漫畫評論出爐", "summary_zh": "漫威經典角色制裁者最新漫畫故事《最終殺戮》的評測出爐。評論深度分析此篇章的劇情、藝術風格及角色轉變，探討其對制裁者傳奇的最終影響與詮釋，為粉絲提供購閱參考。", "game_impact": "若故事評價佳，有望提升制裁者IP在遊戲界的改編潛力，吸引開發商；若評價差，則可能降低IP授權價值及玩家期待。"}, {"source": "IGN", "category": "games", "title_original": "The FlashForge AD5X Is One of the Best Multi Material and Multi Color 3D Printers Priced Under $300", "url": "https://www.ign.com/articles/flashforge-ad5x-3d-printer-deal-may-2026", "date": "2026-05-13", "title_zh": "閃鑄AD5X：300美元以下多材料多色3D列印機的頂級選擇", "summary_zh": "閃鑄AD5X以不到300美元的價格，提供多材料與多色列印功能，被評選為高CP值的最佳3D列印機之一，大幅降低個人化製造門檻。", "game_impact": "降低遊戲周邊模型、收藏品與桌遊配件的製作成本，擴大獨立開發者與玩家的個人化創作與銷售機會。"}, {"source": "IGN", "category": "games", "title_original": "The Acmount P100 5,000A 12V Cordless Car Jump Starter Drops to $29.99 on Amazon", "url": "https://www.ign.com/articles/acmount-p100-5000a-cordless-car-jump-starter-deal-may-2026", "date": "2026-05-13", "title_zh": "Acmount P100 5000A 12V 無線汽車應急啟動器 亞馬遜狂降至29.99美元", "summary_zh": "亞馬遜購物平台現正提供Acmount P100 5000A 12V無線汽車應急啟動器優惠，價格下殺至29.99美元，為車主提供超值電力救援方案。", "game_impact": "此優惠使消費者節省開銷，增加可支配所得，可能促使部分預算轉向遊戲購買或遊戲周邊設備，間接活絡遊戲市場消費。"}, {"source": "IGN", "category": "games", "title_original": "Conan O’Brien Will Return to Host the Oscars for Third Consecutive Year", "url": "https://www.ign.com/articles/conan-obrien-will-return-to-host-the-oscars-for-third-consecutive-year", "date": "2026-05-13", "title_zh": "柯南·歐布萊恩將連續第三年主持奧斯卡金像獎", "summary_zh": "知名脫口秀主持人柯南·歐布萊恩（Conan O’Brien）證實，他將連續第三年回歸主持備受矚目的奧斯卡金像獎頒獎典禮。其獨特幽默感與豐富經驗預期將再次為全球觀眾帶來一場娛樂性十足的影壇盛會。", "game_impact": "柯南·歐布萊恩的『笨蛋玩家』系列在遊戲圈具高人氣。他三度主持奧斯卡，或能藉此主流舞台巧妙融入遊戲元素，提升遊戲產業在非核心玩家群中的能見度及正面形象，潛在促進跨界合作。"}, {"source": "IGN", "category": "games", "title_original": "Save Over 50% Off the Perlegear UL-Listed Full Motion TV Wall Mount, Now Under $35", "url": "https://www.ign.com/articles/perlegear-full-motion-tv-wall-mount-deal", "date": "2026-05-13", "title_zh": "驚爆優惠！Perlegear UL認證全方位電視壁掛架下殺逾半價，現僅售$35美元以下！", "summary_zh": "Perlegear UL認證全方位電視壁掛架現正特價，享逾半價折扣，售價低於35美元。此優惠讓消費者能以極具競爭力的價格購入高品質壁掛架，改善居家影音空間。", "game_impact": "玩家可藉此機會升級遊戲視聽環境，改善遊玩姿勢與視野，提升沉浸式體驗，間接刺激遊戲機與大尺寸電視需求。"}, {"source": "IGN", "category": "games", "title_original": "Get a 65\" 4K Roku TV for Just $238 Delivered", "url": "https://www.ign.com/articles/best-budget-tv-deal-may-2026", "date": "2026-05-13", "title_zh": "震撼低價！65吋4K Roku電視僅238美元，含運送到家", "summary_zh": "65吋4K Roku電視驚現238美元超低價，含運送到府。此促銷提供消費者極具吸引力的入手門檻，大幅降低高畫質大螢幕電視的購買成本。", "game_impact": "低價4K大螢幕電視普及，將提升玩家視覺體驗，有利於推動4K遊戲銷售與次世代主機市場擴展。"}, {"source": "IGN", "category": "games", "title_original": "Christopher Nolan Confirms Casting Twist for The Odyssey, With One Actor Playing Dual Roles", "url": "https://www.ign.com/articles/christopher-nolan-confirms-casting-twist-for-the-odyssey-with-one-actor-playing-dual-roles", "date": "2026-05-13", "title_zh": "諾蘭證實《奧德賽》選角添巧思：同一演員將分飾兩角", "summary_zh": "知名導演克里斯多福·諾蘭親自證實，其新片《奧德賽》在選角上別出心裁，將有一名演員負責詮釋兩個截然不同的角色，為影片增添敘事深度與話題性。", "game_impact": "此選角巧思或啟發遊戲劇情設計，透過同一角色多重身份，深化敘事複雜度，提升玩家對故事的沉浸感與討論度。"}, {"source": "IGN", "category": "games", "title_original": "Save Up to $1,000 Off the Asus ROG Flow Z13 Gaming Ultra-Portable Laptop and Tablet Hybrid", "url": "https://www.ign.com/articles/asus-rog-flow-z13-gaming-ultraportable-laptop-deal", "date": "2026-05-13", "title_zh": "華碩ROG Flow Z13電競二合一筆電優惠：最高勁省千元美金！", "summary_zh": "華碩ROG Flow Z13電競二合一筆電推出限時優惠，最高可折抵1,000美元。此款結合筆電與平板的高效能混合機型，瞄準行動遊戲玩家市場。", "game_impact": "此優惠能降低高階行動電競裝置門檻，有助推廣PC遊戲與雲端串流服務，擴大遊戲玩家群體，刺激內容消費。"}, {"source": "IGN", "category": "games", "title_original": "The Best Streaming Bundles to Combine Services in 2026", "url": "https://www.ign.com/articles/best-streaming-bundle-packages", "date": "2026-05-13", "title_zh": "2026年最佳串流服務組合方案出爐：整合多元平台成影音新趨勢", "summary_zh": "隨著2026年即將到來，影音串流平台提供整合多服務的組合方案，旨在提升用戶體驗並節省費用，成為市場新主流。", "game_impact": "串流整合趨勢或加速雲端遊戲服務加入大型娛樂組合包，擴大用戶基礎，但也加劇內容訂閱市場競爭。"}, {"source": "IGN", "category": "games", "title_original": "Save 70% Off the Premium Harman Kardon Go + Play Portable Speaker, Now Just $132", "url": "https://www.ign.com/articles/harman-kardon-go-play-portable-speaker-deal", "date": "2026-05-13", "title_zh": "Harman Kardon Go + Play高階可攜式喇叭破盤價！狂降七成僅售132美元", "summary_zh": "知名音響品牌Harman Kardon高階Go + Play可攜式喇叭，正推出七折超值優惠。原價大幅調降70%，現僅售132美元，提供音響愛好者與消費者入手機會。", "game_impact": "優質音響優惠有助提升玩家遊戲沉浸感，間接刺激遊戲軟硬體銷售。這類產品亦可成為遊戲周邊合作或捆綁銷售選項。"}, {"source": "IGN", "category": "games", "title_original": "UK Politicians Say GTA 6 Developer Rockstar 'Refused to Properly Engage' With Appeal Processes After Firing Staff Last Year", "url": "https://www.ign.com/articles/uk-politicians-say-gta-6-developer-rockstar-refused-to-properly-engage-with-appeal-processes-after-firing-staff-last-year", "date": "2026-05-13", "title_zh": "英國會議員指控《俠盜獵車手6》開發商Rockstar，去年裁員後「拒絕妥善配合」申訴程序", "summary_zh": "英國會議員指控《俠盜獵車手6》開發商Rockstar，去年裁員後拒絕「妥善配合」相關申訴程序。此舉引發對其勞資關係及企業責任的質疑，要求Rockstar正視。", "game_impact": "此事件恐損害遊戲公司形象，並引發業界對勞資關係與職場倫理的廣泛審視，可能影響人才吸引與法規監督。"}, {"source": "IGN", "category": "games", "title_original": "The Massive 77\" Panasonic Z8BA 4K OLED Fire TV Drops to $1,299.99 on Amazon", "url": "https://www.ign.com/articles/panasonic-z85ba-4k-oled-tv-deal-may-2026", "date": "2026-05-13", "title_zh": "亞馬遜震撼價！77吋Panasonic Z8BA 4K OLED Fire TV跌破1300美元", "summary_zh": "亞馬遜將77吋Panasonic Z8BA 4K OLED Fire TV的價格大幅下調至1299.99美元，提供高階大尺寸電視的親民選擇。", "game_impact": "高階4K OLED大尺寸電視價格更親民，提升玩家沉浸感及視覺體驗，刺激4K遊戲內容與主機市場需求。"}, {"source": "IGN", "category": "games", "title_original": "The LEGO Star Wars AT-AT Walker Has Hit Its Lowest Price So Far at Amazon", "url": "https://www.ign.com/articles/the-lego-star-wars-at-at-walker-has-hit-its-lowest-price-so-far-at-amazon", "date": "2026-05-13", "title_zh": "樂高星戰AT-AT步行機亞馬遜售價創歷史新低", "summary_zh": "知名樂高星際大戰AT-AT步行機玩具套組在亞馬遜電商平台創下發售以來最低價格，吸引星戰迷與收藏家關注。", "game_impact": "此促銷可提升樂高與星戰IP整體熱度，間接刺激同IP遊戲關注度與潛在銷量，強化IP交叉行銷效益。"}];
-    const LABELS = { international: "🌍 國際", tech: "💻 科技", finance: "📈 財經", games: "🎮 遊戲業" };
+    const LABELS = { international:"🌍 國際", tech:"💻 科技", finance:"📈 財經", games:"🎮 遊戲業" };
     let currentCategory = "all";
     let currentDate = null;
 
+    /* ── utilities ── */
     function availableDates() {
       return [...new Set(ALL_NEWS.map(a => a.date))].sort().reverse().slice(0, 7);
     }
-
     function dateLabel(d) {
-      const today = new Date().toLocaleDateString("sv-SE");
-      const yesterday = new Date(Date.now() - 86400000).toLocaleDateString("sv-SE");
-      if (d === today) return "今天";
+      const today     = new Date().toLocaleDateString("sv-SE");
+      const yesterday = new Date(Date.now()-86400000).toLocaleDateString("sv-SE");
+      if (d === today)     return "今天";
       if (d === yesterday) return "昨天";
-      const [, m, day] = d.split("-");
-      return `${parseInt(m)}/${parseInt(day)}`;
+      const [,m,day] = d.split("-");
+      return `${+m}/${+day}`;
+    }
+    function gameImpactBlock(a) {
+      if (!a.game_impact) return "";
+      return `<div class="bg-amber-50 border border-amber-200 rounded-lg px-3 py-2">
+        <p class="text-xs font-semibold text-amber-700 mb-0.5">🎮 遊戲業潛在影響</p>
+        <p class="text-xs text-amber-800 leading-relaxed">${a.game_impact}</p>
+      </div>`;
+    }
+    function catBadge(a) {
+      return `<span class="text-xs px-2 py-0.5 rounded-full bg-blue-50 text-blue-700 font-medium">${LABELS[a.category]||a.category}</span>
+              <span class="text-xs text-gray-400">${a.source}</span>`;
     }
 
+    /* ── card templates ── */
+    function cardCritical(a) {
+      return `<a href="${a.url}" target="_blank" rel="noopener"
+          class="card-t block bg-white rounded-xl border-l-4 border-blue-700 shadow-md p-5 hover:shadow-lg">
+        <div class="flex items-center gap-2 flex-wrap mb-3">
+          ${catBadge(a)}
+          <span class="ml-auto text-xs bg-blue-700 text-white px-2 py-0.5 rounded-full font-semibold">🎯 必看</span>
+        </div>
+        <h2 class="serif font-bold text-gray-900 text-xl leading-snug mb-3">${a.title_zh||a.title_original}</h2>
+        <p class="text-sm text-gray-600 leading-loose mb-3">${a.summary_zh||""}</p>
+        ${gameImpactBlock(a)}
+        <div class="flex items-center justify-between mt-3 pt-2 border-t border-gray-100">
+          <span class="text-xs text-gray-400">${a.date}</span>
+          <span class="text-xs text-blue-600 font-medium">閱讀原文 →</span>
+        </div>
+      </a>`;
+    }
+
+    function cardNormal(a) {
+      return `<a href="${a.url}" target="_blank" rel="noopener"
+          class="card-t bg-white rounded-xl border border-gray-200 shadow-sm p-5 flex flex-col gap-3 hover:shadow-md">
+        <div class="flex items-center gap-2 flex-wrap">${catBadge(a)}</div>
+        <h2 class="serif font-bold text-gray-900 text-base leading-snug">${a.title_zh||a.title_original}</h2>
+        <p class="text-sm text-gray-600 leading-loose flex-1">${a.summary_zh||""}</p>
+        ${gameImpactBlock(a)}
+        <div class="flex items-center justify-between mt-auto pt-2 border-t border-gray-100">
+          <span class="text-xs text-gray-400">${a.date}</span>
+          <span class="text-xs text-blue-500">閱讀原文 →</span>
+        </div>
+      </a>`;
+    }
+
+    function cardBackground(a) {
+      return `<a href="${a.url}" target="_blank" rel="noopener"
+          class="card-t bg-white rounded-xl border border-gray-100 p-4 flex flex-col gap-2 hover:border-gray-300 hover:shadow-sm">
+        <div class="flex items-center gap-2 flex-wrap">${catBadge(a)}</div>
+        <h2 class="serif font-medium text-gray-500 text-sm leading-snug">${a.title_zh||a.title_original}</h2>
+        <p class="text-xs text-gray-400 leading-relaxed flex-1">${a.summary_zh||""}</p>
+        ${a.game_impact ? `<p class="text-xs text-amber-600 leading-relaxed">🎮 ${a.game_impact}</p>` : ""}
+        <div class="flex items-center justify-between pt-1 border-t border-gray-50">
+          <span class="text-xs text-gray-300">${a.date}</span>
+          <span class="text-xs text-gray-400">閱讀原文 →</span>
+        </div>
+      </a>`;
+    }
+
+    /* ── tabs ── */
     function renderDateTabs() {
       const dates = availableDates();
-      if (!currentDate || !dates.includes(currentDate)) currentDate = dates[0] || null;
+      if (!currentDate || !dates.includes(currentDate)) currentDate = dates[0]||null;
       document.getElementById("date-tabs").innerHTML = dates.map(d =>
         `<button onclick="setDate('${d}')" data-date="${d}"
-          class="date-btn ${d === currentDate ? "tab-active" : "tab-inactive"} px-3 py-1 rounded-full text-xs font-medium whitespace-nowrap">
+          class="date-btn ${d===currentDate?"tab-active":"tab-inactive"} px-3 py-1 rounded-full text-xs font-medium whitespace-nowrap">
           ${dateLabel(d)}</button>`
       ).join("");
     }
-
     function setCategory(cat) {
       currentCategory = cat;
       document.querySelectorAll(".cat-btn").forEach(b => {
-        b.className = "cat-btn " + (b.dataset.cat === cat ? "tab-active" : "tab-inactive") + " px-4 py-1.5 rounded-full text-sm font-medium whitespace-nowrap";
+        b.className = "cat-btn "+(b.dataset.cat===cat?"tab-active":"tab-inactive")+" px-4 py-1.5 rounded-full text-sm font-medium whitespace-nowrap";
       });
       render();
     }
-
     function setDate(date) {
       currentDate = date;
       document.querySelectorAll(".date-btn").forEach(b => {
-        b.className = "date-btn " + (b.dataset.date === date ? "tab-active" : "tab-inactive") + " px-3 py-1 rounded-full text-xs font-medium whitespace-nowrap";
+        b.className = "date-btn "+(b.dataset.date===date?"tab-active":"tab-inactive")+" px-3 py-1 rounded-full text-xs font-medium whitespace-nowrap";
       });
       render();
     }
 
+    /* ── main render ── */
     function render() {
       const filtered = ALL_NEWS.filter(a =>
         (!currentDate || a.date === currentDate) &&
         (currentCategory === "all" || a.category === currentCategory)
       );
-      const grid = document.getElementById("news-grid");
-      const empty = document.getElementById("empty");
-      if (!filtered.length) { grid.innerHTML = ""; empty.classList.remove("hidden"); return; }
-      empty.classList.add("hidden");
-      grid.innerHTML = filtered.map(a => `
-        <a href="${a.url}" target="_blank" rel="noopener"
-          class="card-hover bg-white rounded-xl border border-gray-200 p-5 flex flex-col gap-3 cursor-pointer">
-          <div class="flex items-center gap-2 flex-wrap">
-            <span class="text-xs px-2 py-0.5 rounded-full bg-blue-50 text-blue-700 font-medium">${LABELS[a.category] || a.category}</span>
-            <span class="text-xs text-gray-400">${a.source}</span>
-          </div>
-          <h2 class="font-bold text-gray-900 leading-snug text-base serif">${a.title_zh || a.title_original}</h2>
-          <p class="text-sm text-gray-600 leading-relaxed">${a.summary_zh || ""}</p>
-          ${a.game_impact ? `<div class="bg-amber-50 border border-amber-200 rounded-lg px-3 py-2">
-            <p class="text-xs font-semibold text-amber-700 mb-0.5">🎮 遊戲業潛在影響</p>
-            <p class="text-xs text-amber-800 leading-relaxed">${a.game_impact}</p>
-          </div>` : ""}
-          <div class="flex items-center justify-between mt-auto pt-2 border-t border-gray-100">
-            <span class="text-xs text-gray-400">${a.date}</span>
-            <span class="text-xs text-blue-500">閱讀原文 →</span>
-          </div>
-        </a>`).join("");
+
+      const main = document.getElementById("main-content");
+      if (!filtered.length) {
+        main.innerHTML = `<div class="text-center py-20 text-gray-400"><p class="text-4xl mb-3">📰</p><p>此日期 / 分類沒有新聞</p></div>`;
+        return;
+      }
+
+      const critical   = filtered.filter(a => a.importance === "critical");
+      const normal     = filtered.filter(a => !a.importance || a.importance === "normal");
+      const background = filtered.filter(a => a.importance === "background");
+
+      let html = "";
+
+      if (critical.length) {
+        html += `<section>
+          <p class="section-label">🎯 必看新聞</p>
+          <div class="space-y-4">${critical.map(cardCritical).join("")}</div>
+        </section>`;
+      }
+      if (normal.length) {
+        html += `<section>
+          <p class="section-label">📊 一般新聞</p>
+          <div class="grid gap-4 md:grid-cols-2">${normal.map(cardNormal).join("")}</div>
+        </section>`;
+      }
+      if (background.length) {
+        html += `<section>
+          <p class="section-label">🌏 背景新聞</p>
+          <div class="grid gap-3 md:grid-cols-2 lg:grid-cols-3">${background.map(cardBackground).join("")}</div>
+        </section>`;
+      }
+
+      main.innerHTML = html;
     }
 
     renderDateTabs();

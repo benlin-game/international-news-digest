@@ -57,7 +57,7 @@ BLOCKED_SOURCES = {
 }
 
 PROMPT_TEMPLATE = """你是一位繁體中文新聞編輯，同時具備遊戲產業分析師的視角。
-請將以下英文新聞標題翻譯成繁體中文，並提供摘要與遊戲業潛在影響分析。
+請將以下英文新聞標題翻譯成繁體中文，並提供摘要、遊戲業潛在影響分析與重要性分級。
 
 英文標題：{title}
 
@@ -65,9 +65,13 @@ PROMPT_TEMPLATE = """你是一位繁體中文新聞編輯，同時具備遊戲�
 1. 標題翻譯自然，符合繁體中文新聞慣例
 2. 新聞摘要 80 字以內，說明事件重點
 3. 遊戲業潛在影響：60 字以內，從遊戲產業大環境角度分析此新聞可能帶來的風險或機會
+4. 重要性分級（擇一）：
+   - "critical"：重大事件，直接衝擊遊戲產業或市場格局，必看
+   - "normal"：值得關注，對產業有間接影響的一般新聞
+   - "background"：背景資訊，趨勢性、補充性，重要性較低
 
 請只回覆以下 JSON 格式，不要其他文字：
-{{"title_zh": "翻譯後標題", "summary_zh": "新聞重點摘要", "game_impact": "對遊戲業的潛在影響"}}"""
+{{"title_zh": "翻譯後標題", "summary_zh": "新聞重點摘要", "game_impact": "對遊戲業的潛在影響", "importance": "critical|normal|background"}}"""
 
 DATA_PATH = Path("docs/data.json")
 HTML_PATH = Path("docs/index.html")
@@ -83,38 +87,52 @@ HTML_TEMPLATE = """\
   <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@600;700&family=Noto+Sans+TC:wght@400;500&display=swap" rel="stylesheet">
   <style>
     body { font-family: "Noto Sans TC", sans-serif; }
-    h1, h2, .serif { font-family: "Noto Serif TC", serif; }
-    .card-hover { transition: transform 0.15s, box-shadow 0.15s; }
-    .card-hover:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(0,0,0,0.1); }
-    .tab-active { background: #1d4ed8; color: #fff; }
-    .tab-inactive { background: #f3f4f6; color: #374151; }
-    .tab-inactive:hover { background: #e5e7eb; }
+    .serif { font-family: "Noto Serif TC", serif; }
+    .tab-active  { background:#1d4ed8; color:#fff; }
+    .tab-inactive{ background:#f3f4f6; color:#374151; }
+    .tab-inactive:hover{ background:#e5e7eb; }
+    .card-t { transition: transform .15s, box-shadow .15s; }
+    .card-t:hover { transform: translateY(-2px); }
+    .section-label {
+      font-size:.7rem; font-weight:600; letter-spacing:.08em;
+      text-transform:uppercase; color:#6b7280; margin-bottom:.75rem;
+      padding-bottom:.35rem; border-bottom:1px solid #e5e7eb;
+    }
   </style>
 </head>
 <body class="bg-gray-50 min-h-screen">
+
+  <!-- Header -->
   <header class="bg-white border-b border-gray-200 sticky top-0 z-10 shadow-sm">
     <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
       <div>
         <h1 class="text-2xl font-bold text-gray-900 serif">🌐 國際新聞摘要</h1>
         <p class="text-sm text-gray-400 mt-0.5">每日 06:00 更新 · 含遊戲業潛在影響分析</p>
       </div>
-      <span class="text-xs text-gray-400">最後更新：__UPDATED_AT__</span>
+      <span class="text-xs text-gray-400 hidden sm:block">最後更新：__UPDATED_AT__</span>
     </div>
-    <div class="max-w-6xl mx-auto px-4 pb-3 flex gap-2 overflow-x-auto">
-      <button onclick="setCategory('all')" data-cat="all" class="cat-btn tab-active px-4 py-1.5 rounded-full text-sm font-medium whitespace-nowrap">全部</button>
-      <button onclick="setCategory('international')" data-cat="international" class="cat-btn tab-inactive px-4 py-1.5 rounded-full text-sm font-medium whitespace-nowrap">🌍 國際</button>
-      <button onclick="setCategory('tech')" data-cat="tech" class="cat-btn tab-inactive px-4 py-1.5 rounded-full text-sm font-medium whitespace-nowrap">💻 科技</button>
-      <button onclick="setCategory('finance')" data-cat="finance" class="cat-btn tab-inactive px-4 py-1.5 rounded-full text-sm font-medium whitespace-nowrap">📈 財經</button>
-      <button onclick="setCategory('games')" data-cat="games" class="cat-btn tab-inactive px-4 py-1.5 rounded-full text-sm font-medium whitespace-nowrap">🎮 遊戲業</button>
+
+    <!-- Category tabs -->
+    <div class="max-w-6xl mx-auto px-4 pb-2 flex gap-2 overflow-x-auto">
+      <button onclick="setCategory('all')" data-cat="all"
+        class="cat-btn tab-active px-4 py-1.5 rounded-full text-sm font-medium whitespace-nowrap">全部</button>
+      <button onclick="setCategory('international')" data-cat="international"
+        class="cat-btn tab-inactive px-4 py-1.5 rounded-full text-sm font-medium whitespace-nowrap">🌍 國際</button>
+      <button onclick="setCategory('tech')" data-cat="tech"
+        class="cat-btn tab-inactive px-4 py-1.5 rounded-full text-sm font-medium whitespace-nowrap">💻 科技</button>
+      <button onclick="setCategory('finance')" data-cat="finance"
+        class="cat-btn tab-inactive px-4 py-1.5 rounded-full text-sm font-medium whitespace-nowrap">📈 財經</button>
+      <button onclick="setCategory('games')" data-cat="games"
+        class="cat-btn tab-inactive px-4 py-1.5 rounded-full text-sm font-medium whitespace-nowrap">🎮 遊戲業</button>
     </div>
+
+    <!-- Date tabs -->
     <div class="max-w-6xl mx-auto px-4 pb-3 flex gap-2 overflow-x-auto" id="date-tabs"></div>
   </header>
 
-  <main class="max-w-6xl mx-auto px-4 py-6">
-    <div id="news-grid" class="grid gap-4 md:grid-cols-2 lg:grid-cols-3"></div>
-    <div id="empty" class="hidden text-center py-20 text-gray-400">
-      <p class="text-4xl mb-3">📰</p><p>此日期 / 分類沒有新聞</p>
-    </div>
+  <!-- Main -->
+  <main class="max-w-6xl mx-auto px-4 py-6 space-y-8" id="main-content">
+    <div class="text-center py-20 text-gray-400">載入中...</div>
   </main>
 
   <footer class="text-center text-gray-400 text-xs py-6">
@@ -124,76 +142,144 @@ HTML_TEMPLATE = """\
 
   <script>
     const ALL_NEWS = __DATA_JSON__;
-    const LABELS = { international: "🌍 國際", tech: "💻 科技", finance: "📈 財經", games: "🎮 遊戲業" };
+    const LABELS = { international:"🌍 國際", tech:"💻 科技", finance:"📈 財經", games:"🎮 遊戲業" };
     let currentCategory = "all";
     let currentDate = null;
 
+    /* ── utilities ── */
     function availableDates() {
       return [...new Set(ALL_NEWS.map(a => a.date))].sort().reverse().slice(0, 7);
     }
-
     function dateLabel(d) {
-      const today = new Date().toLocaleDateString("sv-SE");
-      const yesterday = new Date(Date.now() - 86400000).toLocaleDateString("sv-SE");
-      if (d === today) return "今天";
+      const today     = new Date().toLocaleDateString("sv-SE");
+      const yesterday = new Date(Date.now()-86400000).toLocaleDateString("sv-SE");
+      if (d === today)     return "今天";
       if (d === yesterday) return "昨天";
-      const [, m, day] = d.split("-");
-      return `${parseInt(m)}/${parseInt(day)}`;
+      const [,m,day] = d.split("-");
+      return `${+m}/${+day}`;
+    }
+    function gameImpactBlock(a) {
+      if (!a.game_impact) return "";
+      return `<div class="bg-amber-50 border border-amber-200 rounded-lg px-3 py-2">
+        <p class="text-xs font-semibold text-amber-700 mb-0.5">🎮 遊戲業潛在影響</p>
+        <p class="text-xs text-amber-800 leading-relaxed">${a.game_impact}</p>
+      </div>`;
+    }
+    function catBadge(a) {
+      return `<span class="text-xs px-2 py-0.5 rounded-full bg-blue-50 text-blue-700 font-medium">${LABELS[a.category]||a.category}</span>
+              <span class="text-xs text-gray-400">${a.source}</span>`;
     }
 
+    /* ── card templates ── */
+    function cardCritical(a) {
+      return `<a href="${a.url}" target="_blank" rel="noopener"
+          class="card-t block bg-white rounded-xl border-l-4 border-blue-700 shadow-md p-5 hover:shadow-lg">
+        <div class="flex items-center gap-2 flex-wrap mb-3">
+          ${catBadge(a)}
+          <span class="ml-auto text-xs bg-blue-700 text-white px-2 py-0.5 rounded-full font-semibold">🎯 必看</span>
+        </div>
+        <h2 class="serif font-bold text-gray-900 text-xl leading-snug mb-3">${a.title_zh||a.title_original}</h2>
+        <p class="text-sm text-gray-600 leading-loose mb-3">${a.summary_zh||""}</p>
+        ${gameImpactBlock(a)}
+        <div class="flex items-center justify-between mt-3 pt-2 border-t border-gray-100">
+          <span class="text-xs text-gray-400">${a.date}</span>
+          <span class="text-xs text-blue-600 font-medium">閱讀原文 →</span>
+        </div>
+      </a>`;
+    }
+
+    function cardNormal(a) {
+      return `<a href="${a.url}" target="_blank" rel="noopener"
+          class="card-t bg-white rounded-xl border border-gray-200 shadow-sm p-5 flex flex-col gap-3 hover:shadow-md">
+        <div class="flex items-center gap-2 flex-wrap">${catBadge(a)}</div>
+        <h2 class="serif font-bold text-gray-900 text-base leading-snug">${a.title_zh||a.title_original}</h2>
+        <p class="text-sm text-gray-600 leading-loose flex-1">${a.summary_zh||""}</p>
+        ${gameImpactBlock(a)}
+        <div class="flex items-center justify-between mt-auto pt-2 border-t border-gray-100">
+          <span class="text-xs text-gray-400">${a.date}</span>
+          <span class="text-xs text-blue-500">閱讀原文 →</span>
+        </div>
+      </a>`;
+    }
+
+    function cardBackground(a) {
+      return `<a href="${a.url}" target="_blank" rel="noopener"
+          class="card-t bg-white rounded-xl border border-gray-100 p-4 flex flex-col gap-2 hover:border-gray-300 hover:shadow-sm">
+        <div class="flex items-center gap-2 flex-wrap">${catBadge(a)}</div>
+        <h2 class="serif font-medium text-gray-500 text-sm leading-snug">${a.title_zh||a.title_original}</h2>
+        <p class="text-xs text-gray-400 leading-relaxed flex-1">${a.summary_zh||""}</p>
+        ${a.game_impact ? `<p class="text-xs text-amber-600 leading-relaxed">🎮 ${a.game_impact}</p>` : ""}
+        <div class="flex items-center justify-between pt-1 border-t border-gray-50">
+          <span class="text-xs text-gray-300">${a.date}</span>
+          <span class="text-xs text-gray-400">閱讀原文 →</span>
+        </div>
+      </a>`;
+    }
+
+    /* ── tabs ── */
     function renderDateTabs() {
       const dates = availableDates();
-      if (!currentDate || !dates.includes(currentDate)) currentDate = dates[0] || null;
+      if (!currentDate || !dates.includes(currentDate)) currentDate = dates[0]||null;
       document.getElementById("date-tabs").innerHTML = dates.map(d =>
         `<button onclick="setDate('${d}')" data-date="${d}"
-          class="date-btn ${d === currentDate ? "tab-active" : "tab-inactive"} px-3 py-1 rounded-full text-xs font-medium whitespace-nowrap">
+          class="date-btn ${d===currentDate?"tab-active":"tab-inactive"} px-3 py-1 rounded-full text-xs font-medium whitespace-nowrap">
           ${dateLabel(d)}</button>`
       ).join("");
     }
-
     function setCategory(cat) {
       currentCategory = cat;
       document.querySelectorAll(".cat-btn").forEach(b => {
-        b.className = "cat-btn " + (b.dataset.cat === cat ? "tab-active" : "tab-inactive") + " px-4 py-1.5 rounded-full text-sm font-medium whitespace-nowrap";
+        b.className = "cat-btn "+(b.dataset.cat===cat?"tab-active":"tab-inactive")+" px-4 py-1.5 rounded-full text-sm font-medium whitespace-nowrap";
       });
       render();
     }
-
     function setDate(date) {
       currentDate = date;
       document.querySelectorAll(".date-btn").forEach(b => {
-        b.className = "date-btn " + (b.dataset.date === date ? "tab-active" : "tab-inactive") + " px-3 py-1 rounded-full text-xs font-medium whitespace-nowrap";
+        b.className = "date-btn "+(b.dataset.date===date?"tab-active":"tab-inactive")+" px-3 py-1 rounded-full text-xs font-medium whitespace-nowrap";
       });
       render();
     }
 
+    /* ── main render ── */
     function render() {
       const filtered = ALL_NEWS.filter(a =>
         (!currentDate || a.date === currentDate) &&
         (currentCategory === "all" || a.category === currentCategory)
       );
-      const grid = document.getElementById("news-grid");
-      const empty = document.getElementById("empty");
-      if (!filtered.length) { grid.innerHTML = ""; empty.classList.remove("hidden"); return; }
-      empty.classList.add("hidden");
-      grid.innerHTML = filtered.map(a => `
-        <a href="${a.url}" target="_blank" rel="noopener"
-          class="card-hover bg-white rounded-xl border border-gray-200 p-5 flex flex-col gap-3 cursor-pointer">
-          <div class="flex items-center gap-2 flex-wrap">
-            <span class="text-xs px-2 py-0.5 rounded-full bg-blue-50 text-blue-700 font-medium">${LABELS[a.category] || a.category}</span>
-            <span class="text-xs text-gray-400">${a.source}</span>
-          </div>
-          <h2 class="font-bold text-gray-900 leading-snug text-base serif">${a.title_zh || a.title_original}</h2>
-          <p class="text-sm text-gray-600 leading-relaxed">${a.summary_zh || ""}</p>
-          ${a.game_impact ? `<div class="bg-amber-50 border border-amber-200 rounded-lg px-3 py-2">
-            <p class="text-xs font-semibold text-amber-700 mb-0.5">🎮 遊戲業潛在影響</p>
-            <p class="text-xs text-amber-800 leading-relaxed">${a.game_impact}</p>
-          </div>` : ""}
-          <div class="flex items-center justify-between mt-auto pt-2 border-t border-gray-100">
-            <span class="text-xs text-gray-400">${a.date}</span>
-            <span class="text-xs text-blue-500">閱讀原文 →</span>
-          </div>
-        </a>`).join("");
+
+      const main = document.getElementById("main-content");
+      if (!filtered.length) {
+        main.innerHTML = `<div class="text-center py-20 text-gray-400"><p class="text-4xl mb-3">📰</p><p>此日期 / 分類沒有新聞</p></div>`;
+        return;
+      }
+
+      const critical   = filtered.filter(a => a.importance === "critical");
+      const normal     = filtered.filter(a => !a.importance || a.importance === "normal");
+      const background = filtered.filter(a => a.importance === "background");
+
+      let html = "";
+
+      if (critical.length) {
+        html += `<section>
+          <p class="section-label">🎯 必看新聞</p>
+          <div class="space-y-4">${critical.map(cardCritical).join("")}</div>
+        </section>`;
+      }
+      if (normal.length) {
+        html += `<section>
+          <p class="section-label">📊 一般新聞</p>
+          <div class="grid gap-4 md:grid-cols-2">${normal.map(cardNormal).join("")}</div>
+        </section>`;
+      }
+      if (background.length) {
+        html += `<section>
+          <p class="section-label">🌏 背景新聞</p>
+          <div class="grid gap-3 md:grid-cols-2 lg:grid-cols-3">${background.map(cardBackground).join("")}</div>
+        </section>`;
+      }
+
+      main.innerHTML = html;
     }
 
     renderDateTabs();
@@ -279,6 +365,7 @@ def translate_articles(articles: list[dict], api_key: str) -> list[dict]:
                 "title_zh": data["title_zh"],
                 "summary_zh": data["summary_zh"],
                 "game_impact": data.get("game_impact", ""),
+                "importance": data.get("importance", "normal"),
             })
             logger.info(f"OK: {data['title_zh'][:40]}")
         except Exception as e:
