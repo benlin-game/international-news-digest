@@ -79,7 +79,7 @@ def get_today_category_counts() -> dict[str, int]:
     conn.row_factory = sqlite3.Row
     rows = conn.execute("""
         SELECT category, COUNT(*) as cnt FROM articles
-        WHERE translated=1 AND DATE(fetched_at) = DATE('now', 'localtime')
+        WHERE translated=1 AND DATE(fetched_at) = DATE(datetime('now', '+8 hours'))
         GROUP BY category
     """).fetchall()
     conn.close()
@@ -109,13 +109,18 @@ def get_articles(
 ) -> list[dict]:
     conn = sqlite3.connect(DB_PATH)
     conn.row_factory = sqlite3.Row
-    date_expr = f"'{date}'" if date else "DATE('now', 'localtime')"
+    if date:
+        date_sql = "DATE(fetched_at) = ?"
+        date_params: tuple = (date,)
+    else:
+        date_sql = "DATE(fetched_at) = DATE(datetime('now', '+8 hours'))"
+        date_params = ()
 
     if category and category != "all":
         cat_limit = DAILY_LIMITS.get(category, 20)
         rows = conn.execute(
-            f"SELECT * FROM articles WHERE translated=1 AND category=? AND DATE(fetched_at)={date_expr} ORDER BY fetched_at DESC LIMIT ?",
-            (category, cat_limit),
+            f"SELECT * FROM articles WHERE translated=1 AND category=? AND {date_sql} ORDER BY fetched_at DESC LIMIT ?",
+            (category, *date_params, cat_limit),
         ).fetchall()
         conn.close()
         return [dict(r) for r in rows]
@@ -123,8 +128,8 @@ def get_articles(
     result = []
     for cat, limit in DAILY_LIMITS.items():
         rows = conn.execute(
-            f"SELECT * FROM articles WHERE translated=1 AND category=? AND DATE(fetched_at)={date_expr} ORDER BY fetched_at DESC LIMIT ?",
-            (cat, limit),
+            f"SELECT * FROM articles WHERE translated=1 AND category=? AND {date_sql} ORDER BY fetched_at DESC LIMIT ?",
+            (cat, *date_params, limit),
         ).fetchall()
         result.extend([dict(r) for r in rows])
     conn.close()
@@ -136,7 +141,7 @@ def get_available_dates() -> list[str]:
     conn = sqlite3.connect(DB_PATH)
     rows = conn.execute("""
         SELECT DISTINCT DATE(fetched_at) as d FROM articles
-        WHERE translated=1 AND DATE(fetched_at) >= DATE('now', 'localtime', '-6 days')
+        WHERE translated=1 AND DATE(fetched_at) >= DATE(datetime('now', '+8 hours'), '-6 days')
         ORDER BY d DESC
     """).fetchall()
     conn.close()
@@ -146,7 +151,7 @@ def get_available_dates() -> list[str]:
 def cleanup_old_articles() -> int:
     conn = sqlite3.connect(DB_PATH)
     result = conn.execute(
-        "DELETE FROM articles WHERE DATE(fetched_at) < DATE('now', 'localtime', '-7 days')"
+        "DELETE FROM articles WHERE DATE(fetched_at) < DATE(datetime('now', '+8 hours'), '-7 days')"
     )
     deleted = result.rowcount
     conn.commit()

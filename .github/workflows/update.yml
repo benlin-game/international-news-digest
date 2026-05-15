@@ -2,7 +2,7 @@ name: 每日更新新聞
 
 on:
   schedule:
-    - cron: '0 22 * * *'  # 每天 06:00 台灣時間（UTC+8 = UTC 22:00）
+    - cron: '15 22 * * *'  # 每天 06:15 台灣時間（UTC+8 = UTC 22:15，錯開整點降低排程碰撞）
   workflow_dispatch:        # 允許手動觸發
 
 jobs:

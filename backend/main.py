@@ -10,7 +10,7 @@ from fastapi import BackgroundTasks, FastAPI, Query
 from fastapi.responses import FileResponse, JSONResponse
 from fastapi.staticfiles import StaticFiles
 
-from database import cleanup_old_articles, get_articles, get_available_dates, init_db
+from database import cleanup_old_articles, get_articles, get_available_dates, get_today_category_counts, init_db
 from scraper import fetch_all
 from translator import translate_pending
 
@@ -34,10 +34,13 @@ def run_pipeline() -> None:
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     init_db()
-    run_pipeline()
+    if sum(get_today_category_counts().values()) == 0:
+        run_pipeline()
+    else:
+        logger.info("Today's articles already exist, skipping startup pipeline")
 
     scheduler = BackgroundScheduler()
-    scheduler.add_job(run_pipeline, "cron", hour=6, minute=0)
+    scheduler.add_job(run_pipeline, "cron", hour=6, minute=15, timezone="Asia/Taipei")
     scheduler.start()
 
     yield
