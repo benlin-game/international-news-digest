@@ -107,7 +107,7 @@ HTML_TEMPLATE = """\
     <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
       <div>
         <h1 class="text-2xl font-bold text-gray-900 serif">🌐 國際新聞摘要</h1>
-        <p class="text-sm text-gray-400 mt-0.5">每日 06:00 更新 · 含遊戲業潛在影響分析</p>
+        <p class="text-sm text-gray-400 mt-0.5">每日自動更新 · 含遊戲業潛在影響分析</p>
       </div>
       <span class="text-xs text-gray-400 hidden sm:block">最後更新：__UPDATED_AT__</span>
     </div>
