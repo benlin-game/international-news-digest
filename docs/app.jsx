@@ -160,19 +160,29 @@ function articleLen(a) {
 
 // —— App ——
 function App() {
+  const [allNews, setAllNews] = useState([]);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    fetch('./data.json')
+      .then(r => r.json())
+      .then(data => { setAllNews(data); setLoading(false); })
+      .catch(() => setLoading(false));
+  }, []);
+
   const dates = useMemo(
-    () => [...new Set(window.ALL_NEWS.map((a) => a.date))].sort().reverse().slice(0, 7),
-    []
+    () => [...new Set(allNews.map((a) => a.date))].sort().reverse().slice(0, 7),
+    [allNews]
   );
 
   const [cat, setCat] = useState("all");
   const [date, setDate] = useState(dates[0]);
 
   const filtered = useMemo(
-    () => window.ALL_NEWS.filter(
+    () => allNews.filter(
       (a) => (cat === "all" || a.category === cat) && (!date || a.date === date)
     ),
-    [cat, date]
+    [cat, date, allNews]
   );
 
   const critical   = filtered.filter((a) => a.importance === "critical");
@@ -228,12 +238,10 @@ function App() {
   // Per-category counts for the pills
   const catCounts = useMemo(() => {
     const c = { all: 0, international: 0, tech: 0, finance: 0, games: 0 };
-    filtered.concat(window.ALL_NEWS.filter((a) => a.date === date)).forEach(() => {});
-    // We want counts within current date
-    const inDate = window.ALL_NEWS.filter((a) => !date || a.date === date);
+    const inDate = allNews.filter((a) => !date || a.date === date);
     inDate.forEach((a) => { c.all++; c[a.category]++; });
     return c;
-  }, [date]);
+  }, [date, allNews]);
 
   // Ribbon date: the most recent date present in the data set, formatted
   // editorial-style. Time is the user's real-world current time, refreshed
@@ -251,6 +259,12 @@ function App() {
     return () => clearInterval(id);
   }, []);
   const ribbonTime = `${String(now.getHours()).padStart(2, "0")}:${String(now.getMinutes()).padStart(2, "0")}`;
+
+  if (loading) return (
+    <div style={{display:"flex",alignItems:"center",justifyContent:"center",height:"100vh",background:"var(--paper)"}}>
+      <p style={{fontFamily:'"DM Mono",monospace',fontSize:"11px",letterSpacing:"0.3em",textTransform:"uppercase",color:"var(--ink-mid)"}}>載入中…</p>
+    </div>
+  );
 
   return (
     <div className="app-root ed-root">

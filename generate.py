@@ -91,8 +91,6 @@ HTML_TEMPLATE = """\
 <body>
   <div id="root"></div>
 
-  <script>window.ALL_NEWS = __DATA_JSON__;</script>
-
   <script src="https://unpkg.com/react@18.3.1/umd/react.production.min.js" crossorigin></script>
   <script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.production.min.js" crossorigin></script>
   <script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js"></script>
@@ -185,13 +183,13 @@ def translate_articles(articles: list[dict], api_key: str) -> list[dict]:
     return result
 
 
-def generate_html(articles: list[dict]) -> None:
+def generate_html() -> None:
+    """Write static index.html shell (only if not already present)."""
+    if HTML_PATH.exists():
+        return
     HTML_PATH.parent.mkdir(exist_ok=True)
-    updated_at = datetime.now(TZ_TAIWAN).strftime("%Y/%m/%d %H:%M")
-    data_json = json.dumps(articles, ensure_ascii=False)
-    html = HTML_TEMPLATE.replace("__DATA_JSON__", data_json).replace("__UPDATED_AT__", updated_at)
-    HTML_PATH.write_text(html, encoding="utf-8")
-    logger.info(f"Generated {HTML_PATH} ({len(articles)} articles)")
+    HTML_PATH.write_text(HTML_TEMPLATE, encoding="utf-8")
+    logger.info(f"Generated {HTML_PATH} (static shell)")
 
 
 def main() -> None:
@@ -223,7 +221,7 @@ def main() -> None:
     all_articles = existing + translated
 
     save_data(all_articles)
-    generate_html(all_articles)
+    generate_html()
     logger.info(f"Done. Total: {len(all_articles)}")
 
 
