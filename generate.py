@@ -3,6 +3,7 @@
 Fetch RSS feeds -> translate with Gemini -> update docs/data.json -> generate docs/index.html
 Designed to run as a GitHub Actions job or locally.
 """
+import hashlib
 import json
 import logging
 import os
@@ -75,6 +76,8 @@ PROMPT_TEMPLATE = """你是一位繁體中文新聞編輯，同時具備遊戲�
 
 DATA_PATH = Path("docs/data.json")
 HTML_PATH = Path("docs/index.html")
+CSS_PATH = Path("docs/app.css")
+JS_PATH = Path("docs/app.jsx")
 
 HTML_TEMPLATE = """\
 <!DOCTYPE html>
@@ -86,7 +89,7 @@ HTML_TEMPLATE = """\
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Spectral:ital,wght@0,400;0,600;1,400&family=DM+Sans:wght@400;500;600;700&family=DM+Mono:wght@400;500&family=Noto+Serif+TC:wght@400;700&family=Noto+Sans+TC:wght@400;600;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="app.css" />
+  <link rel="stylesheet" href="app.css?v=__CSS_VER__" />
 </head>
 <body>
   <div id="root"></div>
@@ -94,7 +97,7 @@ HTML_TEMPLATE = """\
   <script src="https://unpkg.com/react@18.3.1/umd/react.production.min.js" crossorigin></script>
   <script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.production.min.js" crossorigin></script>
   <script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js"></script>
-  <script type="text/babel" src="app.jsx"></script>
+  <script type="text/babel" src="app.jsx?v=__JS_VER__"></script>
 </body>
 </html>"""
 
@@ -183,13 +186,30 @@ def translate_articles(articles: list[dict], api_key: str) -> list[dict]:
     return result
 
 
+def _asset_hash(path: Path) -> str:
+    """Short content hash for cache-busting; stable unless the file changes."""
+    if not path.exists():
+        return "0"
+    return hashlib.md5(path.read_bytes()).hexdigest()[:8]
+
+
 def generate_html() -> None:
-    """Write static index.html shell (only if not already present)."""
-    if HTML_PATH.exists():
-        return
+    """Write static index.html shell with content-hash cache busting.
+
+    Rewrites only when the rendered HTML changes (i.e. app.css / app.jsx
+    changed), so daily news runs don't churn index.html, but a design or
+    logic update forces browsers to fetch the new asset immediately.
+    """
     HTML_PATH.parent.mkdir(exist_ok=True)
-    HTML_PATH.write_text(HTML_TEMPLATE, encoding="utf-8")
-    logger.info(f"Generated {HTML_PATH} (static shell)")
+    html = (
+        HTML_TEMPLATE
+        .replace("__CSS_VER__", _asset_hash(CSS_PATH))
+        .replace("__JS_VER__", _asset_hash(JS_PATH))
+    )
+    if HTML_PATH.exists() and HTML_PATH.read_text(encoding="utf-8") == html:
+        return
+    HTML_PATH.write_text(html, encoding="utf-8")
+    logger.info(f"Generated {HTML_PATH} (css={_asset_hash(CSS_PATH)} js={_asset_hash(JS_PATH)})")
 
 
 def main() -> None:
