@@ -27,6 +27,7 @@ function dateLabel(d) {
   return `${+m}/${+day}`;
 }
 function dateLabelLong(d) {
+  if (!d) return "";
   const [, m, day] = d.split("-");
   const w = ["日","一","二","三","四","五","六"][new Date(d).getDay()];
   return `${+m}月${+day}日 · 週${w}`;
@@ -177,6 +178,10 @@ function App() {
 
   const [cat, setCat] = useState("all");
   const [date, setDate] = useState(dates[0]);
+
+  useEffect(() => {
+    if (dates.length > 0 && !date) setDate(dates[0]);
+  }, [dates]);
 
   const filtered = useMemo(
     () => allNews.filter(
