@@ -216,7 +216,7 @@ def main() -> None:
     api_key = os.environ.get("GEMINI_API_KEY")
     if not api_key:
         # Try loading from .env for local dev
-        env_file = Path(__file__).parent / "backend" / ".env"
+        env_file = Path(__file__).parent / ".env"
         if env_file.exists():
             for line in env_file.read_text().splitlines():
                 if line.startswith("GEMINI_API_KEY="):
