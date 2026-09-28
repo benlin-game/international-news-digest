@@ -2,72 +2,6 @@
   {
     "source": "BBC World",
     "category": "international",
-    "title_original": "German Chancellor Merz calls state election a 'disaster' for his party but vows to stay on",
-    "url": "https://www.bbc.co.uk/news/articles/cvwyz29n0nn2o?at_medium=RSS&at_campaign=rss",
-    "date": "2026-09-21",
-    "title_zh": "德國總理梅爾茨稱邦選舉為黨內「災難」 誓言留任",
-    "summary_zh": "德國總理梅爾茨表示，近期邦選舉結果對其所屬政黨是「災難性」挫敗，但他強調將會繼續留任，不會因此下台。",
-    "game_impact": "德國政局不穩可能影響經濟信心與消費者支出，遊戲市場需求或受波及，潛在政策變化亦須留意。",
-    "importance": "normal"
-  },
-  {
-    "source": "BBC World",
-    "category": "international",
-    "title_original": "Largest attack on Moscow sees Ukraine fire hundreds of drones, mayor says",
-    "url": "https://www.bbc.co.uk/news/articles/c34gdjk1ne8yo?at_medium=RSS&at_campaign=rss",
-    "date": "2026-09-21",
-    "title_zh": "莫斯科遭烏最大規模無人機空襲 市長證實數百架來襲",
-    "summary_zh": "莫斯科市長證實，首都遭烏克蘭發動迄今最大規模的無人機攻擊，數百架無人機來襲。此事件凸顯戰事升級，對地區穩定構成潛在威脅。",
-    "game_impact": "衝突升級恐加劇全球經濟不確定性，影響遊戲玩家消費力及市場投資。位於戰區的開發商面臨營運與人才風險，網路安全威脅亦增。",
-    "importance": "critical"
-  },
-  {
-    "source": "BBC World",
-    "category": "international",
-    "title_original": "Ed Sheeran admits 'mistakes' at first show since Macklemore controversy",
-    "url": "https://www.bbc.co.uk/news/articles/cm780ll1de18o?at_medium=RSS&at_campaign=rss",
-    "date": "2026-09-21",
-    "title_zh": "紅髮艾德麥可莫風波後首演 坦承曾犯「失誤」",
-    "summary_zh": "歌手紅髮艾德（Ed Sheeran）在與麥可莫（Macklemore）爭議事件後首次公開演出，坦承過去曾犯下「失誤」。此舉引發外界對該爭議事件與其個人心路歷程的關注。",
-    "game_impact": "提醒遊戲業者在簽約名人代言或IP授權時，需謹慎評估合作對象的公眾形象與潛在風險，避免負面爭議波及遊戲品牌。",
-    "importance": "background"
-  },
-  {
-    "source": "BBC World",
-    "category": "international",
-    "title_original": "Trump says triumphal arch will be military complex with drones and snipers",
-    "url": "https://www.bbc.co.uk/news/articles/cqdj4pez00dzo?at_medium=RSS&at_campaign=rss",
-    "date": "2026-09-21",
-    "title_zh": "川普語出驚人：凱旋門將化身軍事設施 配備無人機與狙擊手",
-    "summary_zh": "美國前總統川普表示，未來像凱旋門這樣具象徵意義的地標，將被改造為配備無人機及狙擊手的軍事綜合體，以強化防禦。",
-    "game_impact": "此言論可能為遊戲開發者提供軍事化地標或未來戰爭場景的創意靈感，或刺激相關題材的討論。",
-    "importance": "background"
-  },
-  {
-    "source": "BBC World",
-    "category": "international",
-    "title_original": "Man, 82, dies after beach fight with 76-year-old over sunlounger in Greece",
-    "url": "https://www.bbc.co.uk/news/articles/cqm27pnyd294o?at_medium=RSS&at_campaign=rss",
-    "date": "2026-09-21",
-    "title_zh": "希臘海灘「躺椅之爭」釀悲劇：八旬翁與七旬翁互毆後不治",
-    "summary_zh": "希臘克里特島一處海灘，一名82歲男子與76歲男子因爭搶沙灘躺椅發生激烈肢體衝突。82歲男子在衝突後不幸身亡，警方已介入調查。這起事件凸顯了觀光地區資源爭奪潛在的風險。",
-    "game_impact": "此事件雖非直接相關，但凸顯真實世界「資源稀缺與衝突」議題。遊戲產業可借鑑此類案例，設計更貼近現實或具反思性的內容，探討競爭與協作，或提供數位休閒作為壓力排解。",
-    "importance": "background"
-  },
-  {
-    "source": "BBC World",
-    "category": "international",
-    "title_original": "Sister of Pakistan's ex-PM Imran Khan arrested",
-    "url": "https://www.bbc.co.uk/news/articles/cm36l2pye2kwo?at_medium=RSS&at_campaign=rss",
-    "date": "2026-09-21",
-    "title_zh": "巴基斯坦前總理伊姆蘭汗胞姊遭捕",
-    "summary_zh": "巴基斯坦前總理伊姆蘭汗的胞姊烏茲瑪（Uzma Khan）據報遭逮捕。此事件發生在伊姆蘭汗近期因貪腐案被判刑並取消參選資格後，被外界視為對其家族及黨派的進一步打擊，恐加劇巴國政治動盪。",
-    "game_impact": "巴基斯坦政局動盪恐影響當地遊戲市場消費力，阻礙潛在的遊戲基礎設施投資。若局勢升級，區域不穩定可能間接影響遊戲發行商的區域戰略佈局。",
-    "importance": "normal"
-  },
-  {
-    "source": "BBC World",
-    "category": "international",
     "title_original": "Yemenis flee across Red Sea as Houthis and Saudi-backed forces escalate war",
     "url": "https://www.bbc.co.uk/news/articles/cw4gm7l742dmo?at_medium=RSS&at_campaign=rss",
     "date": "2026-09-22",
@@ -812,5 +746,71 @@
     "summary_zh": "委內瑞拉政府為回應國內外日漸增長的選舉呼聲，近期釋放了數十名政治犯。此舉被視為馬杜羅政府在國際壓力下，為促進政治對話及可能的選舉進程所採取的讓步姿態。",
     "game_impact": "委內瑞拉政治若能穩定，長期或有助經濟復甦，提升民眾消費力與網路普及率，為遊戲市場帶來潛在發展。然而，該國市場規模小，短期內對全球遊戲產業影響極微。",
     "importance": "background"
+  },
+  {
+    "source": "BBC World",
+    "category": "international",
+    "title_original": "Inside Yemen's front-line city as Houthis battle for control",
+    "url": "https://www.bbc.co.uk/news/articles/cw98005ndz7no?at_medium=RSS&at_campaign=rss",
+    "date": "2026-09-29",
+    "title_zh": "葉門前線城市激戰：胡塞武裝爭奪控制權",
+    "summary_zh": "葉門一座前線城市正爆發激烈衝突，胡塞武裝與對手爭奪控制權，當地戰火不斷，人道局勢嚴峻。",
+    "game_impact": "地緣衝突可能加劇全球能源與供應鏈不穩，間接影響遊戲硬體製造成本與玩家消費意願。",
+    "importance": "normal"
+  },
+  {
+    "source": "BBC World",
+    "category": "international",
+    "title_original": "Seoul summons Ukraine envoy over North Korean prisoner-of-war row",
+    "url": "https://www.bbc.co.uk/news/articles/c8ly40xx0dr0o?at_medium=RSS&at_campaign=rss",
+    "date": "2026-09-29",
+    "title_zh": "南韓就北韓戰俘爭議召見烏克蘭大使",
+    "summary_zh": "南韓外交部因烏克蘭媒體報導北韓志願兵在烏克蘭作戰並遭俘虜一事，對此表達高度關切，並召見烏克蘭大使進行詢問，強調將持續關注相關事態發展，避免爭議升級。",
+    "game_impact": "地緣政治緊張局勢若升溫，可能影響投資者信心及部分遊戲開發與發行策略。戰爭題材遊戲需更謹慎處理內容，避免觸及敏感議題。",
+    "importance": "normal"
+  },
+  {
+    "source": "BBC World",
+    "category": "international",
+    "title_original": "Twelve women have been killed in one part of South Africa since July. Here's what we know so far",
+    "url": "https://www.bbc.co.uk/news/articles/c6m27dprvzv7o?at_medium=RSS&at_campaign=rss",
+    "date": "2026-09-29",
+    "title_zh": "南非某地驚傳自七月起十二名婦女遭殺害：事件概述",
+    "summary_zh": "南非某地區自七月起已發生十二宗婦女被殺案。當局正調查連串兇案，社會關注婦女安全議題。",
+    "game_impact": "社會動盪與婦女安全議題可能引發內容審查討論，影響遊戲開發題材與行銷策略，尤其在性別議題上需更謹慎。",
+    "importance": "normal"
+  },
+  {
+    "source": "BBC World",
+    "category": "international",
+    "title_original": "French PM warns against escalation of school protests after 164 arrested",
+    "url": "https://www.bbc.co.uk/news/articles/cmqxvnn49rg2o?at_medium=RSS&at_campaign=rss",
+    "date": "2026-09-29",
+    "title_zh": "法國校園示威逮164人 總理警告勿讓情勢升級",
+    "summary_zh": "法國總理在164名學生於校園抗議中被捕後，公開警告示威活動勿再升級，擔憂社會動盪擴大，呼籲各方保持冷靜。",
+    "game_impact": "法國社會動盪恐影響當地消費信心，進而衝擊遊戲產品銷售，特別是當地市場與潛在的遊戲活動規劃。",
+    "importance": "normal"
+  },
+  {
+    "source": "BBC World",
+    "category": "international",
+    "title_original": "Nigerian attempts to break world record by dancing non-stop for seven days",
+    "url": "https://www.bbc.co.uk/news/articles/cq8r6z2gjzd1o?at_medium=RSS&at_campaign=rss",
+    "date": "2026-09-29",
+    "title_zh": "奈及利亞男子挑戰連續熱舞7天 劍指世界紀錄",
+    "summary_zh": "奈及利亞一名男子發起挑戰，目標是連續不間斷跳舞七天，以期打破現有的金氏世界紀錄。此舉吸引了當地社群的廣泛關注。",
+    "game_impact": "或啟發節奏遊戲開發體感挑戰內容，提升玩家投入。亦可能促使直播主規劃長時間遊戲馬拉松，測試耐力，吸引社群。",
+    "importance": "normal"
+  },
+  {
+    "source": "BBC World",
+    "category": "international",
+    "title_original": "Iran court upholds lashes sentence for singer who performed without hijab",
+    "url": "https://www.bbc.co.uk/news/articles/crn45ed1kqqgo?at_medium=RSS&at_campaign=rss",
+    "date": "2026-09-29",
+    "title_zh": "伊朗法院維持對「未佩戴頭巾演出」女歌手的鞭刑判決",
+    "summary_zh": "伊朗法院確認對一名未戴頭巾演出的女歌手判處鞭刑。此案凸顯伊朗嚴格的宗教法律，引發國際社會對人權狀況的憂慮。",
+    "game_impact": "此事件凸顯伊朗市場潛在的政治與法律風險，可能影響遊戲公司進入當地或當地人才發展，加劇地緣政治不確定性。",
+    "importance": "normal"
   }
 ]
