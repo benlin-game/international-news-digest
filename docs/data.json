@@ -2,72 +2,6 @@
   {
     "source": "BBC World",
     "category": "international",
-    "title_original": "Russia targeting 'ordinary life' with attacks on Ukraine's data centres, Zelensky says",
-    "url": "https://www.bbc.co.uk/news/articles/c84gkwgk7d06o?at_medium=RSS&at_campaign=rss",
-    "date": "2026-09-26",
-    "title_zh": "澤倫斯基：俄羅斯攻擊烏克蘭數據中心，意圖破壞「民眾日常生活」",
-    "summary_zh": "烏克蘭總統澤倫斯基表示，俄羅斯針對烏克蘭數據中心的攻擊，目的是破壞國民的「日常生活」。此舉影響資訊服務、通訊與基礎建設，對社會穩定構成威脅。",
-    "game_impact": "網路基礎設施遭破壞，可能影響線上遊戲營運、資料儲存與開發。遊戲公司需警惕地緣政治風險，加強資安防護與備援策略。",
-    "importance": "normal"
-  },
-  {
-    "source": "BBC World",
-    "category": "international",
-    "title_original": "Special agents' blood and urine test results stolen in FBI hack",
-    "url": "https://www.bbc.co.uk/news/articles/cw62me2vlj07o?at_medium=RSS&at_campaign=rss",
-    "date": "2026-09-26",
-    "title_zh": "FBI系統遭駭 特工健檢資料恐外洩",
-    "summary_zh": "美國聯邦調查局(FBI)系統驚傳遭網路駭客入侵，導致其特工的敏感健康數據，包括血液與尿液檢測結果，被惡意竊取。此事件引發外界對國家安全與個人資料保護的嚴重隱憂。",
-    "game_impact": "此事件凸顯資料安全漏洞嚴重性。遊戲業大量收集玩家數據，需警惕網路攻擊，強化數據保護，避免法規趨嚴及玩家信任流失，維持產業永續發展。",
-    "importance": "normal"
-  },
-  {
-    "source": "BBC World",
-    "category": "international",
-    "title_original": "Pope warns against 'losing humanity' to AI machines",
-    "url": "https://www.bbc.co.uk/news/articles/cmq8j904212po?at_medium=RSS&at_campaign=rss",
-    "date": "2026-09-26",
-    "title_zh": "教宗警告：AI機器恐致「人性淪喪」",
-    "summary_zh": "教宗方濟各發表言論，警告人類在發展人工智慧的過程中，需警惕可能導致「人性淪喪」的風險，強調科技進步不應犧牲人類價值。",
-    "game_impact": "恐促使遊戲業更審慎發展AI，尤其在AI角色設計與互動上，須平衡科技創新與倫理考量，避免爭議並符合社會期待。",
-    "importance": "normal"
-  },
-  {
-    "source": "BBC World",
-    "category": "international",
-    "title_original": "Supreme Court allows Trump to use controversial database to check voter citizenship",
-    "url": "https://www.bbc.co.uk/news/articles/ck05rrj3jeylo?at_medium=RSS&at_campaign=rss",
-    "date": "2026-09-26",
-    "title_zh": "最高法院開綠燈 川普獲准動用爭議資料庫查核選民公民身份",
-    "summary_zh": "美國最高法院批准前總統川普使用一個具爭議的資料庫，以查核選民的公民身份，此舉引發隱私權與選舉公正性的擔憂。",
-    "game_impact": "社會對數據隱私的關注度將提升，長遠可能促使遊戲業審視數據收集政策，或面臨更嚴格的法規要求。",
-    "importance": "normal"
-  },
-  {
-    "source": "BBC World",
-    "category": "international",
-    "title_original": "Trump's plans for massive arch move ahead",
-    "url": "https://www.bbc.co.uk/news/articles/cq0lrr8kxy0lo?at_medium=RSS&at_campaign=rss",
-    "date": "2026-09-26",
-    "title_zh": "川普推動巨型拱門計畫",
-    "summary_zh": "美國前總統川普的團隊正推進一項建造巨型拱門的計畫，具體選址與細節尚待公布，預計將涉及龐大公共資源投入，引發各界關注。",
-    "game_impact": "巨額公共建設可能影響國家資源配置及民間消費力道，間接影響遊戲市場的購買力或資金流向。",
-    "importance": "normal"
-  },
-  {
-    "source": "BBC World",
-    "category": "international",
-    "title_original": "Students strike across Germany in protest against military service",
-    "url": "https://www.bbc.co.uk/news/articles/cxnvlnve52qdo?at_medium=RSS&at_campaign=rss",
-    "date": "2026-09-26",
-    "title_zh": "德國全國學生罷課 反對徵兵制度",
-    "summary_zh": "德國各地學生發起全國性罷課，抗議兵役制度。此行動旨在向政府施壓，要求重新審視或廢除強制性軍事服務政策。",
-    "game_impact": "若兵役制度調整或取消，年輕族群可支配時間與金錢可能增加，潛在利於遊戲消費與玩家參與度。",
-    "importance": "normal"
-  },
-  {
-    "source": "BBC World",
-    "category": "international",
     "title_original": "Trump rejects Iran deal to reopen Strait of Hormuz in seven days",
     "url": "https://www.bbc.co.uk/news/articles/cqgmrr9ekr7ko?at_medium=RSS&at_campaign=rss",
     "date": "2026-09-27",
@@ -833,6 +767,72 @@
     "title_zh": "教宗良十四世不樂見AI生成藝術",
     "summary_zh": "教宗良十四世表態，對人工智慧（AI）生成藝術抱持不樂見態度。此舉反映梵蒂岡對AI技術在文化和倫理層面的深切關注，並就藝術創作的本質與人類創造力價值提出反思。",
     "game_impact": "教宗立場將加劇AI藝術倫理辯論。遊戲業者採納AI生成素材時需更謹慎，特別是文化或敘事相關內容。恐面臨用戶與團體審查，影響AI在遊戲美術的普及與接受度。",
+    "importance": "normal"
+  },
+  {
+    "source": "BBC World",
+    "category": "international",
+    "title_original": "Tennessee prison chief to resign after Christa Pike's failed execution",
+    "url": "https://www.bbc.co.uk/news/articles/c8zxl62yzxzxo?at_medium=RSS&at_campaign=rss",
+    "date": "2026-10-04",
+    "title_zh": "田納西州矯正署長因執行死刑失敗請辭",
+    "summary_zh": "田納西州矯正署長卡爾．史蒂芬斯因死刑犯克莉絲塔．派克執行死刑失敗的爭議而宣布辭職。該事件引發外界對執行程序、設備與倫理的廣泛質疑，凸顯美國司法體系中死刑執行的複雜性與潛在問題。",
+    "game_impact": "此事件可能提醒遊戲開發者，在處理犯罪、司法、監獄管理等主題時，需更深入探討系統缺陷與倫理困境，提升遊戲敘事的真實感與深度，或避免不必要的敏感爭議。",
+    "importance": "background"
+  },
+  {
+    "source": "BBC World",
+    "category": "international",
+    "title_original": "Flydubai co-pilot attacked captain with axe, UAE official says",
+    "url": "https://www.bbc.co.uk/news/articles/c61wv7lgex13o?at_medium=RSS&at_campaign=rss",
+    "date": "2026-10-04",
+    "title_zh": "杜拜航空驚傳副機長持斧襲擊機長 阿聯酋官員證實",
+    "summary_zh": "阿聯酋官員證實，杜拜航空副機長在飛行中持斧攻擊機長。事件細節與動機待查，或引發航空業安全討論。",
+    "game_impact": "此類真實暴力事件可能再度引發遊戲內容與暴力連結的討論，潛在增加產業的審查壓力或負面觀感。",
+    "importance": "background"
+  },
+  {
+    "source": "BBC World",
+    "category": "international",
+    "title_original": "Russia hits second major bridge in Ukraine's capital Kyiv",
+    "url": "https://www.bbc.co.uk/news/articles/c83vqxzdg1yko?at_medium=RSS&at_campaign=rss",
+    "date": "2026-10-04",
+    "title_zh": "俄羅斯襲擊烏克蘭首都基輔第二座主要橋樑",
+    "summary_zh": "俄羅斯軍隊再次對烏克蘭首都基輔發動攻擊，鎖定並襲擊了市內的第二座主要橋樑。此舉可能進一步破壞交通動脈，加劇人道危機，並升高地區緊張情勢。",
+    "game_impact": "戰事升級加劇全球經濟不確定性，恐影響玩家消費力、遊戲開發工作室運作及硬體供應鏈，增加產業營運風險。",
+    "importance": "critical"
+  },
+  {
+    "source": "BBC World",
+    "category": "international",
+    "title_original": "'Anger in the streets': Tens of thousands protest in Spain over housing crisis",
+    "url": "https://www.bbc.co.uk/news/articles/cm2kej47095no?at_medium=RSS&at_campaign=rss",
+    "date": "2026-10-04",
+    "title_zh": "西班牙「街頭怒火」延燒：數萬民眾上街抗議住房危機",
+    "summary_zh": "西班牙全國各地數萬民眾走上街頭，抗議日益嚴峻的住房危機，表達對高租金、房價與居住權的不滿，要求政府採取措施解決。",
+    "game_impact": "經濟不穩恐降低西班牙玩家購買遊戲及課金意願，影響當地市場營收。政策若緊縮，也可能波及遊戲開發環境。",
+    "importance": "normal"
+  },
+  {
+    "source": "BBC World",
+    "category": "international",
+    "title_original": "Medical plane with 6 on board missing off Massachusetts coast",
+    "url": "https://www.bbc.co.uk/news/articles/cme3x85013llo?at_medium=RSS&at_campaign=rss",
+    "date": "2026-10-04",
+    "title_zh": "麻州外海載六人醫療專機失蹤",
+    "summary_zh": "一架載有6人的醫療專機在美國麻薩諸塞州外海失聯，目前下落不明，搜救行動正在進行中。",
+    "game_impact": "此為單一地方性事件，對全球遊戲產業營運、開發或市場趨勢無直接影響，玩家消費能力亦不受影響。",
+    "importance": "background"
+  },
+  {
+    "source": "BBC World",
+    "category": "international",
+    "title_original": "Women given shorts at Oktoberfest to prevent upskirting",
+    "url": "https://www.bbc.co.uk/news/articles/cjwyzyqvx1zxo?at_medium=RSS&at_campaign=rss",
+    "date": "2026-10-04",
+    "title_zh": "防範偷拍裙底！慕尼黑啤酒節向女性提供短褲",
+    "summary_zh": "慕尼黑啤酒節為保護女性免受偷拍裙底騷擾，特別提供短褲供參與者穿著。此舉旨在提升活動期間的安全與舒適度，以應對日益嚴重的隱私侵犯問題。",
+    "game_impact": "此事件凸顯社會對隱私保護及反騷擾的重視。遊戲業應加強遊戲內外性別平等政策、防騷擾機制與內容審核，以維護玩家安全及社群環境，提升品牌聲譽。",
     "importance": "normal"
   }
 ]
