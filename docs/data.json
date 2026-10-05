@@ -2,72 +2,6 @@
   {
     "source": "BBC World",
     "category": "international",
-    "title_original": "Iranian minister says only negotiation can end conflict after Trump rejects Hormuz deal",
-    "url": "https://www.bbc.co.uk/news/articles/cmvgyyw2jeego?at_medium=RSS&at_campaign=rss",
-    "date": "2026-09-28",
-    "title_zh": "川普拒絕荷姆茲協議 伊朗：唯有談判能終止衝突",
-    "summary_zh": "伊朗部長在川普拒絕荷姆茲協議後表示，當前的衝突只能透過談判解決。此番言論凸顯了中東地區局勢的緊張與尋求外交途徑的重要性。",
-    "game_impact": "中東地緣政治緊張可能導致全球經濟不確定性，影響遊戲消費意願與硬體供應鏈穩定。若衝突升級，可能間接衝擊遊戲產業投資與市場信心。",
-    "importance": "normal"
-  },
-  {
-    "source": "BBC World",
-    "category": "international",
-    "title_original": "Two mass shootings in South Africa leave 27 dead",
-    "url": "https://www.bbc.co.uk/news/articles/ck5ywnp075d1o?at_medium=RSS&at_campaign=rss",
-    "date": "2026-09-28",
-    "title_zh": "南非連環兩起大規模槍擊 造成27人死亡",
-    "summary_zh": "南非近期接連發生兩起嚴重大規模槍擊事件，導致至少27人喪生。案件仍在調查中，引發當地對治安的深切擔憂。",
-    "game_impact": "此類暴力事件恐再次引發社會對遊戲中暴力內容的審查，或導致遊戲管制呼聲提高，影響射擊或動作遊戲的推廣。",
-    "importance": "normal"
-  },
-  {
-    "source": "BBC World",
-    "category": "international",
-    "title_original": "Embattled Serbian president resigns, paving way for early elections",
-    "url": "https://www.bbc.co.uk/news/articles/ckpq0g7z5pjjo?at_medium=RSS&at_campaign=rss",
-    "date": "2026-09-28",
-    "title_zh": "飽受爭議的塞爾維亞總統辭職 為提前大選鋪路",
-    "summary_zh": "塞爾維亞飽受壓力的總統宣布辭職，此舉為該國政治局勢開啟了新的篇章，並預計將啟動一場提前大選。此發展可能導致政府組成與政策方向的變動。",
-    "game_impact": "塞爾維亞政治變動對全球遊戲市場影響微乎其微。若當地政局動盪，可能間接影響該國玩家消費力或開發商環境，但範圍有限。",
-    "importance": "background"
-  },
-  {
-    "source": "BBC World",
-    "category": "international",
-    "title_original": "Two bodies found after avalanche hits Himalayan climbing group",
-    "url": "https://www.bbc.co.uk/news/articles/cwjdvml9e897o?at_medium=RSS&at_campaign=rss",
-    "date": "2026-09-28",
-    "title_zh": "喜馬拉雅登山隊遇雪崩襲擊 兩具遺體尋獲",
-    "summary_zh": "喜馬拉雅山區一支登山隊遭遇雪崩，搜救行動後，已發現兩具罹難者的遺體。當局正持續調查事件細節及搜尋其他失蹤者。",
-    "game_impact": "此類真實事件恐讓部分玩家對極限運動或野外生存遊戲主題暫生負面聯想，但對整體遊戲市場影響微乎其微。",
-    "importance": "background"
-  },
-  {
-    "source": "BBC World",
-    "category": "international",
-    "title_original": "Four killed in helicopter crash near Montreal",
-    "url": "https://www.bbc.co.uk/news/articles/c3grvv7p81lqo?at_medium=RSS&at_campaign=rss",
-    "date": "2026-09-28",
-    "title_zh": "蒙特婁近郊直升機墜毀 釀四死",
-    "summary_zh": "加拿大蒙特婁附近發生一起直升機墜毀事故，不幸造成機上四人全數罹難。目前事故原因仍在調查中，當地警方已封鎖現場進行處理。",
-    "game_impact": "此為地方意外，對全球遊戲產業無直接影響；若事故原因涉軟硬體缺陷，或有間接警示效應，但可能性低。",
-    "importance": "background"
-  },
-  {
-    "source": "BBC World",
-    "category": "international",
-    "title_original": "Venezuela releases dozens of political prisoners as election calls grow",
-    "url": "https://www.bbc.co.uk/news/articles/c620lrw2xr12o?at_medium=RSS&at_campaign=rss",
-    "date": "2026-09-28",
-    "title_zh": "委內瑞拉應選舉呼聲漸增，釋放數十名政治犯",
-    "summary_zh": "委內瑞拉政府為回應國內外日漸增長的選舉呼聲，近期釋放了數十名政治犯。此舉被視為馬杜羅政府在國際壓力下，為促進政治對話及可能的選舉進程所採取的讓步姿態。",
-    "game_impact": "委內瑞拉政治若能穩定，長期或有助經濟復甦，提升民眾消費力與網路普及率，為遊戲市場帶來潛在發展。然而，該國市場規模小，短期內對全球遊戲產業影響極微。",
-    "importance": "background"
-  },
-  {
-    "source": "BBC World",
-    "category": "international",
     "title_original": "Inside Yemen's front-line city as Houthis battle for control",
     "url": "https://www.bbc.co.uk/news/articles/cw98005ndz7no?at_medium=RSS&at_campaign=rss",
     "date": "2026-09-29",
@@ -800,6 +734,72 @@
     "title_zh": "『超級智慧』與不具約束力安全協定：能否化解AI的形象危機？",
     "summary_zh": "AI面臨信任危機，報導質疑「超級智慧」發展及「不具約束力安全協議」，能否有效改善公眾對AI技術的負面觀感與形象問題。",
     "game_impact": "AI的公眾形象與信任度，將影響玩家對遊戲內AI功能（如NPC、內容生成）的接受度。若信任危機加劇，可能放緩AI技術於遊戲開發的整合與普及。",
+    "importance": "normal"
+  },
+  {
+    "source": "BBC World",
+    "category": "international",
+    "title_original": "Trump says 'threat' led US to pull bombers from RAF Fairford",
+    "url": "https://www.bbc.co.uk/news/articles/cwj3413e5m1lo?at_medium=RSS&at_campaign=rss",
+    "date": "2026-10-06",
+    "title_zh": "川普：美國因「威脅」自費爾福德基地撤離轟炸機",
+    "summary_zh": "美國前總統川普透露，美軍曾因應「重大威脅」，從英國皇家空軍費爾福德基地撤回B-52轟炸機。此舉凸顯國際情勢的潛在緊張，儘管具體威脅來源未明，但暗示著未公開的地緣政治考量。",
+    "game_impact": "此類地緣政治訊息，雖不直接衝擊遊戲業，但可為戰爭、策略類遊戲提供設計靈感。若國際情勢持續升級，則恐間接影響全球消費信心與市場穩定，進而衝擊遊戲產品銷售及開發資金。",
+    "importance": "normal"
+  },
+  {
+    "source": "BBC World",
+    "category": "international",
+    "title_original": "France braces for national day of school protests after injuries and mass arrests",
+    "url": "https://www.bbc.co.uk/news/articles/cr4g1q1elxnjo?at_medium=RSS&at_campaign=rss",
+    "date": "2026-10-06",
+    "title_zh": "法國全國校園抗議山雨欲來：此前傳傷人與大規模逮捕",
+    "summary_zh": "法國因先前抗議行動導致傷人及大規模逮捕，全國範圍的校園抗議活動恐將來臨，政府正嚴陣以待。",
+    "game_impact": "社會動盪恐影響法國消費信心與遊戲銷售，實體店面營運受阻；長期而言，或影響產業投資環境。",
+    "importance": "normal"
+  },
+  {
+    "source": "BBC World",
+    "category": "international",
+    "title_original": "Flydubai co-pilot planned to crash plane into Tel Aviv airport or building, reports say",
+    "url": "https://www.bbc.co.uk/news/articles/cm3691y79xp5o?at_medium=RSS&at_campaign=rss",
+    "date": "2026-10-06",
+    "title_zh": "杜拜航空副機師傳企圖駕機衝撞特拉維夫 機場或建築",
+    "summary_zh": "消息指杜拜航空一名副機師曾企圖駕機衝撞以色列特拉維夫機場或建築物，事件引發航空安全高度關注。",
+    "game_impact": "此類事件或增加各國對遊戲內容審查，特別是涉及航空恐攻題材，可能導致開發商自我審查。",
+    "importance": "normal"
+  },
+  {
+    "source": "BBC World",
+    "category": "international",
+    "title_original": "Zelensky condemns 'horrific' Russian strike on boat carrying corn in Black Sea",
+    "url": "https://www.bbc.co.uk/news/articles/cr0j0w3p8453o?at_medium=RSS&at_campaign=rss",
+    "date": "2026-10-06",
+    "title_zh": "澤倫斯基譴責俄軍襲擊黑海運糧船為「駭人聽聞」",
+    "summary_zh": "烏克蘭總統澤倫斯基嚴厲譴責俄羅斯襲擊黑海運糧船，形容此舉「駭人聽聞」。此事件可能加劇地區緊張，影響全球糧食供應。",
+    "game_impact": "地緣政治緊張加劇恐推升能源與硬體成本，影響遊戲開發預算及玩家消費意願。",
+    "importance": "normal"
+  },
+  {
+    "source": "BBC World",
+    "category": "international",
+    "title_original": "Spain PM pins hopes on housing crisis to help win snap election",
+    "url": "https://www.bbc.co.uk/news/articles/ck5yn81qqde0o?at_medium=RSS&at_campaign=rss",
+    "date": "2026-10-06",
+    "title_zh": "西班牙首相冀望透過房市危機議題贏得提前大選",
+    "summary_zh": "西班牙首相桑切斯將其提前大選的勝選希望，寄託於處理國內嚴峻的房屋危機。他承諾將推動相關政策，改善民眾住房問題，以爭取選民支持，尋求連任。此舉凸顯住房問題已成歐洲國家重要政治焦點。",
+    "game_impact": "西班牙房市政策成敗將影響當地經濟與民眾消費力。成功或可提振遊戲消費；反之，經濟惡化或政局不穩恐抑制玩家娛樂支出。",
+    "importance": "normal"
+  },
+  {
+    "source": "BBC World",
+    "category": "international",
+    "title_original": "US 'watching closely' after plague researcher dies in Russia",
+    "url": "https://www.bbc.co.uk/news/articles/cv5yn3nwp5n5o?at_medium=RSS&at_campaign=rss",
+    "date": "2026-10-06",
+    "title_zh": "俄羅斯鼠疫研究員身亡 美國表「密切關注」",
+    "summary_zh": "一名俄羅斯鼠疫研究員於俄國境內離世，據稱死因與鼠疫有關。美國對此事件表示正「密切關注」。",
+    "game_impact": "潛在公共衛生危機可能影響開發進度與供應鏈，並刺激末日生存或病毒題材遊戲需求。",
     "importance": "normal"
   }
 ]
