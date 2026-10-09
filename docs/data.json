@@ -2,39 +2,6 @@
   {
     "source": "BBC World",
     "category": "international",
-    "title_original": "Christa Pike in critical condition after surviving two lethal injections, lawyer says",
-    "url": "https://www.bbc.co.uk/news/articles/cmn4540d4z87o?at_medium=RSS&at_campaign=rss",
-    "date": "2026-10-02",
-    "title_zh": "死刑犯派克兩度致命注射倖存 律師證實情況危急",
-    "summary_zh": "美國死刑犯克莉絲塔·派克（Christa Pike）在兩度接受致命注射後仍存活，目前情況危急，其律師已證實此消息。",
-    "game_impact": "或啟發遊戲在倫理、司法、死亡或奇蹟生還題材的敘事深度，促使開發者更審慎處理生命與苦難的呈現。",
-    "importance": "normal"
-  },
-  {
-    "source": "BBC World",
-    "category": "international",
-    "title_original": "What happened in the failed execution of Christa Pike - and what next?",
-    "url": "https://www.bbc.co.uk/news/articles/ckge4eql4q7eo?at_medium=RSS&at_campaign=rss",
-    "date": "2026-10-02",
-    "title_zh": "克麗絲塔·派克死刑執行失敗：事件始末與後續發展",
-    "summary_zh": "死刑犯克麗絲塔·派克（Christa Pike）的死刑執行過程遭遇失敗，引發外界對處決方式、人道爭議及司法程序的廣泛關注。此事件可能觸發新一輪法律審查與人權討論。",
-    "game_impact": "此事件對遊戲業無直接影響。但若引發社會對司法、倫理及極端內容的深度討論，可能間接影響未來遊戲內容的創作審慎度與審查標準。",
-    "importance": "background"
-  },
-  {
-    "source": "BBC World",
-    "category": "international",
-    "title_original": "Netanyahu says Flydubai attacker had 'Islamist radical indoctrination'",
-    "url": "https://www.bbc.co.uk/news/articles/crje8edqyej9o?at_medium=RSS&at_campaign=rss",
-    "date": "2026-10-02",
-    "title_zh": "尼坦雅胡指杜拜航空襲擊者受激進伊斯蘭思想灌輸",
-    "summary_zh": "以色列總理尼坦雅胡指稱，涉及杜拜航空的襲擊者，其犯案動機來自於激進伊斯蘭思想的灌輸。此言論為近期安全事件提供官方解釋，強調意識形態驅動的威脅。",
-    "game_impact": "此類激進思想引發的襲擊恐加劇地緣政治緊張，可能導致特定市場的營運風險提升。同時，線上平台言論審查亦可能受影響，增加遊戲社群管理挑戰。",
-    "importance": "normal"
-  },
-  {
-    "source": "BBC World",
-    "category": "international",
     "title_original": "G7 to release 100 million barrels of oil and diesel after Trump export ban threat",
     "url": "https://www.bbc.co.uk/news/articles/ck87zg8jnwngo?at_medium=RSS&at_campaign=rss",
     "date": "2026-10-03",
@@ -900,5 +867,71 @@
     "summary_zh": "西班牙民眾抗議住房危機惡化，示威者歸咎「禿鷹基金」大量收購不良資產與房產，導致租金與房價飆漲，使得當地居民難以負擔，要求政府介入管制。",
     "game_impact": "西班牙房市困境恐壓縮當地居民可支配所得，影響遊戲購買力及娛樂消費。若此趨勢擴散，全球遊戲市場消費動能及開發人才流動亦可能受衝擊。",
     "importance": "normal"
+  },
+  {
+    "source": "BBC World",
+    "category": "international",
+    "title_original": "Trump announces deal for Russian diesel as Zelensky criticises 'gift to Putin'",
+    "url": "https://www.bbc.co.uk/news/articles/cm1dwgr666wno?at_medium=RSS&at_campaign=rss",
+    "date": "2026-10-10",
+    "title_zh": "川普宣布與俄羅斯達成柴油協議 澤倫斯基批「送普丁大禮」",
+    "summary_zh": "美國前總統川普宣布達成俄羅斯柴油供應協議。烏克蘭總統澤倫斯基對此強烈抨擊，指責此舉無疑是「送給普丁的禮物」，恐削弱制裁效力並資助俄羅斯戰事。",
+    "game_impact": "此協議恐加劇地緣政治不確定性，影響全球能源市場穩定。能源價格波動可能推高營運成本，並削弱玩家消費力，使遊戲產業投資趨於保守。",
+    "importance": "normal"
+  },
+  {
+    "source": "BBC World",
+    "category": "international",
+    "title_original": "US unveils sanctions on ICC in move court condemns as 'assault on rule of law'",
+    "url": "https://www.bbc.co.uk/news/articles/cj20vkkx3rdvo?at_medium=RSS&at_campaign=rss",
+    "date": "2026-10-10",
+    "title_zh": "美國制裁國際刑事法院 遭批「侵犯法治」",
+    "summary_zh": "美國宣布制裁國際刑事法院官員，因其調查美方戰爭罪指控。此舉遭國際刑事法院強烈譴責，指為「對法治的侵犯」，引發國際關切。",
+    "game_impact": "國際政治緊張，可能影響全球經濟與投資情緒，間接影響遊戲市場消費力，但直接關聯性低。",
+    "importance": "background"
+  },
+  {
+    "source": "BBC World",
+    "category": "international",
+    "title_original": "JD Vance casts doubt on firing squad execution and says he will not watch it",
+    "url": "https://www.bbc.co.uk/news/articles/ck20r39nl3qzo?at_medium=RSS&at_campaign=rss",
+    "date": "2026-10-10",
+    "title_zh": "JD范斯質疑槍決執行，表明不願觀看",
+    "summary_zh": "美國共和黨參議員JD范斯對槍決執行方式表達疑慮，並稱他將不會親自觀看。此事件引發關於死刑合法性及人道考量的討論。",
+    "game_impact": "此政治議題與遊戲產業無直接關聯。若相關討論擴大至媒體暴力呈現，或可能間接影響遊戲內容審查標準，但現階段影響甚微。",
+    "importance": "background"
+  },
+  {
+    "source": "BBC World",
+    "category": "international",
+    "title_original": "Powerful magnitude 7.7 earthquake hits Panama, damaging buildings",
+    "url": "https://www.bbc.co.uk/news/articles/c620r39zdp9wo?at_medium=RSS&at_campaign=rss",
+    "date": "2026-10-10",
+    "title_zh": "巴拿馬傳芮氏規模7.7強震 造成建築物受損",
+    "summary_zh": "中美洲國家巴拿馬發生芮氏規模7.7強烈地震，震央位處海域，但仍造成當地多處建築物受損。目前傷亡情況尚待進一步統計，但地震強度可能引發區域性災情與經濟影響。",
+    "game_impact": "巴拿馬並非全球主要遊戲開發或消費市場，此地震事件對全球遊戲供應鏈、數據中心或核心市場的直接影響極小。僅可能短暫影響當地玩家的網路穩定性及遊戲消費意願。",
+    "importance": "background"
+  },
+  {
+    "source": "BBC World",
+    "category": "international",
+    "title_original": "Russian search engine Yandex struggles after Ukrainian strikes on data centres",
+    "url": "https://www.bbc.co.uk/news/articles/c68xzqqn4ekro?at_medium=RSS&at_campaign=rss",
+    "date": "2026-10-10",
+    "title_zh": "烏克蘭襲擊資料中心 俄羅斯網路巨頭Yandex營運陷困境",
+    "summary_zh": "俄羅斯網路巨頭Yandex因其資料中心遭烏克蘭軍事襲擊而面臨嚴重營運困境。此事件恐導致Yandex服務中斷，影響其在俄羅斯及周邊地區的網路基礎設施與用戶體驗，進一步加劇俄烏衝突對科技產業的連鎖反應。",
+    "game_impact": "俄羅斯網路基礎設施受損，恐導致當地遊戲連線品質不佳、服務中斷，影響玩家體驗。依賴俄羅斯伺服器或市場的遊戲開發商與發行商亦將面臨營運挑戰與潛在收益損失。",
+    "importance": "normal"
+  },
+  {
+    "source": "BBC World",
+    "category": "international",
+    "title_original": "Man named Hitler Mussolini elected mayor in Peru",
+    "url": "https://www.bbc.co.uk/news/articles/cmdxwn9dr42yo?at_medium=RSS&at_campaign=rss",
+    "date": "2026-10-10",
+    "title_zh": "秘魯奇聞：男子名「希特勒·墨索里尼」當選市長",
+    "summary_zh": "秘魯地方選舉爆出奇聞，一名名為「希特勒·墨索里尼」的男子成功當選秘魯中部永加爾區的市長。其具爭議性的名字引發國際關注與討論。",
+    "game_impact": "此事件為地方政治趣聞，對遊戲開發、發行或市場無直接影響。遊戲公司仍需注意文化敏感度，避免觸及歷史爭議人物議題。",
+    "importance": "background"
   }
 ]
