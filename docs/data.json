@@ -2,72 +2,6 @@
   {
     "source": "BBC World",
     "category": "international",
-    "title_original": "Tennessee prison chief to resign after Christa Pike's failed execution",
-    "url": "https://www.bbc.co.uk/news/articles/c8zxl62yzxzxo?at_medium=RSS&at_campaign=rss",
-    "date": "2026-10-04",
-    "title_zh": "田納西州矯正署長因執行死刑失敗請辭",
-    "summary_zh": "田納西州矯正署長卡爾．史蒂芬斯因死刑犯克莉絲塔．派克執行死刑失敗的爭議而宣布辭職。該事件引發外界對執行程序、設備與倫理的廣泛質疑，凸顯美國司法體系中死刑執行的複雜性與潛在問題。",
-    "game_impact": "此事件可能提醒遊戲開發者，在處理犯罪、司法、監獄管理等主題時，需更深入探討系統缺陷與倫理困境，提升遊戲敘事的真實感與深度，或避免不必要的敏感爭議。",
-    "importance": "background"
-  },
-  {
-    "source": "BBC World",
-    "category": "international",
-    "title_original": "Flydubai co-pilot attacked captain with axe, UAE official says",
-    "url": "https://www.bbc.co.uk/news/articles/c61wv7lgex13o?at_medium=RSS&at_campaign=rss",
-    "date": "2026-10-04",
-    "title_zh": "杜拜航空驚傳副機長持斧襲擊機長 阿聯酋官員證實",
-    "summary_zh": "阿聯酋官員證實，杜拜航空副機長在飛行中持斧攻擊機長。事件細節與動機待查，或引發航空業安全討論。",
-    "game_impact": "此類真實暴力事件可能再度引發遊戲內容與暴力連結的討論，潛在增加產業的審查壓力或負面觀感。",
-    "importance": "background"
-  },
-  {
-    "source": "BBC World",
-    "category": "international",
-    "title_original": "Russia hits second major bridge in Ukraine's capital Kyiv",
-    "url": "https://www.bbc.co.uk/news/articles/c83vqxzdg1yko?at_medium=RSS&at_campaign=rss",
-    "date": "2026-10-04",
-    "title_zh": "俄羅斯襲擊烏克蘭首都基輔第二座主要橋樑",
-    "summary_zh": "俄羅斯軍隊再次對烏克蘭首都基輔發動攻擊，鎖定並襲擊了市內的第二座主要橋樑。此舉可能進一步破壞交通動脈，加劇人道危機，並升高地區緊張情勢。",
-    "game_impact": "戰事升級加劇全球經濟不確定性，恐影響玩家消費力、遊戲開發工作室運作及硬體供應鏈，增加產業營運風險。",
-    "importance": "critical"
-  },
-  {
-    "source": "BBC World",
-    "category": "international",
-    "title_original": "'Anger in the streets': Tens of thousands protest in Spain over housing crisis",
-    "url": "https://www.bbc.co.uk/news/articles/cm2kej47095no?at_medium=RSS&at_campaign=rss",
-    "date": "2026-10-04",
-    "title_zh": "西班牙「街頭怒火」延燒：數萬民眾上街抗議住房危機",
-    "summary_zh": "西班牙全國各地數萬民眾走上街頭，抗議日益嚴峻的住房危機，表達對高租金、房價與居住權的不滿，要求政府採取措施解決。",
-    "game_impact": "經濟不穩恐降低西班牙玩家購買遊戲及課金意願，影響當地市場營收。政策若緊縮，也可能波及遊戲開發環境。",
-    "importance": "normal"
-  },
-  {
-    "source": "BBC World",
-    "category": "international",
-    "title_original": "Medical plane with 6 on board missing off Massachusetts coast",
-    "url": "https://www.bbc.co.uk/news/articles/cme3x85013llo?at_medium=RSS&at_campaign=rss",
-    "date": "2026-10-04",
-    "title_zh": "麻州外海載六人醫療專機失蹤",
-    "summary_zh": "一架載有6人的醫療專機在美國麻薩諸塞州外海失聯，目前下落不明，搜救行動正在進行中。",
-    "game_impact": "此為單一地方性事件，對全球遊戲產業營運、開發或市場趨勢無直接影響，玩家消費能力亦不受影響。",
-    "importance": "background"
-  },
-  {
-    "source": "BBC World",
-    "category": "international",
-    "title_original": "Women given shorts at Oktoberfest to prevent upskirting",
-    "url": "https://www.bbc.co.uk/news/articles/cjwyzyqvx1zxo?at_medium=RSS&at_campaign=rss",
-    "date": "2026-10-04",
-    "title_zh": "防範偷拍裙底！慕尼黑啤酒節向女性提供短褲",
-    "summary_zh": "慕尼黑啤酒節為保護女性免受偷拍裙底騷擾，特別提供短褲供參與者穿著。此舉旨在提升活動期間的安全與舒適度，以應對日益嚴重的隱私侵犯問題。",
-    "game_impact": "此事件凸顯社會對隱私保護及反騷擾的重視。遊戲業應加強遊戲內外性別平等政策、防騷擾機制與內容審核，以維護玩家安全及社群環境，提升品牌聲譽。",
-    "importance": "normal"
-  },
-  {
-    "source": "BBC World",
-    "category": "international",
     "title_original": "Kyiv bridge hit in further Russian drone attack as German chancellor makes surprise visit",
     "url": "https://www.bbc.co.uk/news/articles/ckreyjzzzywqo?at_medium=RSS&at_campaign=rss",
     "date": "2026-10-05",
@@ -800,6 +734,83 @@
     "title_zh": "探險隊遠赴偏遠島嶼 盼尋獲傳奇飛行員艾爾哈特失蹤座機",
     "summary_zh": "一支探險隊近日啟程前往南太平洋一處偏遠島嶼，目標是尋找傳奇女飛行員艾蜜莉亞·艾爾哈特（Amelia Earhart）於1937年環球飛行途中失蹤的洛克希德Electra飛機殘骸，希望能解開航空史上最大謎團之一。",
     "game_impact": "若成功尋獲，此歷史解密事件將為冒險解謎、歷史模擬或生存探索類遊戲提供豐富題材與靈感。有望催生新的遊戲IP或內容，吸引對歷史未解之謎感興趣的玩家。",
+    "importance": "normal"
+  },
+  {
+    "source": "BBC World",
+    "category": "international",
+    "title_original": "Trump's 'energy ceasefire' claim welcomed by Zelensky but Russia silent",
+    "url": "https://www.bbc.co.uk/news/articles/c6pvg4jyz1m0o?at_medium=RSS&at_campaign=rss",
+    "date": "2026-10-12",
+    "title_zh": "川普倡議「能源停火」澤倫斯基表歡迎 俄羅斯未回應",
+    "summary_zh": "美國前總統川普倡議俄烏「能源停火」，烏克蘭總統澤倫斯基表示歡迎。俄羅斯方面至今保持沉默，未對此提議置評。",
+    "game_impact": "若能源停火成真，有助緩解地緣政治緊張與能源價格壓力，穩定全球經濟，間接提升玩家消費力與遊戲市場信心。",
+    "importance": "normal"
+  },
+  {
+    "source": "BBC World",
+    "category": "international",
+    "title_original": "Saudi capital airport hit by second Houthi strike in two days",
+    "url": "https://www.bbc.co.uk/news/articles/cr93znyk44e1o?at_medium=RSS&at_campaign=rss",
+    "date": "2026-10-12",
+    "title_zh": "沙烏地首都機場兩日內二度遭胡塞武裝襲擊",
+    "summary_zh": "沙烏地阿拉伯首都利雅德的國際機場，在兩天內二度遭葉門青年運動（胡塞武裝）發射導彈或無人機攻擊。儘管沙國聲稱攔截成功，此事件仍加劇區域緊張。",
+    "game_impact": "區域衝突加劇，恐影響沙烏地在遊戲產業的巨大投資與人才招募計畫，尤其可能打擊市場信心，拖累當地遊戲生態系發展。",
+    "importance": "critical"
+  },
+  {
+    "source": "BBC World",
+    "category": "international",
+    "title_original": "Poland detains man suspected of planning assassination of PM Tusk",
+    "url": "https://www.bbc.co.uk/news/articles/c6n9rvynl5p5o?at_medium=RSS&at_campaign=rss",
+    "date": "2026-10-12",
+    "title_zh": "波蘭逮獲疑策劃刺殺總理圖斯克嫌犯",
+    "summary_zh": "波蘭當局逮捕一名男子，他涉嫌圖謀刺殺該國總理圖斯克。此嫌犯疑受外國情報機構指示，協助籌備潛在襲擊。此事件凸顯波蘭國家安全面臨的威脅，相關調查持續進行。",
+    "game_impact": "此地緣政治事件若導致區域緊張升級或經濟不確定性增加，恐間接影響遊戲市場的消費者支出與投資信心。政府對資訊安全的重視提升，也可能促使遊戲公司加強防護。",
+    "importance": "normal"
+  },
+  {
+    "source": "BBC World",
+    "category": "international",
+    "title_original": "Dozens of gold prospectors killed in strikes on Egypt-Sudan border, rights group says",
+    "url": "https://www.bbc.co.uk/news/articles/cqy43vrk8wv8o?at_medium=RSS&at_campaign=rss",
+    "date": "2026-10-12",
+    "title_zh": "埃及-蘇丹邊境遇襲 數十名淘金客喪生 人權團體指控",
+    "summary_zh": "人權組織指出，埃及與蘇丹邊境地區發生攻擊事件，導致數十名金礦探勘者死亡。此事件再次凸顯當地資源爭奪與衝突的危險性。",
+    "game_impact": "此類現實衝突事件，或可成為未來生存、策略或開放世界遊戲的靈感，探討資源爭奪與邊境求生的議題。",
+    "importance": "background"
+  },
+  {
+    "source": "BBC World",
+    "category": "international",
+    "title_original": "Homes and bridges swept away as fresh floods hit Nepal",
+    "url": "https://www.bbc.co.uk/news/articles/ck86zppejjw3o?at_medium=RSS&at_campaign=rss",
+    "date": "2026-10-12",
+    "title_zh": "尼泊爾再遭洪災肆虐 房屋橋樑俱毀",
+    "summary_zh": "尼泊爾近期遭受新一波強烈洪災襲擊，導致大量房屋和多座橋樑被沖毀，造成嚴重破壞與人員流離失所，當地救援行動面臨挑戰。",
+    "game_impact": "該地區基礎設施受損，恐遲滯網路普及與數位經濟發展，短期內消費力下降，對全球遊戲市場的產品觸及與拓展影響有限。",
+    "importance": "background"
+  },
+  {
+    "source": "BBC World",
+    "category": "international",
+    "title_original": "Ukraine strikes Yandex data centre in third attack on Russian tech giant",
+    "url": "https://www.bbc.co.uk/news/articles/cw0k0g57mk3zo?at_medium=RSS&at_campaign=rss",
+    "date": "2026-10-12",
+    "title_zh": "烏克蘭三度襲擊俄科技巨頭Yandex資料中心",
+    "summary_zh": "烏克蘭對俄羅斯科技巨頭Yandex的資料中心發動第三次攻擊。這次襲擊引發外界對基礎設施安全的擔憂，對俄羅斯數位服務構成潛在威脅。",
+    "game_impact": "此類攻擊凸顯地緣政治衝突對網路基礎設施的威脅，恐影響俄羅斯市場遊戲服務穩定性，並提升全球遊戲業者對資安風險的重視。",
+    "importance": "normal"
+  },
+  {
+    "source": "TechCrunch",
+    "category": "tech",
+    "title_original": "Will the HomeView be Apple’s first smart home success?",
+    "url": "https://techcrunch.com/2026/10/11/will-the-homeview-be-apples-first-smart-home-success/",
+    "date": "2026-10-12",
+    "title_zh": "HomeView 能否為 Apple 敲開智慧家庭成功大門？",
+    "summary_zh": "業界高度關注 Apple 新產品 HomeView 能否扭轉其在智慧家庭市場的平淡表現，首次取得關鍵性成功，為公司開啟全新局面。",
+    "game_impact": "若 Apple 成功，有望開創智慧家庭遊戲新載體，如聲控互動遊戲或環境式娛樂體驗，拓寬遊戲產業生態版圖。",
     "importance": "normal"
   }
 ]
