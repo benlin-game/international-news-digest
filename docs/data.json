@@ -2,72 +2,6 @@
   {
     "source": "BBC World",
     "category": "international",
-    "title_original": "Fort Hood shooter's execution by firing squad will be livestreamed, Pentagon says",
-    "url": "https://www.bbc.co.uk/news/articles/cmy0r96xygx6o?at_medium=RSS&at_campaign=rss",
-    "date": "2026-10-09",
-    "title_zh": "五角大廈證實：霍德堡槍手槍決將直播",
-    "summary_zh": "五角大廈證實，霍德堡槍手將以槍決方式伏法，且行刑過程將全程直播。此決議恐引發社會各界對於死刑執行與媒體倫理的劇烈爭議。",
-    "game_impact": "現實暴力直播引發的道德爭議，恐促使社會更嚴格審視遊戲內暴力內容，增加遊戲產業的審查壓力及內容倫理討論。",
-    "importance": "normal"
-  },
-  {
-    "source": "BBC World",
-    "category": "international",
-    "title_original": "Russian strike on buses kills at least 30, say officials, as deadly attacks on Ukraine surge",
-    "url": "https://www.bbc.co.uk/news/articles/c875pwq134l3o?at_medium=RSS&at_campaign=rss",
-    "date": "2026-10-09",
-    "title_zh": "俄羅斯襲擊烏克蘭巴士釀至少30死 官員稱致命攻擊激增",
-    "summary_zh": "俄羅斯對烏克蘭發動襲擊，造成巴士上至少30名平民死亡。官員指出，烏克蘭境內致命攻擊事件正大幅增加，顯示戰火持續升級，加劇人道危機。",
-    "game_impact": "烏俄戰火升級將加劇全球經濟不確定性，恐影響遊戲消費市場。衝突地區遊戲開發人才流失與資源受限，亦將持續延宕遊戲專案進度。",
-    "importance": "critical"
-  },
-  {
-    "source": "BBC World",
-    "category": "international",
-    "title_original": "Christa Pike now walking after failed US execution, lawyer tells BBC",
-    "url": "https://www.bbc.co.uk/news/articles/c60rln74yzvxo?at_medium=RSS&at_campaign=rss",
-    "date": "2026-10-09",
-    "title_zh": "美國死刑執行失敗：克麗絲塔·派克律師稱其已能行走",
-    "summary_zh": "美國田納西州死刑犯克麗絲塔·派克，在經歷行刑失敗後，其律師向BBC透露，派克目前已能行走，引發社會對死刑執行與人權的關注。",
-    "game_impact": "此事件主要關乎司法與倫理，對遊戲產業無直接影響。僅可能間接影響極少數探討司法與道德題材的遊戲創作時的社會背景考量。",
-    "importance": "background"
-  },
-  {
-    "source": "BBC World",
-    "category": "international",
-    "title_original": "Adidas sues Australian label White Fox over four stripes design",
-    "url": "https://www.bbc.co.uk/news/articles/c9e8ld448km8o?at_medium=RSS&at_campaign=rss",
-    "date": "2026-10-09",
-    "title_zh": "愛迪達控告澳洲品牌White Fox 涉四條紋設計侵權",
-    "summary_zh": "運動品牌愛迪達（Adidas）正式向澳洲法院提告當地時尚品牌White Fox，指控其商品上的「四條紋」設計，涉嫌抄襲並侵犯愛迪達經典的「三條紋」商標權，要求停止販售並尋求賠償。",
-    "game_impact": "此案凸顯品牌IP保護重要性。遊戲業在虛擬商品、元宇宙聯名及NFT設計時，需審慎處理圖案與商標權，避免侵權風險，影響品牌聯名策略及虛擬設計規範。",
-    "importance": "normal"
-  },
-  {
-    "source": "BBC World",
-    "category": "international",
-    "title_original": "Venezuela's ex-leader Nicolás Maduro charged with conspiracy to commit torture",
-    "url": "https://www.bbc.co.uk/news/articles/c5pvgn7xvxpzo?at_medium=RSS&at_campaign=rss",
-    "date": "2026-10-09",
-    "title_zh": "委內瑞拉前領導人馬杜羅 遭控密謀實施酷刑",
-    "summary_zh": "委內瑞拉前領導人尼古拉斯·馬杜羅，遭控密謀實施酷刑罪。該指控涉及其任內侵犯人權行為，恐面臨國際審判與制裁。",
-    "game_impact": "委國政治動盪加劇，恐使當地遊戲市場消費力與基礎建設持續低迷，不利遊戲產業發展與海外投資。",
-    "importance": "background"
-  },
-  {
-    "source": "BBC World",
-    "category": "international",
-    "title_original": "Protesters blame 'vulture funds' for Spain's housing crisis",
-    "url": "https://www.bbc.co.uk/news/articles/c3j4790elkx7o?at_medium=RSS&at_campaign=rss",
-    "date": "2026-10-09",
-    "title_zh": "西班牙房市危機：示威者劍指「禿鷹基金」",
-    "summary_zh": "西班牙民眾抗議住房危機惡化，示威者歸咎「禿鷹基金」大量收購不良資產與房產，導致租金與房價飆漲，使得當地居民難以負擔，要求政府介入管制。",
-    "game_impact": "西班牙房市困境恐壓縮當地居民可支配所得，影響遊戲購買力及娛樂消費。若此趨勢擴散，全球遊戲市場消費動能及開發人才流動亦可能受衝擊。",
-    "importance": "normal"
-  },
-  {
-    "source": "BBC World",
-    "category": "international",
     "title_original": "Trump announces deal for Russian diesel as Zelensky criticises 'gift to Putin'",
     "url": "https://www.bbc.co.uk/news/articles/cm1dwgr666wno?at_medium=RSS&at_campaign=rss",
     "date": "2026-10-10",
@@ -537,5 +471,71 @@
     "summary_zh": "葉門官員證實，胡塞組織對葉門總統府發動飛彈襲擊，導致至少兩人死亡。此事件突顯葉門持續的衝突情勢，對區域穩定構成威脅，也讓當地人道危機雪上加霜。",
     "game_impact": "中東地緣政治緊張升溫，可能影響全球能源供應與經濟穩定。這可能間接降低玩家消費力，並為遊戲開發所需硬體供應鏈帶來潛在不確定性，影響投資情緒。",
     "importance": "normal"
+  },
+  {
+    "source": "BBC World",
+    "category": "international",
+    "title_original": "Inside Ukrainian offensive pushing Russia back - with Starlink playing a key role",
+    "url": "https://www.bbc.co.uk/news/articles/cvx284w16z1po?at_medium=RSS&at_campaign=rss",
+    "date": "2026-10-17",
+    "title_zh": "深入烏克蘭反攻戰線：星鏈通訊成擊退俄軍關鍵",
+    "summary_zh": "報導揭示烏克蘭反攻行動細節，指出「星鏈」衛星通訊系統在作戰中扮演關鍵角色，有效協助烏軍擊退俄羅斯軍隊，推進戰線。",
+    "game_impact": "地緣政治不穩影響遊戲市場與開發環境。高科技通訊在戰事中實用化，或啟發未來軍事策略遊戲題材與真實性考量。",
+    "importance": "normal"
+  },
+  {
+    "source": "BBC World",
+    "category": "international",
+    "title_original": "Palestinians and US journalist injured by Israeli settlers in West Bank harvest attack",
+    "url": "https://www.bbc.co.uk/news/articles/c65ynk7212vqo?at_medium=RSS&at_campaign=rss",
+    "date": "2026-10-17",
+    "title_zh": "約旦河西岸採收遭以色列屯墾者攻擊，巴勒斯坦人與美記者受傷",
+    "summary_zh": "以色列屯墾者在約旦河西岸襲擊正在採收農作的巴勒斯坦民眾，造成多人受傷，其中包括一名美國記者。此事件凸顯該地區持續的衝突與暴力問題，引發國際關注，對區域穩定構成挑戰。",
+    "game_impact": "此類地緣政治衝突加劇全球不確定性，可能間接影響遊戲市場的消費者信心與支出。開發者在設計涉及中東或現實衝突題材的遊戲時，需更謹慎處理內容的敏感性，避免引發爭議或冒犯特定族群。",
+    "importance": "normal"
+  },
+  {
+    "source": "BBC World",
+    "category": "international",
+    "title_original": "Trump denies limiting Ukraine access to Starlink network",
+    "url": "https://www.bbc.co.uk/news/articles/ckz65g34wyd8o?at_medium=RSS&at_campaign=rss",
+    "date": "2026-10-17",
+    "title_zh": "川普否認限制烏克蘭使用星鏈網路",
+    "summary_zh": "美國前總統川普否認關於他曾限制烏克蘭使用「星鏈」衛星網路服務的報導，此議題涉及戰時關鍵通訊與地緣政治。",
+    "game_impact": "星鏈服務普及有助遊戲業擴大用戶基礎。此議題凸顯地緣政治對網路基建的影響，影響玩家連線品質及遊戲市場發展潛力。",
+    "importance": "normal"
+  },
+  {
+    "source": "BBC World",
+    "category": "international",
+    "title_original": "Pope pictured for first time since surgery and cancer diagnosis",
+    "url": "https://www.bbc.co.uk/news/articles/cw146ej00yn7o?at_medium=RSS&at_campaign=rss",
+    "date": "2026-10-17",
+    "title_zh": "教宗術後與罹癌診斷後首度露面",
+    "summary_zh": "教宗方濟各在接受手術及被診斷出癌症後，首次被拍到公開露面，顯示其健康狀況引發外界關注，對全球信眾具有重要意義。",
+    "game_impact": "教宗健康消息非直接影響遊戲業。其對全球穩定性與消費者信心的間接作用微乎其微，不構成產業決策因素。",
+    "importance": "background"
+  },
+  {
+    "source": "BBC World",
+    "category": "international",
+    "title_original": "India's 'cockroach' party founder detained ahead of protest",
+    "url": "https://www.bbc.co.uk/news/articles/cmx237n1y9lzo?at_medium=RSS&at_campaign=rss",
+    "date": "2026-10-17",
+    "title_zh": "印度「蟑螂黨」創辦人於抗議前夕遭拘捕",
+    "summary_zh": "印度一被稱為「蟑螂黨」的政黨創辦人，因計劃發起一場抗議活動，在示威前夕遭到當局拘捕。此事件可能反映當地政治情勢緊張，以及政府對異議聲音的態度。",
+    "game_impact": "印度政治動盪恐導致網路限制、經濟不穩，進而影響遊戲下載、線上連線與玩家消費意願，對當地遊戲市場成長構成潛在風險。",
+    "importance": "normal"
+  },
+  {
+    "source": "BBC World",
+    "category": "international",
+    "title_original": "Dad fined after son, 2, died in Cyprus hotel fall",
+    "url": "https://www.bbc.co.uk/news/articles/cvj6j1klez88o?at_medium=RSS&at_campaign=rss",
+    "date": "2026-10-17",
+    "title_zh": "賽普勒斯飯店2歲童墜樓亡 父遭判罰款",
+    "summary_zh": "一名父親因2歲幼子在賽普勒斯飯店墜樓身亡，遭當地法院判處罰款。調查認定父親在事故中未盡監護責任。",
+    "game_impact": "此事件強調兒童監護責任，可能間接引發對兒童安全與注意力分散的討論，遊戲業需留意家長對數位產品使用規範的潛在關注。",
+    "importance": "background"
   }
 ]
