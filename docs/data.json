@@ -2,72 +2,6 @@
   {
     "source": "BBC World",
     "category": "international",
-    "title_original": "Trump announces deal for Russian diesel as Zelensky criticises 'gift to Putin'",
-    "url": "https://www.bbc.co.uk/news/articles/cm1dwgr666wno?at_medium=RSS&at_campaign=rss",
-    "date": "2026-10-10",
-    "title_zh": "川普宣布與俄羅斯達成柴油協議 澤倫斯基批「送普丁大禮」",
-    "summary_zh": "美國前總統川普宣布達成俄羅斯柴油供應協議。烏克蘭總統澤倫斯基對此強烈抨擊，指責此舉無疑是「送給普丁的禮物」，恐削弱制裁效力並資助俄羅斯戰事。",
-    "game_impact": "此協議恐加劇地緣政治不確定性，影響全球能源市場穩定。能源價格波動可能推高營運成本，並削弱玩家消費力，使遊戲產業投資趨於保守。",
-    "importance": "normal"
-  },
-  {
-    "source": "BBC World",
-    "category": "international",
-    "title_original": "US unveils sanctions on ICC in move court condemns as 'assault on rule of law'",
-    "url": "https://www.bbc.co.uk/news/articles/cj20vkkx3rdvo?at_medium=RSS&at_campaign=rss",
-    "date": "2026-10-10",
-    "title_zh": "美國制裁國際刑事法院 遭批「侵犯法治」",
-    "summary_zh": "美國宣布制裁國際刑事法院官員，因其調查美方戰爭罪指控。此舉遭國際刑事法院強烈譴責，指為「對法治的侵犯」，引發國際關切。",
-    "game_impact": "國際政治緊張，可能影響全球經濟與投資情緒，間接影響遊戲市場消費力，但直接關聯性低。",
-    "importance": "background"
-  },
-  {
-    "source": "BBC World",
-    "category": "international",
-    "title_original": "JD Vance casts doubt on firing squad execution and says he will not watch it",
-    "url": "https://www.bbc.co.uk/news/articles/ck20r39nl3qzo?at_medium=RSS&at_campaign=rss",
-    "date": "2026-10-10",
-    "title_zh": "JD范斯質疑槍決執行，表明不願觀看",
-    "summary_zh": "美國共和黨參議員JD范斯對槍決執行方式表達疑慮，並稱他將不會親自觀看。此事件引發關於死刑合法性及人道考量的討論。",
-    "game_impact": "此政治議題與遊戲產業無直接關聯。若相關討論擴大至媒體暴力呈現，或可能間接影響遊戲內容審查標準，但現階段影響甚微。",
-    "importance": "background"
-  },
-  {
-    "source": "BBC World",
-    "category": "international",
-    "title_original": "Powerful magnitude 7.7 earthquake hits Panama, damaging buildings",
-    "url": "https://www.bbc.co.uk/news/articles/c620r39zdp9wo?at_medium=RSS&at_campaign=rss",
-    "date": "2026-10-10",
-    "title_zh": "巴拿馬傳芮氏規模7.7強震 造成建築物受損",
-    "summary_zh": "中美洲國家巴拿馬發生芮氏規模7.7強烈地震，震央位處海域，但仍造成當地多處建築物受損。目前傷亡情況尚待進一步統計，但地震強度可能引發區域性災情與經濟影響。",
-    "game_impact": "巴拿馬並非全球主要遊戲開發或消費市場，此地震事件對全球遊戲供應鏈、數據中心或核心市場的直接影響極小。僅可能短暫影響當地玩家的網路穩定性及遊戲消費意願。",
-    "importance": "background"
-  },
-  {
-    "source": "BBC World",
-    "category": "international",
-    "title_original": "Russian search engine Yandex struggles after Ukrainian strikes on data centres",
-    "url": "https://www.bbc.co.uk/news/articles/c68xzqqn4ekro?at_medium=RSS&at_campaign=rss",
-    "date": "2026-10-10",
-    "title_zh": "烏克蘭襲擊資料中心 俄羅斯網路巨頭Yandex營運陷困境",
-    "summary_zh": "俄羅斯網路巨頭Yandex因其資料中心遭烏克蘭軍事襲擊而面臨嚴重營運困境。此事件恐導致Yandex服務中斷，影響其在俄羅斯及周邊地區的網路基礎設施與用戶體驗，進一步加劇俄烏衝突對科技產業的連鎖反應。",
-    "game_impact": "俄羅斯網路基礎設施受損，恐導致當地遊戲連線品質不佳、服務中斷，影響玩家體驗。依賴俄羅斯伺服器或市場的遊戲開發商與發行商亦將面臨營運挑戰與潛在收益損失。",
-    "importance": "normal"
-  },
-  {
-    "source": "BBC World",
-    "category": "international",
-    "title_original": "Man named Hitler Mussolini elected mayor in Peru",
-    "url": "https://www.bbc.co.uk/news/articles/cmdxwn9dr42yo?at_medium=RSS&at_campaign=rss",
-    "date": "2026-10-10",
-    "title_zh": "秘魯奇聞：男子名「希特勒·墨索里尼」當選市長",
-    "summary_zh": "秘魯地方選舉爆出奇聞，一名名為「希特勒·墨索里尼」的男子成功當選秘魯中部永加爾區的市長。其具爭議性的名字引發國際關注與討論。",
-    "game_impact": "此事件為地方政治趣聞，對遊戲開發、發行或市場無直接影響。遊戲公司仍需注意文化敏感度，避免觸及歷史爭議人物議題。",
-    "importance": "background"
-  },
-  {
-    "source": "BBC World",
-    "category": "international",
     "title_original": "'Time for Ukraine to get new president,' says Trump after Zelensky condemns diesel deal",
     "url": "https://www.bbc.co.uk/news/articles/cqe8r5l7n92jo?at_medium=RSS&at_campaign=rss",
     "date": "2026-10-11",
@@ -537,5 +471,71 @@
     "summary_zh": "一名父親因2歲幼子在賽普勒斯飯店墜樓身亡，遭當地法院判處罰款。調查認定父親在事故中未盡監護責任。",
     "game_impact": "此事件強調兒童監護責任，可能間接引發對兒童安全與注意力分散的討論，遊戲業需留意家長對數位產品使用規範的潛在關注。",
     "importance": "background"
+  },
+  {
+    "source": "BBC World",
+    "category": "international",
+    "title_original": "Violent clashes, looting and buildings ablaze in France as over 1,000 arrested after protests",
+    "url": "https://www.bbc.co.uk/news/articles/c6d937wedj7jo?at_medium=RSS&at_campaign=rss",
+    "date": "2026-10-18",
+    "title_zh": "法國示威後陷暴亂：暴力衝突、搶劫、建築物遭焚，逾千人被捕",
+    "summary_zh": "法國因示威活動爆發大規模暴亂，各地出現劇烈暴力衝突、商店遭搶劫，甚至建築物被縱火焚毀。警方已逮捕超過一千人，情勢持續緊張。",
+    "game_impact": "法國騷亂恐影響當地實體遊戲銷售及玩家消費意願，亦可能對在法遊戲公司營運及員工安全構成挑戰，短期內市場動盪加劇。",
+    "importance": "critical"
+  },
+  {
+    "source": "BBC World",
+    "category": "international",
+    "title_original": "Trump waives several Russia sanctions as row with Zelensky intensifies",
+    "url": "https://www.bbc.co.uk/news/articles/cxr5yvzv7rp0o?at_medium=RSS&at_campaign=rss",
+    "date": "2026-10-18",
+    "title_zh": "川普豁免數項對俄制裁，值與澤倫斯基爭執加劇之際",
+    "summary_zh": "美國前總統川普在與烏克蘭總統澤倫斯基的關係日益緊張之際，決定豁免部分對俄羅斯的制裁。此舉引發外界對美烏關係及國際局勢的關注。",
+    "game_impact": "政治緊張與國際關係變化可能影響全球經濟穩定性與消費者信心，間接衝擊遊戲市場投資與消費意願。",
+    "importance": "normal"
+  },
+  {
+    "source": "BBC World",
+    "category": "international",
+    "title_original": "European diplomats attacked by Israeli settlers in West Bank",
+    "url": "https://www.bbc.co.uk/news/articles/c962ydpmjm3zo?at_medium=RSS&at_campaign=rss",
+    "date": "2026-10-18",
+    "title_zh": "約旦河西岸衝突升級：歐洲外交官遭以色列屯墾者襲擊",
+    "summary_zh": "數名歐洲外交官在約旦河西岸人道援助現場，遭以色列屯墾者襲擊，車輛受損，所幸無人受傷。此事件恐加劇地區緊張局勢。",
+    "game_impact": "地緣政治緊張加劇，可能影響全球經濟穩定及玩家消費意願。遊戲開發者處理現實衝突題材需更謹慎，避免引發爭議。",
+    "importance": "normal"
+  },
+  {
+    "source": "BBC World",
+    "category": "international",
+    "title_original": "Anti-government protesters battle with police in Albania",
+    "url": "https://www.bbc.co.uk/news/articles/crwydey50xeno?at_medium=RSS&at_campaign=rss",
+    "date": "2026-10-18",
+    "title_zh": "阿爾巴尼亞反政府示威爆發警民衝突",
+    "summary_zh": "阿爾巴尼亞首都地拉那爆發大規模反政府示威，抗議民眾與警方爆發激烈衝突。示威者指控政府腐敗並要求總理下台，警方則動用催淚瓦斯和水炮驅散人群，造成多人受傷。",
+    "game_impact": "政治動盪可能影響區域經濟穩定，進而降低當地玩家購買遊戲及相關商品的消費意願。同時，全球投資者對新興市場的信心也可能受挫。",
+    "importance": "background"
+  },
+  {
+    "source": "BBC World",
+    "category": "international",
+    "title_original": "At least 17 dead in crush at Hindu festival event in India",
+    "url": "https://www.bbc.co.uk/news/articles/c820vwq7qg2ko?at_medium=RSS&at_campaign=rss",
+    "date": "2026-10-18",
+    "title_zh": "印度教節慶踩踏意外 釀至少17死多人傷",
+    "summary_zh": "印度一場印度教節慶活動發生嚴重踩踏事件，導致至少17人死亡，多人受傷。這起悲劇凸顯了大型集會的安全管理與人群控制問題，引發社會對公共活動安全的廣泛關注與檢討。",
+    "game_impact": "大型公眾活動安全疑慮升高，可能促使全球遊戲展、電競賽事等大型實體活動加強安檢及人群控制，潛在增加營運成本與挑戰。",
+    "importance": "normal"
+  },
+  {
+    "source": "BBC World",
+    "category": "international",
+    "title_original": "Teacher fought US school attacker before armed dad shot suspect 'multiple times'",
+    "url": "https://www.bbc.co.uk/news/articles/cv98zw1k8kp3o?at_medium=RSS&at_campaign=rss",
+    "date": "2026-10-18",
+    "title_zh": "美校園驚魂：教師搏鬥阻擋，持槍父親多槍制伏嫌犯",
+    "summary_zh": "美國一所學校發生襲擊事件，一名教師奮不顧身與襲擊者搏鬥。隨後，一名在場的持槍父親對嫌犯連開數槍，成功將其制伏。此事件凸顯校園安全與自衛權議題。",
+    "game_impact": "此類真實暴力事件恐引發社會對槍械與校園安全更嚴格討論，可能導致遊戲業面臨更多內容審查壓力，尤其是在槍枝與暴力題材方面。",
+    "importance": "normal"
   }
 ]
