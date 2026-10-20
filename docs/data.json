@@ -2,72 +2,6 @@
   {
     "source": "BBC World",
     "category": "international",
-    "title_original": "Six Ukrainian energy sites hit by Russia since Trump announced ceasefire, Zelensky says",
-    "url": "https://www.bbc.co.uk/news/articles/cvlyd4pdlwkxo?at_medium=RSS&at_campaign=rss",
-    "date": "2026-10-13",
-    "title_zh": "澤倫斯基：川普談停火後 烏克蘭六處能源設施仍遭俄襲擊",
-    "summary_zh": "烏克蘭總統澤倫斯基表示，儘管美國前總統川普曾提出停火倡議，但俄羅斯仍持續攻擊，已襲擊烏克蘭境內六處能源設施。此舉顯示戰事未歇，恐加劇烏克蘭能源危機與人道困境。",
-    "game_impact": "持續戰事引發的全球經濟不確定性及通膨，將衝擊遊戲玩家消費能力及開發商營運成本。此外，烏克蘭電力不穩亦直接影響當地玩家體驗及遊戲市場復甦進程。",
-    "importance": "critical"
-  },
-  {
-    "source": "BBC World",
-    "category": "international",
-    "title_original": "Why Moscow is staying tight-lipped on Trump's energy ceasefire",
-    "url": "https://www.bbc.co.uk/news/articles/cjx2359qekrdo?at_medium=RSS&at_campaign=rss",
-    "date": "2026-10-13",
-    "title_zh": "川普能源休戰提議 莫斯科為何三緘其口？",
-    "summary_zh": "前美國總統川普提出「能源休戰」倡議，旨在穩定全球能源市場並可能緩和地緣政治緊張。然而，莫斯科對此提議至今保持沉默，引發國際社會對其真實意圖、美俄關係未來走向，以及全球能源市場可能變化的諸多揣測與分析。",
-    "game_impact": "若此議題引發全球能源市場不確定性或地緣政治緊張升級，可能影響全球經濟穩定性，進而導致玩家可支配所得減少，衝擊遊戲消費力與產業投資信心。",
-    "importance": "normal"
-  },
-  {
-    "source": "BBC World",
-    "category": "international",
-    "title_original": "Documents falsified to evade tax on Abramovich's wealth, BBC finds",
-    "url": "https://www.bbc.co.uk/news/articles/c64g1l5389kvo?at_medium=RSS&at_campaign=rss",
-    "date": "2026-10-13",
-    "title_zh": "BBC揭露：阿布拉莫維奇涉偽造文件規避財富稅",
-    "summary_zh": "BBC調查發現，俄羅斯寡頭阿布拉莫維奇涉嫌偽造文件，以規避英國對其巨額財富徵收的稅款。此事件凸顯高淨值人士的避稅問題。",
-    "game_impact": "對遊戲產業無直接衝擊；反映國際金融監管趨嚴，可能間接影響所有高淨值投資者的資金流向審查，提高產業融資的背景風險評估。",
-    "importance": "background"
-  },
-  {
-    "source": "BBC World",
-    "category": "international",
-    "title_original": "Saudi minister vows 'serious response' to Houthi attacks on airports",
-    "url": "https://www.bbc.co.uk/news/articles/cjly0zqq27e4o?at_medium=RSS&at_campaign=rss",
-    "date": "2026-10-13",
-    "title_zh": "沙烏地部長揚言「嚴肅回應」青年運動襲擊機場事件",
-    "summary_zh": "沙烏地部長針對青年運動襲擊機場事件，誓言將採取「嚴肅回應」，恐加劇中東地緣政治緊張。",
-    "game_impact": "地緣衝突升級恐推高能源成本，衝擊遊戲開發與營運。沙烏地龐大遊戲投資亦面臨不確定性。",
-    "importance": "critical"
-  },
-  {
-    "source": "BBC World",
-    "category": "international",
-    "title_original": "Breaking Bad actor RJ Mitte dies aged 34",
-    "url": "https://www.bbc.co.uk/news/articles/cmn045en7d88o?at_medium=RSS&at_campaign=rss",
-    "date": "2026-10-13",
-    "title_zh": "《絕命毒師》演員RJ Mitte享年34歲逝世",
-    "summary_zh": "以熱門影集《絕命毒師》中飾演「小華特」一角聞名的美國演員RJ Mitte，驚傳於34歲逝世。他的突然離世震驚演藝圈，許多影迷與同業紛紛表達哀悼與不捨。",
-    "game_impact": "此事件對遊戲產業並無直接影響。然而，作為跨媒體名人離世，可能間接引發對知名影視IP與遊戲聯動作品中演員參與度及角色生命議題呈現的討論。",
-    "importance": "background"
-  },
-  {
-    "source": "BBC World",
-    "category": "international",
-    "title_original": "South Africa's deputy police chief resigns after being charged with sexual offences",
-    "url": "https://www.bbc.co.uk/news/articles/c8wy9d940pyko?at_medium=RSS&at_campaign=rss",
-    "date": "2026-10-13",
-    "title_zh": "南非副警務處長遭性罪指控後請辭",
-    "summary_zh": "南非副警務處長因面臨性犯罪指控而請辭。此事件凸顯高層官員的操守問題，在當地引發廣泛關注與討論。",
-    "game_impact": "此為南非內部政治事件，對全球遊戲市場影響微乎其微。若當地營商環境受衝擊，或間接影響遊戲消費。",
-    "importance": "background"
-  },
-  {
-    "source": "BBC World",
-    "category": "international",
     "title_original": "Pope diagnosed with lung cancer but had successful surgery, Vatican says",
     "url": "https://www.bbc.co.uk/news/articles/ck1wvd9dvv22o?at_medium=RSS&at_campaign=rss",
     "date": "2026-10-14",
@@ -701,6 +635,72 @@
     "title_zh": "饒舌歌手瑟克希·瑞德也困惑：暴風女傳奇造型為何如此之少？",
     "summary_zh": "饒舌歌手瑟克希·瑞德（Sexyy Red）近日發文，表達對經典漫畫角色「暴風女」（Storm）在遊戲中傳奇造型稀少的困惑。此言論引起廣大玩家共鳴，凸顯社群對角色豐富度與造型設計的高度關注。",
     "game_impact": "此事件凸顯遊戲開發商在角色造型設計與商業化策略上，需更重視玩家社群回饋與IP潛力。忽視熱門角色恐錯失潛在營收與玩家忠誠度，反之則能強化玩家連結。",
+    "importance": "normal"
+  },
+  {
+    "source": "BBC World",
+    "category": "international",
+    "title_original": "Zelensky says US intelligence sharing 'works now' after talks with Trump envoy in Oslo",
+    "url": "https://www.bbc.co.uk/news/articles/cq5ynkx3xy11o?at_medium=RSS&at_campaign=rss",
+    "date": "2026-10-21",
+    "title_zh": "澤倫斯基與川普特使奧斯陸會談，稱美方情報共享「目前運作良好」",
+    "summary_zh": "烏克蘭總統澤倫斯基在奧斯陸與川普特使會談後指出，美國情報共享機制「目前運作良好」，暗示雙邊關係與合作有所進展。",
+    "game_impact": "訊息若暗示國際局勢趨穩，或減少地緣政治不確定性，有助於維護全球遊戲市場穩定及玩家消費意願。",
+    "importance": "normal"
+  },
+  {
+    "source": "BBC World",
+    "category": "international",
+    "title_original": "Marseille braces for more unrest after protests give way to 'apocalyptic' disorder",
+    "url": "https://www.bbc.co.uk/news/articles/cm5ynkk570pno?at_medium=RSS&at_campaign=rss",
+    "date": "2026-10-21",
+    "title_zh": "馬賽抗議變調「末日級」失序 當局嚴防新一波動盪",
+    "summary_zh": "法國馬賽因抗議活動變調，演變成嚴重的「末日級」失序與混亂。當局正嚴陣以待，防範可能再度爆發的動盪，社會情勢緊繃。",
+    "game_impact": "社會動盪恐影響當地遊戲市場消費力，造成線下零售、電競活動受阻，甚至可能波及遊戲開發商的營運與人才流動。對實體遊戲銷售和區域性發行會帶來風險。",
+    "importance": "normal"
+  },
+  {
+    "source": "BBC World",
+    "category": "international",
+    "title_original": "Man charged with attack on Australia MP to face court",
+    "url": "https://www.bbc.co.uk/news/articles/c678pnn9mpgno?at_medium=RSS&at_campaign=rss",
+    "date": "2026-10-21",
+    "title_zh": "涉襲澳洲國會議員 男子將出庭應訊",
+    "summary_zh": "一名男子因涉嫌襲擊澳洲國會議員，將面臨法庭審判。此事件引發對政治暴力與社會安全議題的關注，凸顯民意代表遭受威脅的風險。",
+    "game_impact": "或引發社會對暴力議題更廣泛討論，潛在影響遊戲內容審查標準，特別是涉及政治或寫實暴力的表現方式。",
+    "importance": "normal"
+  },
+  {
+    "source": "BBC World",
+    "category": "international",
+    "title_original": "Trump and Zelensky appear at loggerheads despite Oslo optimism",
+    "url": "https://www.bbc.co.uk/news/articles/ckrey51jrgnro?at_medium=RSS&at_campaign=rss",
+    "date": "2026-10-21",
+    "title_zh": "奧斯陸樂觀氛圍難掩：川普、澤倫斯基關係仍陷僵局",
+    "summary_zh": "儘管國際社會對奧斯陸峰會或相關外交會談抱持樂觀，美國前總統川普與烏克蘭總統澤倫斯基的關係仍顯緊張，雙方意見分歧，未能消弭彼此間的僵局，凸顯地緣政治複雜性。",
+    "game_impact": "國際領袖關係緊張，可能加劇全球地緣政治不確定性，連帶影響經濟前景。遊戲產業投資者與消費者信心或受打擊，進而影響遊戲銷售、新作開發時程與市場拓展。",
+    "importance": "normal"
+  },
+  {
+    "source": "BBC World",
+    "category": "international",
+    "title_original": "'Great result for Canada', says Carney as Alberta votes to reject separatism",
+    "url": "https://www.bbc.co.uk/news/articles/cxr5yqqd7nlpo?at_medium=RSS&at_campaign=rss",
+    "date": "2026-10-21",
+    "title_zh": "亞伯達省否決分離主義 卡尼：加拿大傳捷報",
+    "summary_zh": "加拿大亞伯達省公投結果出爐，民眾投票否決脫離加拿大獨立。前央行總裁卡尼稱此為「加拿大傳捷報」，維護了國家統一與穩定。",
+    "game_impact": "維持加拿大政治經濟穩定，有助於遊戲產業投資及人才發展，消費者信心穩定亦利於市場成長。",
+    "importance": "normal"
+  },
+  {
+    "source": "BBC World",
+    "category": "international",
+    "title_original": "Trump sued over Canadian tariffs in latest legal challenge",
+    "url": "https://www.bbc.co.uk/news/articles/cqrkyj13m588o?at_medium=RSS&at_campaign=rss",
+    "date": "2026-10-21",
+    "title_zh": "總統川普再遇法律挑戰：因加國關稅問題遭控告",
+    "summary_zh": "美國總統川普因對加拿大商品加徵關稅，引發最新一波法律訴訟，此舉可能挑戰其關稅政策的合法性與執行權限。",
+    "game_impact": "貿易爭端恐影響全球經濟穩定，進而降低玩家消費意願，或增加遊戲硬體、軟體及開發成本，間接影響產業營收。",
     "importance": "normal"
   }
 ]
