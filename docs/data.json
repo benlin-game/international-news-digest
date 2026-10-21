@@ -2,72 +2,6 @@
   {
     "source": "BBC World",
     "category": "international",
-    "title_original": "Pope diagnosed with lung cancer but had successful surgery, Vatican says",
-    "url": "https://www.bbc.co.uk/news/articles/ck1wvd9dvv22o?at_medium=RSS&at_campaign=rss",
-    "date": "2026-10-14",
-    "title_zh": "梵蒂岡證實教宗方濟各罹患肺癌，手術成功",
-    "summary_zh": "梵蒂岡日前證實，教宗方濟各曾確診肺癌並已成功接受手術治療。據悉，教宗目前狀況穩定且正在康復中。",
-    "game_impact": "此為全球宗教領袖的健康事件，對遊戲產業的產品開發、市場銷售或營運策略，預計不會產生直接或顯著的影響。",
-    "importance": "background"
-  },
-  {
-    "source": "BBC World",
-    "category": "international",
-    "title_original": "Saudi man charged with planting 'sophisticated' recording device in OpenAI office",
-    "url": "https://www.bbc.co.uk/news/articles/cwg5jq4vlddzo?at_medium=RSS&at_campaign=rss",
-    "date": "2026-10-14",
-    "title_zh": "沙烏地男子被控在OpenAI辦公室植入「精密」監聽裝置",
-    "summary_zh": "美國司法部宣布起訴一名沙烏地公民，指控其在人工智慧巨頭OpenAI的辦公室內，植入了一個「精密」的監聽設備。此事件引發外界對企業機密保護及潛在國家級間諜活動的關注。",
-    "game_impact": "遊戲業高度依賴AI工具加速開發，此事件凸顯AI核心技術與資料安全漏洞風險。遊戲公司須更審慎評估AI供應商的資安防護，確保其智慧財產權不受威脅。",
-    "importance": "critical"
-  },
-  {
-    "source": "BBC World",
-    "category": "international",
-    "title_original": "MI5 chief warns of threats to UK from Russia, Iran and AI",
-    "url": "https://www.bbc.co.uk/news/articles/c60rl5vwpk02o?at_medium=RSS&at_campaign=rss",
-    "date": "2026-10-14",
-    "title_zh": "MI5首長示警：俄羅斯、伊朗及AI對英國構成威脅",
-    "summary_zh": "英國軍情五處（MI5）處長麥卡勒姆警告，俄羅斯、伊朗及新興人工智慧（AI）對英國國家安全構成嚴重威脅，呼籲各界提高警惕，防範潛在間諜活動、網路攻擊及技術竊取。",
-    "game_impact": "AI國安威脅可能促使政府加強AI技術監管，影響遊戲業AI應用發展與內容審核。地緣政治緊張也將提升遊戲營運風險。",
-    "importance": "normal"
-  },
-  {
-    "source": "BBC World",
-    "category": "international",
-    "title_original": "Missiles intercepted near Riyadh after Saudi coalition hits Yemen fuel depot",
-    "url": "https://www.bbc.co.uk/news/articles/crx2d60y1py3o?at_medium=RSS&at_campaign=rss",
-    "date": "2026-10-14",
-    "title_zh": "沙烏地聯軍轟炸葉門燃料庫後 利雅德附近飛彈遭攔截",
-    "summary_zh": "沙烏地聯軍空襲葉門燃料庫後，其首都利雅德附近隨即遭遇飛彈襲擊。沙烏地官方證實，來襲飛彈已成功攔截，凸顯中東地區衝突情勢持續緊張。",
-    "game_impact": "中東地緣政治緊張恐影響當地遊戲市場發展及消費意願。全球油價波動將推高營運成本；整體經濟不確定性亦可能降低玩家在遊戲上的支出。",
-    "importance": "normal"
-  },
-  {
-    "source": "BBC World",
-    "category": "international",
-    "title_original": "Ex-gang boss sentenced to 40 years for orchestrating Tupac Shakur's murder",
-    "url": "https://www.bbc.co.uk/news/articles/c60rln2jvv2zo?at_medium=RSS&at_campaign=rss",
-    "date": "2026-10-14",
-    "title_zh": "策劃圖帕克謀殺案 前幫派首腦判囚40年",
-    "summary_zh": "前幫派首腦杜恩·戴維斯因策劃饒舌巨星圖帕克·夏庫爾1996年謀殺案，遭拉斯維加斯法院判處40年徒刑。此案終結近30年懸而未決的疑雲。",
-    "game_impact": "此案為真實犯罪敘事提供新素材，或促遊戲商探討名人IP於數位娛樂中的運用界線與道德考量。",
-    "importance": "normal"
-  },
-  {
-    "source": "BBC World",
-    "category": "international",
-    "title_original": "Cornell bans all fraternity parties over gang sex assault allegations",
-    "url": "https://www.bbc.co.uk/news/articles/cw8dzg094zd9o?at_medium=RSS&at_campaign=rss",
-    "date": "2026-10-14",
-    "title_zh": "康乃爾大學疑涉集體性侵醜聞，勒令兄弟會全面停辦派對",
-    "summary_zh": "美國常春藤名校康乃爾大學因校園爆發集體性侵指控，決定全面禁止校內所有兄弟會派對，以確保學生安全並進行調查。",
-    "game_impact": "此類醜聞提醒遊戲公司在行銷或內容設計上，應更謹慎處理可能聯想到校園派對或社群互動的敏感題材，避免品牌受波及。",
-    "importance": "normal"
-  },
-  {
-    "source": "BBC World",
-    "category": "international",
     "title_original": "Musk says any limits on Ukraine's Starlink access down to US, not his firm",
     "url": "https://www.bbc.co.uk/news/articles/c8wy9veedgygo?at_medium=RSS&at_campaign=rss",
     "date": "2026-10-15",
@@ -701,6 +635,83 @@
     "title_zh": "總統川普再遇法律挑戰：因加國關稅問題遭控告",
     "summary_zh": "美國總統川普因對加拿大商品加徵關稅，引發最新一波法律訴訟，此舉可能挑戰其關稅政策的合法性與執行權限。",
     "game_impact": "貿易爭端恐影響全球經濟穩定，進而降低玩家消費意願，或增加遊戲硬體、軟體及開發成本，間接影響產業營收。",
+    "importance": "normal"
+  },
+  {
+    "source": "BBC World",
+    "category": "international",
+    "title_original": "Missiles hit Kyiv after Russia agrees to US call to resume Ukraine peace talks",
+    "url": "https://www.bbc.co.uk/news/articles/cq3djn5nxx12o?at_medium=RSS&at_campaign=rss",
+    "date": "2026-10-22",
+    "title_zh": "俄羅斯甫同意重啟烏克蘭和談，基輔隨即遭飛彈攻擊",
+    "summary_zh": "俄羅斯甫同意美國重啟烏克蘭和談的呼籲，首都基輔卻隨即遭飛彈襲擊。此舉為和談前景蒙上陰影，外界關注俄方真實意圖，加劇地緣政治緊張。",
+    "game_impact": "戰火持續恐衝擊烏克蘭遊戲開發商，並加劇全球經濟不確定性，影響遊戲銷售及玩家消費意願，亦增添地緣政治風險。",
+    "importance": "critical"
+  },
+  {
+    "source": "BBC World",
+    "category": "international",
+    "title_original": "Rosenberg: US diplomatic push offers little hope for imminent Ukraine peace",
+    "url": "https://www.bbc.co.uk/news/articles/cm98zn5j89kdo?at_medium=RSS&at_campaign=rss",
+    "date": "2026-10-22",
+    "title_zh": "羅森伯格：美外交努力難為烏克蘭帶來短期和平曙光",
+    "summary_zh": "羅森伯格分析指出，儘管美國積極推動外交斡旋，烏克蘭短期內達成和平的希望依然渺茫。他認為現有努力難以迅速解決衝突，預計戰事將長期化，全球局勢持續不穩。",
+    "game_impact": "烏克蘭衝突長期化恐加劇全球經濟不確定性，影響玩家消費力與遊戲開發成本。戰時題材遊戲或將受關注，但也潛藏供應鏈與市場風險。",
+    "importance": "normal"
+  },
+  {
+    "source": "BBC World",
+    "category": "international",
+    "title_original": "Macron accuses foreign leaders of exploiting French riots",
+    "url": "https://www.bbc.co.uk/news/articles/ckjrw044ggxgo?at_medium=RSS&at_campaign=rss",
+    "date": "2026-10-22",
+    "title_zh": "馬克宏指控外國領袖利用法國騷亂",
+    "summary_zh": "法國總統馬克宏表示，部分外國勢力正利用法國近期騷亂，企圖從中獲利或煽動情勢，呼籲各方保持警惕。",
+    "game_impact": "政治指控加劇地緣政治緊張，可能影響法國及歐洲市場穩定性，潛在衝擊遊戲消費力、活動舉辦及投資信心。",
+    "importance": "normal"
+  },
+  {
+    "source": "BBC World",
+    "category": "international",
+    "title_original": "Pope does not need further treatment after lung cancer surgery",
+    "url": "https://www.bbc.co.uk/news/articles/cqrly2dg5xzzo?at_medium=RSS&at_campaign=rss",
+    "date": "2026-10-22",
+    "title_zh": "教宗肺癌術後康復良好，醫療團隊評估無須進一步治療",
+    "summary_zh": "教宗方濟各肺癌手術後恢復狀況良好，醫療團隊宣布其病情穩定，已無需接受進一步治療，顯示健康已大幅改善。",
+    "game_impact": "此新聞對遊戲產業無直接影響。教宗健康穩定有助於維持全球整體社會與文化氛圍的穩定性，間接有利於產業發展。",
+    "importance": "normal"
+  },
+  {
+    "source": "BBC World",
+    "category": "international",
+    "title_original": "'Targeted' attack on much-loved MP leaves Australian town heartbroken",
+    "url": "https://www.bbc.co.uk/news/articles/cmgr8q88r5eqo?at_medium=RSS&at_campaign=rss",
+    "date": "2026-10-22",
+    "title_zh": "澳洲備受景仰議員遭「鎖定攻擊」，城鎮悲慟欲絕",
+    "summary_zh": "一名深受愛戴的澳洲國會議員成為「鎖定攻擊」目標，導致當地城鎮居民陷入極度悲痛。事件震驚全國，警方已展開調查。",
+    "game_impact": "此為社會治安事件，與遊戲業無直接關聯。潛在社會不安或輿論變化，可能間接影響消費者信心。",
+    "importance": "background"
+  },
+  {
+    "source": "BBC World",
+    "category": "international",
+    "title_original": "Family of prison officer killed by IRA receives state apology",
+    "url": "https://www.bbc.co.uk/news/articles/ck20rver1j31o?at_medium=RSS&at_campaign=rss",
+    "date": "2026-10-22",
+    "title_zh": "遭IRA殺害獄警家屬 獲國家道歉",
+    "summary_zh": "國家承認對愛爾蘭共和軍（IRA）殺害獄警事件處理不當，向受害者家屬致歉，為歷史創傷尋求和解。",
+    "game_impact": "提醒遊戲開發者處理歷史衝突題材需極度敏感，避免政治爭議及傷害受害者情感，強調敘事責任。",
+    "importance": "background"
+  },
+  {
+    "source": "BBC World",
+    "category": "international",
+    "title_original": "Pakistan arrests man wanted by US over $126m postage fraud case",
+    "url": "https://www.bbc.co.uk/news/articles/ckdd8m1z1z3yo?at_medium=RSS&at_campaign=rss",
+    "date": "2026-10-22",
+    "title_zh": "巴基斯坦逮捕美通緝要犯 涉1.26億美元郵資詐騙案",
+    "summary_zh": "巴基斯坦執法部門逮捕了一名美國通緝犯，其涉嫌參與一宗價值高達1.26億美元的跨國郵資詐騙案。此案凸顯國際金融犯罪的規模與複雜性，該嫌犯預計將面臨引渡回美受審，以釐清詐騙集團的運作模式。",
+    "game_impact": "此案凸顯金融詐欺的全球挑戰。遊戲業雖非直接相關，但應警惕跨境金流風險，防範詐騙、洗錢及盜帳號。遊戲公司須強化支付系統資安與合規性，確保虛寶交易安全，避免成為不法份子利用，維護玩家信任及產業形象。",
     "importance": "normal"
   }
 ]
