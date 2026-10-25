@@ -2,72 +2,6 @@
   {
     "source": "BBC World",
     "category": "international",
-    "title_original": "Violent clashes, looting and buildings ablaze in France as over 1,000 arrested after protests",
-    "url": "https://www.bbc.co.uk/news/articles/c6d937wedj7jo?at_medium=RSS&at_campaign=rss",
-    "date": "2026-10-18",
-    "title_zh": "法國示威後陷暴亂：暴力衝突、搶劫、建築物遭焚，逾千人被捕",
-    "summary_zh": "法國因示威活動爆發大規模暴亂，各地出現劇烈暴力衝突、商店遭搶劫，甚至建築物被縱火焚毀。警方已逮捕超過一千人，情勢持續緊張。",
-    "game_impact": "法國騷亂恐影響當地實體遊戲銷售及玩家消費意願，亦可能對在法遊戲公司營運及員工安全構成挑戰，短期內市場動盪加劇。",
-    "importance": "critical"
-  },
-  {
-    "source": "BBC World",
-    "category": "international",
-    "title_original": "Trump waives several Russia sanctions as row with Zelensky intensifies",
-    "url": "https://www.bbc.co.uk/news/articles/cxr5yvzv7rp0o?at_medium=RSS&at_campaign=rss",
-    "date": "2026-10-18",
-    "title_zh": "川普豁免數項對俄制裁，值與澤倫斯基爭執加劇之際",
-    "summary_zh": "美國前總統川普在與烏克蘭總統澤倫斯基的關係日益緊張之際，決定豁免部分對俄羅斯的制裁。此舉引發外界對美烏關係及國際局勢的關注。",
-    "game_impact": "政治緊張與國際關係變化可能影響全球經濟穩定性與消費者信心，間接衝擊遊戲市場投資與消費意願。",
-    "importance": "normal"
-  },
-  {
-    "source": "BBC World",
-    "category": "international",
-    "title_original": "European diplomats attacked by Israeli settlers in West Bank",
-    "url": "https://www.bbc.co.uk/news/articles/c962ydpmjm3zo?at_medium=RSS&at_campaign=rss",
-    "date": "2026-10-18",
-    "title_zh": "約旦河西岸衝突升級：歐洲外交官遭以色列屯墾者襲擊",
-    "summary_zh": "數名歐洲外交官在約旦河西岸人道援助現場，遭以色列屯墾者襲擊，車輛受損，所幸無人受傷。此事件恐加劇地區緊張局勢。",
-    "game_impact": "地緣政治緊張加劇，可能影響全球經濟穩定及玩家消費意願。遊戲開發者處理現實衝突題材需更謹慎，避免引發爭議。",
-    "importance": "normal"
-  },
-  {
-    "source": "BBC World",
-    "category": "international",
-    "title_original": "Anti-government protesters battle with police in Albania",
-    "url": "https://www.bbc.co.uk/news/articles/crwydey50xeno?at_medium=RSS&at_campaign=rss",
-    "date": "2026-10-18",
-    "title_zh": "阿爾巴尼亞反政府示威爆發警民衝突",
-    "summary_zh": "阿爾巴尼亞首都地拉那爆發大規模反政府示威，抗議民眾與警方爆發激烈衝突。示威者指控政府腐敗並要求總理下台，警方則動用催淚瓦斯和水炮驅散人群，造成多人受傷。",
-    "game_impact": "政治動盪可能影響區域經濟穩定，進而降低當地玩家購買遊戲及相關商品的消費意願。同時，全球投資者對新興市場的信心也可能受挫。",
-    "importance": "background"
-  },
-  {
-    "source": "BBC World",
-    "category": "international",
-    "title_original": "At least 17 dead in crush at Hindu festival event in India",
-    "url": "https://www.bbc.co.uk/news/articles/c820vwq7qg2ko?at_medium=RSS&at_campaign=rss",
-    "date": "2026-10-18",
-    "title_zh": "印度教節慶踩踏意外 釀至少17死多人傷",
-    "summary_zh": "印度一場印度教節慶活動發生嚴重踩踏事件，導致至少17人死亡，多人受傷。這起悲劇凸顯了大型集會的安全管理與人群控制問題，引發社會對公共活動安全的廣泛關注與檢討。",
-    "game_impact": "大型公眾活動安全疑慮升高，可能促使全球遊戲展、電競賽事等大型實體活動加強安檢及人群控制，潛在增加營運成本與挑戰。",
-    "importance": "normal"
-  },
-  {
-    "source": "BBC World",
-    "category": "international",
-    "title_original": "Teacher fought US school attacker before armed dad shot suspect 'multiple times'",
-    "url": "https://www.bbc.co.uk/news/articles/cv98zw1k8kp3o?at_medium=RSS&at_campaign=rss",
-    "date": "2026-10-18",
-    "title_zh": "美校園驚魂：教師搏鬥阻擋，持槍父親多槍制伏嫌犯",
-    "summary_zh": "美國一所學校發生襲擊事件，一名教師奮不顧身與襲擊者搏鬥。隨後，一名在場的持槍父親對嫌犯連開數槍，成功將其制伏。此事件凸顯校園安全與自衛權議題。",
-    "game_impact": "此類真實暴力事件恐引發社會對槍械與校園安全更嚴格討論，可能導致遊戲業面臨更多內容審查壓力，尤其是在槍枝與暴力題材方面。",
-    "importance": "normal"
-  },
-  {
-    "source": "BBC World",
-    "category": "international",
     "title_original": "Macron calls for 'calm and order' after riots across France",
     "url": "https://www.bbc.co.uk/news/articles/cw240zl08dm5o?at_medium=RSS&at_campaign=rss",
     "date": "2026-10-19",
@@ -1032,5 +966,82 @@
     "summary_zh": "好萊塢影星辛蒂亞據傳已提前為其在《沙丘：第三部》中的表現，規劃奧斯卡最佳女主角獎項的競逐宣傳活動。此舉突顯電影公司對該系列的信心。",
     "game_impact": "強化《沙丘》IP知名度及市場熱度，有助於相關遊戲作品吸引玩家，提升銷售與開發潛力。",
     "importance": "normal"
+  },
+  {
+    "source": "BBC World",
+    "category": "international",
+    "title_original": "Serbia's veteran ruler Vučić concedes election to student-led protest movement",
+    "url": "https://www.bbc.co.uk/news/articles/cw5yn3xlprpmo?at_medium=RSS&at_campaign=rss",
+    "date": "2026-10-26",
+    "title_zh": "塞爾維亞強人武契奇大選落敗 權力交棒學生抗議運動",
+    "summary_zh": "塞爾維亞長期執政的強人總統武契奇，已承認在大選中敗於學生主導的抗議運動所支持的候選人，標誌著塞國政局的重大轉變與世代交替。",
+    "game_impact": "塞爾維亞政局轉變對全球遊戲業影響輕微，主要影響當地遊戲市場與新政府的數位政策方向，短期或存不確定性。",
+    "importance": "normal"
+  },
+  {
+    "source": "BBC World",
+    "category": "international",
+    "title_original": "Venezuelan opposition leader María Machado returns after months in exile",
+    "url": "https://www.bbc.co.uk/news/articles/cq8ez592pp0eo?at_medium=RSS&at_campaign=rss",
+    "date": "2026-10-26",
+    "title_zh": "委內瑞拉反對派領袖馬查多 結束數月流亡返國",
+    "summary_zh": "委內瑞拉主要反對派領袖瑪麗亞·馬查多，在流亡數月後已重返國內。她的歸來預計將為委內瑞拉的政治版圖及即將到來的選舉帶來重大變數，引發國際社會的高度關注。",
+    "game_impact": "委內瑞拉政局波動加劇，可能衝擊當地玩家消費力、網路與金流穩定性，阻礙遊戲市場發展。若情勢長期動盪，恐間接影響區域經濟及全球遊戲供應鏈。",
+    "importance": "normal"
+  },
+  {
+    "source": "BBC World",
+    "category": "international",
+    "title_original": "Musk says SpaceX restricted Ukraine's Starlink connection as service restored",
+    "url": "https://www.bbc.co.uk/news/articles/cvx28ljp8n4xo?at_medium=RSS&at_campaign=rss",
+    "date": "2026-10-26",
+    "title_zh": "馬斯克：SpaceX曾限制烏克蘭星鏈連線，現已恢復服務",
+    "summary_zh": "埃隆·馬斯克證實，SpaceX曾限制烏克蘭的星鏈衛星網路服務，以防其用於軍事攻擊用途。儘管服務曾受限，目前網路連線已恢復正常。",
+    "game_impact": "此事件凸顯地緣政治衝突對網路基礎建設的潛在干預，恐影響戰爭區域玩家的線上遊戲體驗。雲端遊戲、電競賽事等高度依賴穩定網路的服務，亦面臨服務中斷風險。",
+    "importance": "critical"
+  },
+  {
+    "source": "BBC World",
+    "category": "international",
+    "title_original": "Suspect in deadly Paris suburb shooting sent for psychiatric observation",
+    "url": "https://www.bbc.co.uk/news/articles/c6e3xek2457wo?at_medium=RSS&at_campaign=rss",
+    "date": "2026-10-26",
+    "title_zh": "巴黎郊區致命槍擊案嫌犯 送精神鑑定",
+    "summary_zh": "巴黎郊區日前發生致命槍擊案，造成傷亡。涉案嫌犯目前已被送往精神病院進行觀察與評估，以釐清其精神狀態是否影響犯案。事件持續引發當地關注。",
+    "game_impact": "若事件被不當連結至遊戲暴力，恐再引發輿論對遊戲內容的審查爭議，增加產業公關挑戰與潛在監管壓力。",
+    "importance": "normal"
+  },
+  {
+    "source": "BBC World",
+    "category": "international",
+    "title_original": "Israel to close West Bank crossings on election day as crackdown escalates",
+    "url": "https://www.bbc.co.uk/news/articles/c6y93ylpl5p2o?at_medium=RSS&at_campaign=rss",
+    "date": "2026-10-26",
+    "title_zh": "以色列因鎮壓行動升級，宣布選舉日封鎖約旦河西岸關口",
+    "summary_zh": "以色列當局因應當地鎮壓行動升級，宣布將於選舉日暫時封鎖約旦河西岸所有過境點，以維護安全，避免衝突發生。",
+    "game_impact": "區域政治緊張升高，可能影響全球投資者對中東市場或科技產業的信心，間接造成遊戲業在該地區的市場拓展或人才佈局需潛在觀望。",
+    "importance": "normal"
+  },
+  {
+    "source": "BBC World",
+    "category": "international",
+    "title_original": "Gabon says access to social media restored after eight-month ban",
+    "url": "https://www.bbc.co.uk/news/articles/c6x2w0ngejneo?at_medium=RSS&at_campaign=rss",
+    "date": "2026-10-26",
+    "title_zh": "迦彭恢復社群媒體服務，結束長達八個月的網路禁令",
+    "summary_zh": "迦彭政府宣布解除長達八個月的社群媒體禁令，民眾現已能正常存取如臉書、推特等平台。此舉可能標誌著該國網路自由的恢復。",
+    "game_impact": "有利遊戲行銷、社群建立與玩家互動，尤其對手遊推廣有益。雖迦彭市場規模小，仍有助拓展潛在玩家。",
+    "importance": "normal"
+  },
+  {
+    "source": "BBC World",
+    "category": "international",
+    "title_original": "El Salvador president says bodies found in Haiti are not those of hostages",
+    "url": "https://www.bbc.co.uk/news/articles/c8ly097zw1xwo?at_medium=RSS&at_campaign=rss",
+    "date": "2026-10-26",
+    "title_zh": "薩爾瓦多總統澄清：海地尋獲遺體非失蹤人質",
+    "summary_zh": "薩爾瓦多總統布格磊表示，海地尋獲的遺體證實並非該國失蹤人質，此消息為動盪的海地局勢帶來一絲轉機，但人質危機仍未解除。",
+    "game_impact": "海地局勢動盪，儘管澄清人質消息，地緣政治緊張可能間接影響全球市場情緒，進而波及玩家消費意願及產業投資。",
+    "importance": "background"
   }
 ]
