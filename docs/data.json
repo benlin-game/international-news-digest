@@ -2,83 +2,6 @@
   {
     "source": "BBC World",
     "category": "international",
-    "title_original": "Missiles hit Kyiv after Russia agrees to US call to resume Ukraine peace talks",
-    "url": "https://www.bbc.co.uk/news/articles/cq3djn5nxx12o?at_medium=RSS&at_campaign=rss",
-    "date": "2026-10-22",
-    "title_zh": "俄羅斯甫同意重啟烏克蘭和談，基輔隨即遭飛彈攻擊",
-    "summary_zh": "俄羅斯甫同意美國重啟烏克蘭和談的呼籲，首都基輔卻隨即遭飛彈襲擊。此舉為和談前景蒙上陰影，外界關注俄方真實意圖，加劇地緣政治緊張。",
-    "game_impact": "戰火持續恐衝擊烏克蘭遊戲開發商，並加劇全球經濟不確定性，影響遊戲銷售及玩家消費意願，亦增添地緣政治風險。",
-    "importance": "critical"
-  },
-  {
-    "source": "BBC World",
-    "category": "international",
-    "title_original": "Rosenberg: US diplomatic push offers little hope for imminent Ukraine peace",
-    "url": "https://www.bbc.co.uk/news/articles/cm98zn5j89kdo?at_medium=RSS&at_campaign=rss",
-    "date": "2026-10-22",
-    "title_zh": "羅森伯格：美外交努力難為烏克蘭帶來短期和平曙光",
-    "summary_zh": "羅森伯格分析指出，儘管美國積極推動外交斡旋，烏克蘭短期內達成和平的希望依然渺茫。他認為現有努力難以迅速解決衝突，預計戰事將長期化，全球局勢持續不穩。",
-    "game_impact": "烏克蘭衝突長期化恐加劇全球經濟不確定性，影響玩家消費力與遊戲開發成本。戰時題材遊戲或將受關注，但也潛藏供應鏈與市場風險。",
-    "importance": "normal"
-  },
-  {
-    "source": "BBC World",
-    "category": "international",
-    "title_original": "Macron accuses foreign leaders of exploiting French riots",
-    "url": "https://www.bbc.co.uk/news/articles/ckjrw044ggxgo?at_medium=RSS&at_campaign=rss",
-    "date": "2026-10-22",
-    "title_zh": "馬克宏指控外國領袖利用法國騷亂",
-    "summary_zh": "法國總統馬克宏表示，部分外國勢力正利用法國近期騷亂，企圖從中獲利或煽動情勢，呼籲各方保持警惕。",
-    "game_impact": "政治指控加劇地緣政治緊張，可能影響法國及歐洲市場穩定性，潛在衝擊遊戲消費力、活動舉辦及投資信心。",
-    "importance": "normal"
-  },
-  {
-    "source": "BBC World",
-    "category": "international",
-    "title_original": "Pope does not need further treatment after lung cancer surgery",
-    "url": "https://www.bbc.co.uk/news/articles/cqrly2dg5xzzo?at_medium=RSS&at_campaign=rss",
-    "date": "2026-10-22",
-    "title_zh": "教宗肺癌術後康復良好，醫療團隊評估無須進一步治療",
-    "summary_zh": "教宗方濟各肺癌手術後恢復狀況良好，醫療團隊宣布其病情穩定，已無需接受進一步治療，顯示健康已大幅改善。",
-    "game_impact": "此新聞對遊戲產業無直接影響。教宗健康穩定有助於維持全球整體社會與文化氛圍的穩定性，間接有利於產業發展。",
-    "importance": "normal"
-  },
-  {
-    "source": "BBC World",
-    "category": "international",
-    "title_original": "'Targeted' attack on much-loved MP leaves Australian town heartbroken",
-    "url": "https://www.bbc.co.uk/news/articles/cmgr8q88r5eqo?at_medium=RSS&at_campaign=rss",
-    "date": "2026-10-22",
-    "title_zh": "澳洲備受景仰議員遭「鎖定攻擊」，城鎮悲慟欲絕",
-    "summary_zh": "一名深受愛戴的澳洲國會議員成為「鎖定攻擊」目標，導致當地城鎮居民陷入極度悲痛。事件震驚全國，警方已展開調查。",
-    "game_impact": "此為社會治安事件，與遊戲業無直接關聯。潛在社會不安或輿論變化，可能間接影響消費者信心。",
-    "importance": "background"
-  },
-  {
-    "source": "BBC World",
-    "category": "international",
-    "title_original": "Family of prison officer killed by IRA receives state apology",
-    "url": "https://www.bbc.co.uk/news/articles/ck20rver1j31o?at_medium=RSS&at_campaign=rss",
-    "date": "2026-10-22",
-    "title_zh": "遭IRA殺害獄警家屬 獲國家道歉",
-    "summary_zh": "國家承認對愛爾蘭共和軍（IRA）殺害獄警事件處理不當，向受害者家屬致歉，為歷史創傷尋求和解。",
-    "game_impact": "提醒遊戲開發者處理歷史衝突題材需極度敏感，避免政治爭議及傷害受害者情感，強調敘事責任。",
-    "importance": "background"
-  },
-  {
-    "source": "BBC World",
-    "category": "international",
-    "title_original": "Pakistan arrests man wanted by US over $126m postage fraud case",
-    "url": "https://www.bbc.co.uk/news/articles/ckdd8m1z1z3yo?at_medium=RSS&at_campaign=rss",
-    "date": "2026-10-22",
-    "title_zh": "巴基斯坦逮捕美通緝要犯 涉1.26億美元郵資詐騙案",
-    "summary_zh": "巴基斯坦執法部門逮捕了一名美國通緝犯，其涉嫌參與一宗價值高達1.26億美元的跨國郵資詐騙案。此案凸顯國際金融犯罪的規模與複雜性，該嫌犯預計將面臨引渡回美受審，以釐清詐騙集團的運作模式。",
-    "game_impact": "此案凸顯金融詐欺的全球挑戰。遊戲業雖非直接相關，但應警惕跨境金流風險，防範詐騙、洗錢及盜帳號。遊戲公司須強化支付系統資安與合規性，確保虛寶交易安全，避免成為不法份子利用，維護玩家信任及產業形象。",
-    "importance": "normal"
-  },
-  {
-    "source": "BBC World",
-    "category": "international",
     "title_original": "Newborn twins fight for survival as conflict fuels Yemen's hunger crisis",
     "url": "https://www.bbc.co.uk/news/articles/cr5ynl63v0pyo?at_medium=RSS&at_campaign=rss",
     "date": "2026-10-23",
@@ -977,5 +900,71 @@
     "summary_zh": "DC漫畫《絕對蝙蝠俠 #25》帶來關鍵情節轉折，將深刻改變布魯斯·韋恩的角色定位與未來走向，徹底顛覆讀者對其既有認知，開啟嶄新篇章。",
     "game_impact": "蝙蝠俠是遊戲業熱門IP。此情節轉折可能影響未來遊戲劇情走向與角色設定，為DC遊戲帶來新敘事機會或挑戰。",
     "importance": "normal"
+  },
+  {
+    "source": "BBC World",
+    "category": "international",
+    "title_original": "Israeli opposition accuses Netanyahu of trying to 'delegitimise' election",
+    "url": "https://www.bbc.co.uk/news/articles/ckdd8qdl9e0eo?at_medium=RSS&at_campaign=rss",
+    "date": "2026-10-30",
+    "title_zh": "以色列反對派控納坦雅胡 企圖「破壞選舉合法性」",
+    "summary_zh": "以色列反對派公開指責總理納坦雅胡，試圖透過各種手段「削弱選舉合法性」，引發對國家民主進程的擔憂。此舉恐加劇政治分歧，升高社會對立情緒，可能導致政局進一步不穩。",
+    "game_impact": "以色列政治內鬥可能衝擊當地遊戲市場消費與開發商營運。若政局持續動盪，恐降低外資對區域科技投資信心，但對全球遊戲產業影響微小。",
+    "importance": "background"
+  },
+  {
+    "source": "BBC World",
+    "category": "international",
+    "title_original": "Audio reveals exchanges between Spain train operators and drivers moments before deadly crash",
+    "url": "https://www.bbc.co.uk/news/articles/cmqxnl312v34o?at_medium=RSS&at_campaign=rss",
+    "date": "2026-10-30",
+    "title_zh": "西班牙列車致命事故前 營運商與駕駛通話錄音揭露",
+    "summary_zh": "西班牙一列火車發生致命衝撞事故前，列車營運商與駕駛間的通話錄音內容已遭揭露。此錄音檔預計將為調查人員提供重要線索，助於釐清事故發生原因與責任歸屬。",
+    "game_impact": "此類真實世界事故與調查，或可為高度擬真的交通模擬遊戲提供情節靈感，促使遊戲設計更深入考量複雜的營運管理與溝通協調機制。",
+    "importance": "background"
+  },
+  {
+    "source": "BBC World",
+    "category": "international",
+    "title_original": "'The city is alive': A brief peace in Kherson, but residents fear what comes next",
+    "url": "https://www.bbc.co.uk/news/articles/ck1l393pyrylo?at_medium=RSS&at_campaign=rss",
+    "date": "2026-10-30",
+    "title_zh": "戰火下赫爾松乍現生機，短暫和平難撫居民對前景的憂懼",
+    "summary_zh": "戰火洗禮後的赫爾松現正享受著短暫的和平與生機，居民生活逐漸恢復。然而，當地民眾普遍對未來情勢感到不安，擔憂這份寧靜能否持久，以及潛在的戰事再次爆發。這凸顯了受衝突影響地區的脆弱與不確定性。",
+    "game_impact": "地緣政治緊張局勢加劇全球經濟不確定性，可能影響玩家消費意願與遊戲投資。同時，衝突與重建題材或會成為遊戲內容的靈感，但需謹慎處理以避免爭議。",
+    "importance": "normal"
+  },
+  {
+    "source": "BBC World",
+    "category": "international",
+    "title_original": "Russian drone attack on Ukrainian train station kills at least 14, officials say",
+    "url": "https://www.bbc.co.uk/news/articles/c9p8gdlz1p2ko?at_medium=RSS&at_campaign=rss",
+    "date": "2026-10-30",
+    "title_zh": "俄羅斯無人機襲擊烏克蘭火車站 官方證實至少14人罹難",
+    "summary_zh": "烏克蘭一火車站遭俄羅斯無人機襲擊，官方證實造成至少14人死亡。此事件加劇了俄烏戰火的人道危機，並凸顯民用設施持續面臨的威脅。",
+    "game_impact": "戰事升級恐致全球經濟不穩，玩家消費力下降。遊戲公司撤出俄市場、審查壓力、供應鏈風險持續。",
+    "importance": "normal"
+  },
+  {
+    "source": "BBC World",
+    "category": "international",
+    "title_original": "Flávio Bolsonaro calls himself 'leader of Brazil' after election loss",
+    "url": "https://www.bbc.co.uk/news/articles/c3x2w4109pj8o?at_medium=RSS&at_campaign=rss",
+    "date": "2026-10-30",
+    "title_zh": "小波索納洛敗選後仍自詡「巴西領袖」",
+    "summary_zh": "巴西前總統波索納洛之子佛拉維歐・波索納洛，在其父敗選後，仍公開自稱是「巴西領袖」。此舉可能引發政治爭議，反映其家族對選舉結果的不滿或拒絕承認。",
+    "game_impact": "巴西政治動盪可能影響當地經濟穩定，導致貨幣貶值，降低消費者對遊戲及相關硬體支出。潛在社會不安或政策變化亦可能衝擊遊戲市場營運與投資環境。",
+    "importance": "normal"
+  },
+  {
+    "source": "BBC World",
+    "category": "international",
+    "title_original": "Philippine police obtain warrant to search Thomas Markle's devices",
+    "url": "https://www.bbc.co.uk/news/articles/cm0j06y3pn75o?at_medium=RSS&at_campaign=rss",
+    "date": "2026-10-30",
+    "title_zh": "菲律賓警方獲搜索票 將搜查湯瑪士·馬克爾設備",
+    "summary_zh": "菲律賓警方已取得搜查令，將對哈利王子岳父湯瑪士·馬克爾的電子裝置進行搜查。此舉可能與其在當地涉及的法律案件有關，具體原因待進一步釐清。",
+    "game_impact": "此事件間接提醒遊戲公司關注使用者資料隱私、跨國法律遵循及數位證據搜查等議題。雖然非直接相關，但凸顯數位資產受法律管轄的重要性。",
+    "importance": "background"
   }
 ]
