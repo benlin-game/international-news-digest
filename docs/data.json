@@ -2,83 +2,6 @@
   {
     "source": "BBC World",
     "category": "international",
-    "title_original": "Serbia's veteran ruler Vučić concedes election to student-led protest movement",
-    "url": "https://www.bbc.co.uk/news/articles/cw5yn3xlprpmo?at_medium=RSS&at_campaign=rss",
-    "date": "2026-10-26",
-    "title_zh": "塞爾維亞強人武契奇大選落敗 權力交棒學生抗議運動",
-    "summary_zh": "塞爾維亞長期執政的強人總統武契奇，已承認在大選中敗於學生主導的抗議運動所支持的候選人，標誌著塞國政局的重大轉變與世代交替。",
-    "game_impact": "塞爾維亞政局轉變對全球遊戲業影響輕微，主要影響當地遊戲市場與新政府的數位政策方向，短期或存不確定性。",
-    "importance": "normal"
-  },
-  {
-    "source": "BBC World",
-    "category": "international",
-    "title_original": "Venezuelan opposition leader María Machado returns after months in exile",
-    "url": "https://www.bbc.co.uk/news/articles/cq8ez592pp0eo?at_medium=RSS&at_campaign=rss",
-    "date": "2026-10-26",
-    "title_zh": "委內瑞拉反對派領袖馬查多 結束數月流亡返國",
-    "summary_zh": "委內瑞拉主要反對派領袖瑪麗亞·馬查多，在流亡數月後已重返國內。她的歸來預計將為委內瑞拉的政治版圖及即將到來的選舉帶來重大變數，引發國際社會的高度關注。",
-    "game_impact": "委內瑞拉政局波動加劇，可能衝擊當地玩家消費力、網路與金流穩定性，阻礙遊戲市場發展。若情勢長期動盪，恐間接影響區域經濟及全球遊戲供應鏈。",
-    "importance": "normal"
-  },
-  {
-    "source": "BBC World",
-    "category": "international",
-    "title_original": "Musk says SpaceX restricted Ukraine's Starlink connection as service restored",
-    "url": "https://www.bbc.co.uk/news/articles/cvx28ljp8n4xo?at_medium=RSS&at_campaign=rss",
-    "date": "2026-10-26",
-    "title_zh": "馬斯克：SpaceX曾限制烏克蘭星鏈連線，現已恢復服務",
-    "summary_zh": "埃隆·馬斯克證實，SpaceX曾限制烏克蘭的星鏈衛星網路服務，以防其用於軍事攻擊用途。儘管服務曾受限，目前網路連線已恢復正常。",
-    "game_impact": "此事件凸顯地緣政治衝突對網路基礎建設的潛在干預，恐影響戰爭區域玩家的線上遊戲體驗。雲端遊戲、電競賽事等高度依賴穩定網路的服務，亦面臨服務中斷風險。",
-    "importance": "critical"
-  },
-  {
-    "source": "BBC World",
-    "category": "international",
-    "title_original": "Suspect in deadly Paris suburb shooting sent for psychiatric observation",
-    "url": "https://www.bbc.co.uk/news/articles/c6e3xek2457wo?at_medium=RSS&at_campaign=rss",
-    "date": "2026-10-26",
-    "title_zh": "巴黎郊區致命槍擊案嫌犯 送精神鑑定",
-    "summary_zh": "巴黎郊區日前發生致命槍擊案，造成傷亡。涉案嫌犯目前已被送往精神病院進行觀察與評估，以釐清其精神狀態是否影響犯案。事件持續引發當地關注。",
-    "game_impact": "若事件被不當連結至遊戲暴力，恐再引發輿論對遊戲內容的審查爭議，增加產業公關挑戰與潛在監管壓力。",
-    "importance": "normal"
-  },
-  {
-    "source": "BBC World",
-    "category": "international",
-    "title_original": "Israel to close West Bank crossings on election day as crackdown escalates",
-    "url": "https://www.bbc.co.uk/news/articles/c6y93ylpl5p2o?at_medium=RSS&at_campaign=rss",
-    "date": "2026-10-26",
-    "title_zh": "以色列因鎮壓行動升級，宣布選舉日封鎖約旦河西岸關口",
-    "summary_zh": "以色列當局因應當地鎮壓行動升級，宣布將於選舉日暫時封鎖約旦河西岸所有過境點，以維護安全，避免衝突發生。",
-    "game_impact": "區域政治緊張升高，可能影響全球投資者對中東市場或科技產業的信心，間接造成遊戲業在該地區的市場拓展或人才佈局需潛在觀望。",
-    "importance": "normal"
-  },
-  {
-    "source": "BBC World",
-    "category": "international",
-    "title_original": "Gabon says access to social media restored after eight-month ban",
-    "url": "https://www.bbc.co.uk/news/articles/c6x2w0ngejneo?at_medium=RSS&at_campaign=rss",
-    "date": "2026-10-26",
-    "title_zh": "迦彭恢復社群媒體服務，結束長達八個月的網路禁令",
-    "summary_zh": "迦彭政府宣布解除長達八個月的社群媒體禁令，民眾現已能正常存取如臉書、推特等平台。此舉可能標誌著該國網路自由的恢復。",
-    "game_impact": "有利遊戲行銷、社群建立與玩家互動，尤其對手遊推廣有益。雖迦彭市場規模小，仍有助拓展潛在玩家。",
-    "importance": "normal"
-  },
-  {
-    "source": "BBC World",
-    "category": "international",
-    "title_original": "El Salvador president says bodies found in Haiti are not those of hostages",
-    "url": "https://www.bbc.co.uk/news/articles/c8ly097zw1xwo?at_medium=RSS&at_campaign=rss",
-    "date": "2026-10-26",
-    "title_zh": "薩爾瓦多總統澄清：海地尋獲遺體非失蹤人質",
-    "summary_zh": "薩爾瓦多總統布格磊表示，海地尋獲的遺體證實並非該國失蹤人質，此消息為動盪的海地局勢帶來一絲轉機，但人質危機仍未解除。",
-    "game_impact": "海地局勢動盪，儘管澄清人質消息，地緣政治緊張可能間接影響全球市場情緒，進而波及玩家消費意願及產業投資。",
-    "importance": "background"
-  },
-  {
-    "source": "BBC World",
-    "category": "international",
     "title_original": "Lula wins fourth term in dramatic Brazil election comeback",
     "url": "https://www.bbc.co.uk/news/articles/ckm23y3mg1yyo?at_medium=RSS&at_campaign=rss",
     "date": "2026-10-27",
@@ -856,5 +779,71 @@
     "summary_zh": "導演塔伊加·維迪提因其新片《克拉拉與太陽》獲負評，公開反擊評論家，稱他們「不相干、脫節、過時」。此舉引發業界對藝術評價與創作者關係的討論。",
     "game_impact": "影視與遊戲同屬內容產業，此事件可能導致遊戲開發者更關注社群意見而非傳統媒體評論，加劇創作者與評論者間的摩擦，進而影響遊戲宣傳策略及市場評價生態。",
     "importance": "normal"
+  },
+  {
+    "source": "BBC World",
+    "category": "international",
+    "title_original": "Russian bombing kills 26 people at Ukraine aid centre, Kyiv says",
+    "url": "https://www.bbc.co.uk/news/articles/cjy56dndlyz0o?at_medium=RSS&at_campaign=rss",
+    "date": "2026-11-03",
+    "title_zh": "基輔指控俄軍空襲烏克蘭援助中心 釀26死",
+    "summary_zh": "基輔當局表示，俄軍對烏克蘭一處人道援助中心發動空襲，造成至少26人死亡。此事件加劇了俄烏衝突的人道危機與國際譴責。",
+    "game_impact": "加劇地緣政治不確定性，促使遊戲公司加速評估對俄羅斯市場的投入。影響東歐開發者生態、玩家消費力及全球遊戲供應鏈穩定性。",
+    "importance": "critical"
+  },
+  {
+    "source": "BBC World",
+    "category": "international",
+    "title_original": "Copilot in deadly Florida jet crash identified in reports as 20-year-old",
+    "url": "https://www.bbc.co.uk/news/articles/cm369yy7lw73o?at_medium=RSS&at_campaign=rss",
+    "date": "2026-11-03",
+    "title_zh": "佛州致命墜機副駕駛證實為20歲青年",
+    "summary_zh": "美國佛羅里達州一架噴射機墜毀，造成致命事故，報導指出該機副駕駛證實是一名年僅20歲的年輕人。此事件引發社會對飛行員訓練與年齡限制的廣泛討論。",
+    "game_impact": "此事件與遊戲產業無直接關聯。頂多可能短暫提升對高度擬真飛行模擬遊戲的關注，或間接引發關於年輕專業人士在壓力環境下表現與訓練的討論。",
+    "importance": "background"
+  },
+  {
+    "source": "BBC World",
+    "category": "international",
+    "title_original": "Shop freezers in seven European countries hit by cyber-attack",
+    "url": "https://www.bbc.co.uk/news/articles/cq1kd1nee80eo?at_medium=RSS&at_campaign=rss",
+    "date": "2026-11-03",
+    "title_zh": "歐洲七國零售冷凍設備驚傳網攻，供應鏈恐受波及",
+    "summary_zh": "歐洲七個國家的零售業商用冷凍設備系統遭受大規模網路攻擊，導致部分系統停擺。此事件恐衝擊生鮮食品供應鏈，影響消費者購物體驗及商品可及性。",
+    "game_impact": "此事件凸顯跨產業網路安全威脅升級。遊戲業者應引以為鑑，強化自身系統防護，以保障玩家數據安全及遊戲服務的穩定性。",
+    "importance": "normal"
+  },
+  {
+    "source": "BBC World",
+    "category": "international",
+    "title_original": "Fighting returns to Kherson region after longest Ukraine war ceasefire",
+    "url": "https://www.bbc.co.uk/news/articles/ckg5jlyp66jzo?at_medium=RSS&at_campaign=rss",
+    "date": "2026-11-03",
+    "title_zh": "烏克蘭戰爭最長停火告終 赫爾松地區戰火重燃",
+    "summary_zh": "烏克蘭戰爭在經歷了最長期的停火後，赫爾松地區再度爆發戰鬥。此舉標誌著衝突情勢惡化，可能對區域穩定與全球地緣政治產生深遠影響。",
+    "game_impact": "戰事升級恐加劇全球經濟不確定性，影響遊戲玩家消費意願及開發商投資信心。能源價格與供應鏈波動亦可能衝擊遊戲主機及硬體生產成本。",
+    "importance": "critical"
+  },
+  {
+    "source": "BBC World",
+    "category": "international",
+    "title_original": "Legal challenge to Australia's social media ban to start in High Court",
+    "url": "https://www.bbc.co.uk/news/articles/ck79py02p1jlo?at_medium=RSS&at_campaign=rss",
+    "date": "2026-11-03",
+    "title_zh": "澳洲社群媒體禁令面臨司法挑戰，高等法院將開審",
+    "summary_zh": "澳洲政府針對社群媒體推出的「禁令」引發司法挑戰，此案將於高等法院展開審理。該禁令可能涉及年齡驗證或用戶身份核實，其合法性與影響將是爭議焦點。",
+    "game_impact": "若澳洲社群媒體禁令生效或受限，恐墊高遊戲發行商的行銷推廣成本，影響玩家社群凝聚與電競內容傳播。對依賴社媒觸及年輕受眾的遊戲是潛在風險。",
+    "importance": "critical"
+  },
+  {
+    "source": "BBC World",
+    "category": "international",
+    "title_original": "Man guilty of stealing cash from farm owned by South African president",
+    "url": "https://www.bbc.co.uk/news/articles/c9vgrvpk4l6eo?at_medium=RSS&at_campaign=rss",
+    "date": "2026-11-03",
+    "title_zh": "南非總統農場竊案：涉案男子盜竊罪名成立",
+    "summary_zh": "一名男子因竊取南非總統拉瑪佛沙農場現金，被法院判決盜竊罪名成立。此案引發外界對南非政治與治理透明度的關注。",
+    "game_impact": "此事反映南非政治及治理風險，對遊戲企業在當地市場的長期投資規劃與信心可能構成背景影響，但無直接衝擊。",
+    "importance": "background"
   }
 ]
