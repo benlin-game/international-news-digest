@@ -2,72 +2,6 @@
   {
     "source": "BBC World",
     "category": "international",
-    "title_original": "Israeli opposition accuses Netanyahu of trying to 'delegitimise' election",
-    "url": "https://www.bbc.co.uk/news/articles/ckdd8qdl9e0eo?at_medium=RSS&at_campaign=rss",
-    "date": "2026-10-30",
-    "title_zh": "以色列反對派控納坦雅胡 企圖「破壞選舉合法性」",
-    "summary_zh": "以色列反對派公開指責總理納坦雅胡，試圖透過各種手段「削弱選舉合法性」，引發對國家民主進程的擔憂。此舉恐加劇政治分歧，升高社會對立情緒，可能導致政局進一步不穩。",
-    "game_impact": "以色列政治內鬥可能衝擊當地遊戲市場消費與開發商營運。若政局持續動盪，恐降低外資對區域科技投資信心，但對全球遊戲產業影響微小。",
-    "importance": "background"
-  },
-  {
-    "source": "BBC World",
-    "category": "international",
-    "title_original": "Audio reveals exchanges between Spain train operators and drivers moments before deadly crash",
-    "url": "https://www.bbc.co.uk/news/articles/cmqxnl312v34o?at_medium=RSS&at_campaign=rss",
-    "date": "2026-10-30",
-    "title_zh": "西班牙列車致命事故前 營運商與駕駛通話錄音揭露",
-    "summary_zh": "西班牙一列火車發生致命衝撞事故前，列車營運商與駕駛間的通話錄音內容已遭揭露。此錄音檔預計將為調查人員提供重要線索，助於釐清事故發生原因與責任歸屬。",
-    "game_impact": "此類真實世界事故與調查，或可為高度擬真的交通模擬遊戲提供情節靈感，促使遊戲設計更深入考量複雜的營運管理與溝通協調機制。",
-    "importance": "background"
-  },
-  {
-    "source": "BBC World",
-    "category": "international",
-    "title_original": "'The city is alive': A brief peace in Kherson, but residents fear what comes next",
-    "url": "https://www.bbc.co.uk/news/articles/ck1l393pyrylo?at_medium=RSS&at_campaign=rss",
-    "date": "2026-10-30",
-    "title_zh": "戰火下赫爾松乍現生機，短暫和平難撫居民對前景的憂懼",
-    "summary_zh": "戰火洗禮後的赫爾松現正享受著短暫的和平與生機，居民生活逐漸恢復。然而，當地民眾普遍對未來情勢感到不安，擔憂這份寧靜能否持久，以及潛在的戰事再次爆發。這凸顯了受衝突影響地區的脆弱與不確定性。",
-    "game_impact": "地緣政治緊張局勢加劇全球經濟不確定性，可能影響玩家消費意願與遊戲投資。同時，衝突與重建題材或會成為遊戲內容的靈感，但需謹慎處理以避免爭議。",
-    "importance": "normal"
-  },
-  {
-    "source": "BBC World",
-    "category": "international",
-    "title_original": "Russian drone attack on Ukrainian train station kills at least 14, officials say",
-    "url": "https://www.bbc.co.uk/news/articles/c9p8gdlz1p2ko?at_medium=RSS&at_campaign=rss",
-    "date": "2026-10-30",
-    "title_zh": "俄羅斯無人機襲擊烏克蘭火車站 官方證實至少14人罹難",
-    "summary_zh": "烏克蘭一火車站遭俄羅斯無人機襲擊，官方證實造成至少14人死亡。此事件加劇了俄烏戰火的人道危機，並凸顯民用設施持續面臨的威脅。",
-    "game_impact": "戰事升級恐致全球經濟不穩，玩家消費力下降。遊戲公司撤出俄市場、審查壓力、供應鏈風險持續。",
-    "importance": "normal"
-  },
-  {
-    "source": "BBC World",
-    "category": "international",
-    "title_original": "Flávio Bolsonaro calls himself 'leader of Brazil' after election loss",
-    "url": "https://www.bbc.co.uk/news/articles/c3x2w4109pj8o?at_medium=RSS&at_campaign=rss",
-    "date": "2026-10-30",
-    "title_zh": "小波索納洛敗選後仍自詡「巴西領袖」",
-    "summary_zh": "巴西前總統波索納洛之子佛拉維歐・波索納洛，在其父敗選後，仍公開自稱是「巴西領袖」。此舉可能引發政治爭議，反映其家族對選舉結果的不滿或拒絕承認。",
-    "game_impact": "巴西政治動盪可能影響當地經濟穩定，導致貨幣貶值，降低消費者對遊戲及相關硬體支出。潛在社會不安或政策變化亦可能衝擊遊戲市場營運與投資環境。",
-    "importance": "normal"
-  },
-  {
-    "source": "BBC World",
-    "category": "international",
-    "title_original": "Philippine police obtain warrant to search Thomas Markle's devices",
-    "url": "https://www.bbc.co.uk/news/articles/cm0j06y3pn75o?at_medium=RSS&at_campaign=rss",
-    "date": "2026-10-30",
-    "title_zh": "菲律賓警方獲搜索票 將搜查湯瑪士·馬克爾設備",
-    "summary_zh": "菲律賓警方已取得搜查令，將對哈利王子岳父湯瑪士·馬克爾的電子裝置進行搜查。此舉可能與其在當地涉及的法律案件有關，具體原因待進一步釐清。",
-    "game_impact": "此事件間接提醒遊戲公司關注使用者資料隱私、跨國法律遵循及數位證據搜查等議題。雖然非直接相關，但凸顯數位資產受法律管轄的重要性。",
-    "importance": "background"
-  },
-  {
-    "source": "BBC World",
-    "category": "international",
     "title_original": "Crypto giant Binance attempting to recover $6.3bn stolen in hack linked to North Korea",
     "url": "https://www.bbc.co.uk/news/articles/cwe8lp7zy07zo?at_medium=RSS&at_campaign=rss",
     "date": "2026-10-31",
@@ -1284,6 +1218,72 @@
     "title_zh": "漫威官方證實：備受爭議的《蜘蛛人：再多一天》劇情終被推翻",
     "summary_zh": "漫威官方證實，備受粉絲詬病的《蜘蛛人：再多一天》漫畫劇情已正式被推翻。該故事線讓蜘蛛人彼得帕克與瑪麗珍的婚姻因魔鬼梅菲斯特的交易而消失，現已宣告無效，為角色未來發展開啟新頁。",
     "game_impact": "此舉為未來《蜘蛛人》遊戲提供更大敘事自由，創作者能更彈性地描繪彼得帕克的感情線與身份困境，或將影響續作劇情走向，避免粉絲對舊爭議的不滿。",
+    "importance": "normal"
+  },
+  {
+    "source": "BBC World",
+    "category": "international",
+    "title_original": "AI stocks climb after trillions wiped from market values",
+    "url": "https://www.bbc.co.uk/news/articles/c35ynnpzdq51o?at_medium=RSS&at_campaign=rss",
+    "date": "2026-11-07",
+    "title_zh": "數兆市值蒸發後 AI 概念股逆勢回升",
+    "summary_zh": "全球市場在經歷數兆美元市值蒸發後，AI 概念股卻展現強勁韌性逆勢上漲，凸顯投資人對人工智慧產業的未來發展仍抱持高度信心。",
+    "game_impact": "AI 股強勢有助於遊戲開發工具與內容生成技術持續獲投資，為遊戲業帶來更高效率、降低成本及創新玩法的機會。",
+    "importance": "normal"
+  },
+  {
+    "source": "BBC World",
+    "category": "international",
+    "title_original": "Four midterms takeaways for 2028 White House race",
+    "url": "https://www.bbc.co.uk/news/articles/cq1m41n3v7mmo?at_medium=RSS&at_campaign=rss",
+    "date": "2026-11-07",
+    "title_zh": "期中選舉四大啟示：透視2028年白宮大位競逐",
+    "summary_zh": "本文深入分析近期期中選舉的四個關鍵啟示，這些觀察將對2028年美國總統大選的選情、策略佈局及潛在候選人選擇產生深遠影響。",
+    "game_impact": "政治變動影響市場信心與消費者購買力。長期政策不確定性恐影響遊戲研發投資、海外市場准入及供應鏈穩定性。",
+    "importance": "normal"
+  },
+  {
+    "source": "BBC World",
+    "category": "international",
+    "title_original": "Two dead after bus crashes in France, officials say",
+    "url": "https://www.bbc.co.uk/news/articles/cmly00l4p3lwo?at_medium=RSS&at_campaign=rss",
+    "date": "2026-11-07",
+    "title_zh": "法國巴士意外釀兩死 官方證實",
+    "summary_zh": "法國發生巴士車禍，官方證實造成兩人不幸罹難。事故詳情與原因正在調查中。",
+    "game_impact": "此為局部交通意外，對全球遊戲產業營收、發行或開發活動無直接影響。遊戲市場應維持穩定。",
+    "importance": "background"
+  },
+  {
+    "source": "BBC World",
+    "category": "international",
+    "title_original": "New wave of bomb threats hit European airlines",
+    "url": "https://www.bbc.co.uk/news/articles/cq62yy064vjpo?at_medium=RSS&at_campaign=rss",
+    "date": "2026-11-07",
+    "title_zh": "歐洲航空業再陷炸彈恐嚇潮 航班營運受衝擊",
+    "summary_zh": "近期歐洲多家航空公司接獲新一波炸彈威脅，導致部分航班延誤或取消，影響旅客出行與貨運。各國執法單位已展開調查，確保航空安全，但事件已引發業界與公眾廣泛關注。",
+    "game_impact": "航空受阻將影響遊戲業界人士參與國際展會、商務會議，或電競選手出國參賽。整體旅行不便可能使遊戲產業的國際交流及活動規劃面臨挑戰。",
+    "importance": "normal"
+  },
+  {
+    "source": "BBC World",
+    "category": "international",
+    "title_original": "Kenyan doomsday cult leader given life sentence for murdering 191 people",
+    "url": "https://www.bbc.co.uk/news/articles/cm5yne5984l0o?at_medium=RSS&at_campaign=rss",
+    "date": "2026-11-07",
+    "title_zh": "肯亞末日邪教首腦屠殺191人 遭判無期徒刑",
+    "summary_zh": "肯亞一名末日邪教領袖因涉嫌煽動教徒餓死、勒死等行為，導致191名追隨者死亡，近日遭法院判處無期徒刑。此案揭示了極端信仰與邪教對社會的嚴重危害，引發國際關注，呼籲各界正視此類問題。",
+    "game_impact": "此新聞恐增加社會對遊戲內容中涉及邪教、極端思想或宗教議題的審查與敏感度。遊戲開發商在創作相關題材時，需更謹慎處理，避免觸發爭議，特別是在描述暴力、操控或現實悲劇時，以防引起負面觀感或監管壓力。",
+    "importance": "normal"
+  },
+  {
+    "source": "TechCrunch",
+    "category": "tech",
+    "title_original": "Pentagon offers battery startup 6K $250M loan to build US factory",
+    "url": "https://techcrunch.com/2026/11/06/pentagon-offers-battery-startup-6k-250m-loan-to-build-u-s-factory/",
+    "date": "2026-11-07",
+    "title_zh": "五角大廈提供電池新創6K兩億五千萬美元貸款 助其在美設廠",
+    "summary_zh": "美國防部向電池新創公司6K提供2.5億美元貸款，以協助其在美國興建工廠，強化本土電池供應鏈。",
+    "game_impact": "強化本土電池供應鏈，有助於降低遊戲硬體設備（如掌機、VR裝置）生產成本與供應鏈風險，間接穩定市場。",
     "importance": "normal"
   }
 ]
